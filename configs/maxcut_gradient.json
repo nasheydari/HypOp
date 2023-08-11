@@ -1,0 +1,21 @@
+{
+    "data": "stanford",
+    "mode": "maxcut",
+    "K": 1,
+    "Adam": false,
+    "fast": false,
+
+
+    "lr": 5e-3,
+    "epoch": 1e2,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxcut_example_gradient.log",
+    "res_path": "./res/maxcut_example_gradient.hdf5",
+    "folder_path": "./data/maxcut_data/stanford_data/",
+    "N_realize": 20, 
+    "Niter_h": 120,
+    "hyper": true,
+    "penalty": 0,
+    "patience": 5
+}

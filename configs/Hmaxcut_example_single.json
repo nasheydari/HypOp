@@ -1,0 +1,30 @@
+{
+    "data": "stanford",
+    "mode": "maxcut",
+    "K": 1,
+    "Adam": false,
+    "fast": false,
+
+
+    "lr": 1e-4,
+    "epoch": 5e4,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/Hmaxcut_example_single.log",
+    "res_path": "./res/Hmaxcut_example_single.hdf5",
+    "folder_path": "./data/hypergraph_data/hypergraph_data_single/",
+    "N_realize": 2,
+    "Niter_h": 20,
+    "hyper": true,
+    "penalty": 0,
+    "patience": 5,
+    
+
+
+    
+    "minimum_good_samples": 1,
+    "random_portion": 0.6,
+    "local_portion": 0.2,
+    "cross_portion": 0.2,
+    "num_samples": 1
+}

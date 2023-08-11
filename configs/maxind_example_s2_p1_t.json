@@ -1,0 +1,27 @@
+{
+    "data": "stanford",
+    "mode": "QUBO",
+    "K": 1,
+    "Adam": false,
+    "fast": false,
+    "random_init": "none",
+
+    "lr": 1e-4,
+    "epoch": 1e3,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxind_example_s2_p1_t.log",
+    "res_path": "./res/maxind_example_s2_p1_t.hdf5",
+    "folder_path": "./data/maxcut_data/stanford_data_p1/",
+    "N_realize": 10,
+    "Niter_h": 20,
+    "hyper": false,
+    "penalty": 0,
+    "patience": 50,
+
+    "minimum_good_samples": 4,
+    "random_portion": 0.6,
+    "local_portion": 0.2,
+    "cross_portion": 0.2,
+    "num_samples": 1
+}

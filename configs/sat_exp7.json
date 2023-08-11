@@ -1,0 +1,25 @@
+{
+    "data": "uf",
+    "mode": "sat",
+    "K": 10,
+    "Adam": false,
+    "fast": false,
+
+
+    "lr": 1e-3,
+    "epoch": 1e2,
+    "mapping": "algo",
+    "boosting_mapping": 1,
+    "logging_path": "./log/sat_exp7.log",
+    "res_path": "./res/sat_exp7.hdf5",
+    "folder_path": "./data/sat_data/uf250-test/",
+    "N_realize": 10,
+    "Niter_h": 10,
+
+    "minimum_good_samples": 4,
+    "random_portion": 0.6,
+    "local_portion": 0.2,
+    "cross_portion": 0.2,
+    "num_samples": 1
+
+}

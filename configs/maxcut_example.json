@@ -1,0 +1,27 @@
+{
+    "data": "stanford",
+    "mode": "maxcut",
+    "K": 1,
+    "Adam": false,
+    "fast": false,
+    "random_init": "none",
+
+    "lr": 1e-3,
+    "epoch": 1e2,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxcut_example.log",
+    "res_path": "./res/maxcut_example.hdf5",
+    "folder_path": "./data/maxcut_data/stanford_data/",
+    "N_realize": 10,
+    "Niter_h": 20,
+    "hyper": false,
+    "penalty": 0,
+    "patience": 5,
+
+    "minimum_good_samples": 4,
+    "random_portion": 0.6,
+    "local_portion": 0.2,
+    "cross_portion": 0.2,
+    "num_samples": 1
+}

@@ -1,0 +1,32 @@
+{
+    "data": "stanford",
+    "mode": "QUBO",
+    "K": 1,
+    "Adam": false,
+    "fast": false,
+    "random_init": "none",
+    "transfer": false,
+    "initial_transfer": false,
+    "GD": false,
+
+    "lr": 1e-4,
+    "epoch": 1e5,
+    "tol": 1e-4,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxind_rand_300.log",
+    "res_path": "./res/maxind_rand_300.hdf5",
+    "folder_path": "./data/maxcut_data/Random/300/",
+    "plot_path": "./res/plots/Hist_QUBO_Maxind/",
+    "N_realize": 10,
+    "Niter_h": 20,
+    "hyper": false,
+    "penalty": 0,
+    "patience": 50,
+
+    "minimum_good_samples": 4,
+    "random_portion": 0.6,
+    "local_portion": 0.2,
+    "cross_portion": 0.2,
+    "num_samples": 1
+}
