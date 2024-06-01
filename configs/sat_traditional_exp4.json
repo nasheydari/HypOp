@@ -1,5 +1,0 @@
-{
-    "logging_path": "./log/sat_traditional_exp4.log",
-    "res_path": "./res/sat_traditional_exp4.hdf5",
-    "folder_path": "./data/sat_data/uuf250-test/"
-}

@@ -1,0 +1,5556 @@
+1 florbetapir f-18
+2 quinidine gluconate
+3 dulaglutide
+4 ixekizumab
+5 testosterone
+6 fluoxetine hydrochloride
+7 atomoxetine hydrochloride
+8 olanzapine
+9 duloxetine hydrochloride
+10 raloxifene hydrochloride
+11 tadalafil
+12 prasugrel hydrochloride
+13 abciximab
+14 olaratumab
+15 gemcitabine hydrochloride
+16 insulin lispro
+17 pemetrexed disodium heptahydrate
+18 ramucirumab
+19 insulin glargine
+20 necitumumab
+21 insulin human
+22 teriparatide
+23 daclatasvir dihydrochloride
+24 halcinonide
+25 triamcinolone acetonide
+26 belatacept
+27 dasatinib
+28 hydroxyurea
+29 apixaban
+30 entecavir
+31 stavudine
+32 abatacept
+33 aztreonam
+34 elotuzumab
+35 ipilimumab
+36 atazanavir sulfate
+37 cobicistat
+38 nivolumab
+39 pravastatin sodium
+40 valganciclovir hydrochloride
+41 clonazepam
+42 ribavirin
+43 ibandronate sodium
+44 saquinavir mesylate
+45 orlistat
+46 mycophenolate mofetil
+47 mycophenolate mofetil hydrochloride
+48 peginterferon alfa-2a
+49 methoxy polyethylene glycol-epoetin beta
+50 oseltamivir phosphate
+51 capecitabine
+52 naproxen sodium
+53 naproxen
+54 ganciclovir sodium
+55 neisseria meningitidis serogroup b recombinant lp2086 a05 protein variant antigen
+56 neisseria meningitidis serogroup b recombinant lp2086 b01 protein variant antigen
+57 streptococcus pneumoniae type 1 capsular polysaccharide diphtheria crm197 protein conjugate antigen
+58 streptococcus pneumoniae type 3 capsular polysaccharide diphtheria crm197 protein conjugate antigen
+59 streptococcus pneumoniae type 4 capsular polysaccharide diphtheria crm197 protein conjugate antigen
+60 streptococcus pneumoniae type 5 capsular polysaccharide diphtheria crm197 protein conjugate antigen
+61 streptococcus pneumoniae type 6a capsular polysaccharide diphtheria crm197 protein conjugate antigen
+62 streptococcus pneumoniae type 6b capsular polysaccharide diphtheria crm197 protein conjugate antigen
+63 streptococcus pneumoniae type 7f capsular polysaccharide diphtheria crm197 protein conjugate antigen
+64 streptococcus pneumoniae type 9v capsular polysaccharide diphtheria crm197 protein conjugate antigen
+65 streptococcus pneumoniae type 14 capsular polysaccharide diphtheria crm197 protein conjugate antigen
+66 streptococcus pneumoniae type 18c capsular polysaccharide diphtheria crm197 protein conjugate antigen
+67 streptococcus pneumoniae type 23f capsular polysaccharide diphtheria crm197 protein conjugate antigen
+68 streptococcus pneumoniae type 19a capsular polysaccharide diphtheria crm197 protein conjugate antigen
+69 streptococcus pneumoniae type 19f capsular polysaccharide diphtheria crm197 protein conjugate antigen
+70 calcium polycarbophil
+71 suvorexant
+72 lisinopril
+73 alendronate sodium
+74 ivermectin
+75 finasteride
+76 sitagliptin phosphate
+77 metformin hydrochloride
+78 raltegravir potassium
+79 rizatriptan benzoate
+80 cholecalciferol
+81 vorapaxar sulfate
+82 aprepitant
+83 simvastatin
+84 vorinostat
+85 indinavir sulfate
+86 losartan potassium
+87 hydrochlorothiazide
+88 montelukast sodium
+89 bezlotoxumab
+90 pembrolizumab
+91 fosaprepitant dimeglumine
+92 elbasvir
+93 grazoprevir anhydrous
+94 imipenem
+95 cilastatin sodium
+96 dorzolamide hydrochloride
+97 caspofungin acetate
+98 ertapenem sodium
+99 carbidopa
+100 levodopa
+101 human papillomavirus type 6 l1 capsid protein antigen
+102 human papillomavirus type 11 l1 capsid protein antigen
+103 human papillomavirus type 16 l1 capsid protein antigen
+104 human papillomavirus type 18 l1 capsid protein antigen
+105 human rotavirus a type g1p7(5) strain wi79 live antigen
+106 human rotavirus a type g2p7(5) strain sc2 live antigen
+107 human rotavirus a type g3p7(5) strain wi78 live antigen
+108 human rotavirus a type g4p7(5) strain brb live antigen
+109 human rotavirus a type g6p1a(8) strain wi79 live antigen
+110 hepatitis b virus subtype adw hbsag surface protein antigen
+111 hepatitis a virus strain cr 326f antigen (formaldehyde inactivated)
+112 human papillomavirus type 31 l1 capsid protein antigen
+113 human papillomavirus type 33 l1 capsid protein antigen
+114 human papillomavirus type 45 l1 capsid protein antigen
+115 human papillomavirus type 52 l1 capsid protein antigen
+116 human papillomavirus type 58 l1 capsid protein antigen
+117 measles virus strain enders' attenuated edmonston live antigen
+118 mumps virus strain b level jeryl lynn live antigen
+119 rubella virus strain wistar ra 27/3 live antigen
+120 varicella-zoster virus strain oka/merck live antigen
+121 phleum pratense pollen
+122 infliximab
+123 streptococcus pneumoniae type 1 capsular polysaccharide antigen
+124 streptococcus pneumoniae type 2 capsular polysaccharide antigen
+125 streptococcus pneumoniae type 3 capsular polysaccharide antigen
+126 streptococcus pneumoniae type 4 capsular polysaccharide antigen
+127 streptococcus pneumoniae type 5 capsular polysaccharide antigen
+128 streptococcus pneumoniae type 6b capsular polysaccharide antigen
+129 streptococcus pneumoniae type 7f capsular polysaccharide antigen
+130 streptococcus pneumoniae type 8 capsular polysaccharide antigen
+131 streptococcus pneumoniae type 9n capsular polysaccharide antigen
+132 streptococcus pneumoniae type 9v capsular polysaccharide antigen
+133 streptococcus pneumoniae type 10a capsular polysaccharide antigen
+134 streptococcus pneumoniae type 11a capsular polysaccharide antigen
+135 streptococcus pneumoniae type 12f capsular polysaccharide antigen
+136 streptococcus pneumoniae type 14 capsular polysaccharide antigen
+137 streptococcus pneumoniae type 15b capsular polysaccharide antigen
+138 streptococcus pneumoniae type 17f capsular polysaccharide antigen
+139 streptococcus pneumoniae type 18c capsular polysaccharide antigen
+140 streptococcus pneumoniae type 19f capsular polysaccharide antigen
+141 streptococcus pneumoniae type 19a capsular polysaccharide antigen
+142 streptococcus pneumoniae type 20 capsular polysaccharide antigen
+143 streptococcus pneumoniae type 22f capsular polysaccharide antigen
+144 streptococcus pneumoniae type 23f capsular polysaccharide antigen
+145 streptococcus pneumoniae type 33f capsular polysaccharide antigen
+146 haemophilus influenzae type b capsular polysaccharide meningococcal outer membrane protein conjugate antigen
+147 ambrosia artemisiifolia pollen
+148 sugammadex sodium
+149 carvedilol phosphate
+150 triamterene
+151 carvedilol
+152 topotecan hydrochloride
+153 nelarabine
+154 argatroban
+155 eltrombopag olamine
+156 ropinirole hydrochloride
+157 vinorelbine tartrate
+158 inotuzumab ozogamicin
+159 coral snake (micrurus fulvius) immune globulin antivenin (equine)
+160 pantoprazole sodium
+161 venlafaxine hydrochloride
+162 sirolimus
+163 estrogens, conjugated
+164 bazedoxifene acetate
+165 desvenlafaxine succinate
+166 ethionamide
+167 gemtuzumab ozogamicin
+168 tigecycline
+169 methylprednisolone sodium succinate
+170 hydrocortisone sodium succinate
+171 hydrocortisone
+172 triazolam
+173 methylprednisolone
+174 alprazolam
+175 medroxyprogesterone acetate
+176 testosterone cypionate
+177 clindamycin hydrochloride
+178 bacitracin a
+179 bacitracin
+180 colestipol hydrochloride
+181 estradiol cypionate
+182 methylprednisolone acetate
+183 clindamycin phosphate
+184 glyburide
+185 arginine hydrochloride
+186 lincomycin hydrochloride
+187 clindamycin palmitate hydrochloride
+188 dinoprostone
+189 carboprost tromethamine
+190 irinotecan hydrochloride
+191 alprostadil
+192 ibutilide fumarate
+193 tolterodine tartrate
+194 linezolid
+195 miglitol
+196 epirubicin hydrochloride
+197 nicotine
+198 equine thymocyte immune globulin
+199 exemestane
+200 sulfasalazine
+201 estramustine phosphate sodium
+202 tranexamic acid
+203 estradiol
+204 idarubicin hydrochloride
+205 rifabutin
+206 latanoprost
+207 dexrazoxane hydrochloride
+208 megestrol acetate
+209 mitotane
+210 etoposide phosphate
+211 iothalamate meglumine
+212 gadoversetamide
+213 sodium chloride
+214 diatrizoate meglumine
+215 diatrizoate sodium
+216 ioversol
+217 tazarotene
+218 gentamicin sulfate
+219 prednisolone acetate
+220 gentamicin
+221 mineral oil
+222 petrolatum
+223 sulfacetamide sodium
+224 fluorometholone
+225 carboxymethylcellulose sodium
+226 polyvinyl alcohol
+227 povidone
+228 mesalamine
+229 botulinum toxin type a
+230 ketorolac tromethamine
+231 bimatoprost
+232 glycerin
+233 dexamethasone
+234 octinoxate
+235 octisalate
+236 oxybenzone
+237 gatifloxacin
+238 dapsone
+239 alcaftadine
+240 polysorbate 80
+241 levobunolol hydrochloride
+242 eflornithine hydrochloride
+243 salicylic acid
+244 zinc oxide
+245 titanium dioxide
+246 octocrylene
+247 benzoyl peroxide
+248 oxymetazoline hydrochloride
+249 cyclosporine
+250 homosalate
+251 oxybutynin chloride
+252 levonorgestrel
+253 estradiol acetate
+254 flurandrenolide
+255 nebivolol hydrochloride
+256 valsartan
+257 metronidazole
+258 hydrocodone bitartrate
+259 acetaminophen
+260 butalbital
+261 aspirin
+262 caffeine
+263 codeine phosphate
+264 morphine sulfate
+265 pancrelipase lipase
+266 pancrelipase protease
+267 pancrelipase amylase
+268 polymyxin b sulfate
+269 trimethoprim sulfate
+270 azelaic acid
+271 nedocromil sodium
+272 brimonidine tartrate
+273 epinastine hydrochloride
+274 timolol maleate
+275 meperidine hydrochloride
+276 ergocalciferol
+277 oxaliplatin
+278 hexachlorophene
+279 hydroxychloroquine sulfate
+280 primaquine phosphate
+281 sodium ferric gluconate complex
+282 dronedarone
+283 zolpidem tartrate
+284 lixisenatide
+285 levocetirizine dihydrochloride
+286 bupropion hydrobromide
+287 aflibercept
+288 sargramostim
+289 irbesartan
+290 clofarabine
+291 plerixafor
+292 alirocumab
+293 sarilumab
+294 dupilumab
+295 diphenoxylate hydrochloride
+296 atropine sulfate
+297 nafarelin acetate
+298 spironolactone
+299 oxaprozin
+300 diclofenac sodium
+301 misoprostol
+302 celecoxib
+303 eplerenone
+304 verapamil hydrochloride
+305 disopyramide phosphate
+306 mupirocin calcium
+307 brompheniramine maleate
+308 dextromethorphan hydrobromide
+309 phenylephrine hydrochloride
+310 chlorpheniramine maleate
+311 diphenhydramine hydrochloride
+312 menthol, unspecified form
+313 guaifenesin
+314 doxylamine succinate
+315 progesterone
+316 .alpha.-tocopherol succinate, d-
+317 thiamine mononitrate
+318 riboflavin
+319 niacinamide
+320 pyridoxine hydrochloride
+321 folic acid
+322 cyanocobalamin
+323 biotin
+324 calcium pantothenate
+325 iron sucrose
+326 heme iron polypeptide
+327 potassium iodide
+328 sodium selenate
+329 cupric sulfate
+330 ascorbic acid
+331 .alpha.-tocopherol acetate, dl-
+332 schizochytrium dha oil
+333 butabarbital sodium
+334 azelastine hydrochloride
+335 fluticasone propionate
+336 felbamate
+337 cromolyn sodium
+338 nabilone
+339 carisoprodol
+340 torsemide
+341 penicillamine
+342 doconexent
+343 icosapent
+344 calcium
+345 iron
+346 pyridoxine
+347 .alpha.-tocopherol
+348 hyoscyamine sulfate
+349 methenamine
+350 methylene blue
+351 phenyl salicylate
+352 sodium phosphate, monobasic, monohydrate
+353 sulfanilamide
+354 polyethylene glycol 3350
+355 potassium chloride
+356 sodium bicarbonate
+357 sodium sulfate
+358 pramoxine hydrochloride
+359 hydrocortisone acetate
+360 olsalazine sodium
+361 iron dextran
+362 flunisolide
+363 furosemide
+364 glimepiride
+365 sodium fluoride
+366 hydrofluoric acid
+367 cetylpyridinium chloride
+368 ampicillin sodium
+369 sulbactam sodium
+370 ziprasidone hydrochloride
+371 anidulafungin
+372 glipizide
+373 penicillin g potassium
+374 ziprasidone mesylate
+375 meclizine hydrochloride
+376 eletriptan hydrobromide
+377 doxazosin mesylate
+378 voriconazole
+379 fluconazole
+380 sertraline hydrochloride
+381 dronabinol
+382 mirtazapine
+383 asenapine maleate
+384 etonogestrel
+385 ethinyl estradiol
+386 ganirelix acetate
+387 follitropin
+388 rocuronium bromide
+389 bacillus calmette-guerin substrain tice live antigen
+390 desmopressin acetate
+391 albumin human
+392 calcitriol
+393 flecainide acetate
+394 prednisone
+395 lithium carbonate
+396 mefloquine hydrochloride
+397 cilostazol
+398 clarithromycin
+399 ipratropium bromide
+400 digoxin
+401 citalopram hydrobromide
+402 risperidone
+403 ondansetron hydrochloride
+404 balsalazide disodium
+405 zaleplon
+406 calcium acetate
+407 galantamine hydrobromide
+408 oxcarbazepine
+409 amlodipine besylate
+410 ramipril
+411 perindopril erbumine
+412 valacyclovir hydrochloride
+413 acarbose
+414 granisetron hydrochloride
+415 anastrozole
+416 buprenorphine hydrochloride
+417 naloxone hydrochloride dihydrate
+418 famciclovir
+419 protriptyline hydrochloride
+420 quetiapine fumarate
+421 levetiracetam
+422 meloxicam
+423 codeine sulfate
+424 hydromorphone hydrochloride
+425 letrozole
+426 imipramine pamoate
+427 naratriptan hydrochloride
+428 oxymorphone hydrochloride
+429 eszopiclone
+430 alosetron hydrochloride
+431 temozolomide
+432 cevimeline hydrochloride
+433 doxercalciferol
+434 tinidazole
+435 phenoxybenzamine hydrochloride
+436 disulfiram
+437 sodium polystyrene sulfonate
+438 cyclophosphamide
+439 methamphetamine hydrochloride
+440 oxycodone hydrochloride
+441 methadone hydrochloride
+442 dutasteride
+443 ethacrynic acid
+444 dipyridamole
+445 levorphanol tartrate
+446 nevirapine
+447 telmisartan
+448 lidocaine hydrochloride
+449 butorphanol tartrate
+450 calcium carbonate
+451 diazepam
+452 lactulose
+453 lithium citrate
+454 lorazepam
+455 midazolam hydrochloride
+456 magnesium hydroxide
+457 propranolol hydrochloride
+458 clotrimazole
+459 leucovorin calcium
+460 methotrexate sodium
+461 mercaptopurine
+462 propantheline bromide
+463 warfarin sodium
+464 efavirenz
+465 alcohol
+466 nepafenac
+467 moxifloxacin hydrochloride
+468 carbachol
+469 naphazoline hydrochloride
+470 pheniramine maleate
+471 fluorescein sodium
+472 fluorometholone acetate
+473 betaxolol hydrochloride
+474 travoprost
+475 olopatadine hydrochloride
+476 brinzolamide
+477 emedastine difumarate
+478 lodoxamide tromethamine
+479 tropicamide
+480 cyclopentolate hydrochloride
+481 povidone-iodine
+482 hypromellose 2910 (4000 mpa.s)
+483 dextran 70
+484 hypromelloses
+485 polyethylene glycol 400
+486 propylene glycol
+487 water
+488 rimexolone
+489 neomycin sulfate
+490 tobramycin
+491 natamycin
+492 ciprofloxacin hydrochloride
+493 apraclonidine hydrochloride
+494 tetracaine hydrochloride
+495 calcium chloride
+496 magnesium chloride
+497 sodium acetate
+498 sodium citrate
+499 ketotifen fumarate
+500 difluprednate
+501 sennosides
+502 dimethicone
+503 miconazole nitrate
+504 trolamine salicylate
+505 clemastine fumarate
+506 diphenhydramine citrate
+507 terbinafine hydrochloride
+508 scopolamine
+509 loratadine
+510 tolnaftate
+511 terbinafine
+512 aluminum hydroxide
+513 lansoprazole
+514 desipramine hydrochloride
+515 methenamine hippurate
+516 rifampin
+517 isoniazid
+518 etomidate
+519 heparin sodium
+520 paclitaxel
+521 mitoxantrone hydrochloride
+522 cisplatin
+523 cladribine
+524 tobramycin sulfate
+525 flumazenil
+526 vecuronium bromide
+527 doxycycline hyclate
+528 taliglucerase alfa
+529 pamidronate disodium
+530 haloperidol lactate
+531 famotidine
+532 benzonatate
+533 bosutinib monohydrate
+534 axitinib
+535 methotrexate
+536 cytarabine
+537 fluorouracil
+538 doxorubicin hydrochloride
+539 dexamethasone sodium phosphate
+540 palbociclib
+541 dalteparin sodium
+542 fesoterodine fumarate
+543 sildenafil citrate
+544 azithromycin dihydrate
+545 varenicline tartrate
+546 tofacitinib citrate
+547 sunitinib malate
+548 maraviroc
+549 doxycycline
+550 doxycycline calcium
+551 atorvastatin calcium trihydrate
+552 vancomycin hydrochloride
+553 nifedipine
+554 piroxicam
+555 ciprofloxacin
+556 prazosin hydrochloride
+557 ifosfamide
+558 hydroxyzine pamoate
+559 fosphenytoin sodium
+560 dofetilide
+561 crizotinib
+562 fludarabine phosphate
+563 phenytoin
+564 quinapril hydrochloride
+565 ethosuximide
+566 phenelzine sulfate
+567 phenytoin sodium
+568 gabapentin
+569 nitroglycerin
+570 methsuximide
+571 gemfibrozil
+572 pregabalin
+573 daclizumab
+574 lopinavir
+575 ritonavir
+576 venetoclax
+577 beractant
+578 valproate sodium
+579 paricalcitol
+580 pibrentasvir
+581 glecaprevir
+582 niacin
+583 lovastatin
+584 diltiazem hydrochloride
+585 fenofibric acid
+586 fenofibrate
+587 trandolapril
+588 levothyroxine sodium
+589 trimethadione
+590 adalimumab
+591 divalproex sodium
+592 mivacurium chloride
+593 cisatracurium besylate
+594 sevoflurane
+595 valproic acid
+596 enoxaparin sodium
+597 riluzole
+598 docetaxel
+599 benzoic acid
+600 clozapine
+601 octreotide acetate
+602 rivastigmine tartrate
+603 entacapone
+604 basiliximab
+605 nateglinide
+606 fluvastatin sodium
+607 benazepril hydrochloride
+608 methylphenidate hydrochloride
+609 dexmethylphenidate hydrochloride
+610 mycophenolate sodium
+611 zoledronic acid
+612 metoprolol tartrate
+613 imatinib mesylate
+614 everolimus
+615 deferoxamine mesylate
+616 deferasirox
+617 aliskiren hemifumarate
+618 rivastigmine
+619 carbamazepine
+620 nilotinib
+621 telbivudine
+622 artemether
+623 lumefantrine
+624 canakinumab
+625 iloperidone
+626 fingolimod hydrochloride
+627 tacrolimus
+628 indacaterol maleate
+629 pasireotide
+630 secukinumab
+631 ceritinib
+632 sonidegib phosphate
+633 panobinostat lactate
+634 sacubitril
+635 glycopyrrolate
+636 trametinib dimethyl sulfoxide
+637 ofatumumab
+638 pazopanib hydrochloride
+639 lapatinib ditosylate
+640 ondansetron
+641 dabrafenib mesylate
+642 midostaurin
+643 tisagenlecleucel
+644 ribociclib
+645 boceprevir
+646 mometasone furoate
+647 guanidine hydrochloride
+648 betamethasone dipropionate
+649 betamethasone acetate
+650 betamethasone sodium phosphate
+651 albuterol sulfate
+652 interferon alfa-2b
+653 eptifibatide
+654 desloratadine
+655 mometasone furoate monohydrate
+656 peginterferon alfa-2b
+657 pseudoephedrine sulfate
+658 posaconazole
+659 formoterol fumarate
+660 didanosine
+661 pyrazinamide
+662 fexofenadine hydrochloride
+663 pseudoephedrine hydrochloride
+664 nilutamide
+665 dolasetron mesylate
+666 rifapentine
+667 leflunomide
+668 insulin glulisine
+669 benzocaine
+670 camphor (synthetic)
+671 phenol
+672 moexipril hydrochloride
+673 enalapril maleate
+674 lamotrigine
+675 clomiphene citrate
+676 buspirone hydrochloride
+677 tramadol hydrochloride
+678 rabeprazole sodium
+679 estazolam
+680 bicalutamide
+681 fluocinonide
+682 loperamide hydrochloride
+683 flurbiprofen
+684 atenolol
+685 diflunisal
+686 tamoxifen citrate
+687 nortriptyline hydrochloride
+688 etodolac
+689 ketoconazole
+690 diclofenac potassium
+691 nystatin
+692 mupirocin
+693 nabumetone
+694 nefazodone hydrochloride
+695 sotalol hydrochloride
+696 cefprozil
+697 cefaclor
+698 acitretin
+699 penicillin v potassium
+700 sumatriptan succinate
+701 azithromycin monohydrate
+702 pioglitazone hydrochloride
+703 tolmetin sodium
+704 phentermine hydrochloride
+705 nitrofurantoin
+706 trimethoprim
+707 metoclopramide hydrochloride
+708 sucralfate
+709 cephalexin
+710 amoxicillin
+711 clavulanate potassium
+712 cyproheptadine hydrochloride
+713 methyldopa
+714 quinine sulfate
+715 rasagiline mesylate
+716 armodafinil
+717 risedronate sodium monohydrate
+718 norethindrone acetate
+719 dicloxacillin sodium
+720 cefdinir
+721 minocycline hydrochloride
+722 ketoprofen
+723 cefadroxil
+724 buprenorphine
+725 salmeterol xinafoate
+726 indomethacin
+727 cefdinir monohydrate
+728 levalbuterol hydrochloride
+729 bumetanide
+730 nadolol
+731 olmesartan medoxomil
+732 tiagabine hydrochloride
+733 hydroxyzine hydrochloride
+734 pentoxifylline
+735 almotriptan malate
+736 bisoprolol fumarate
+737 omeprazole
+738 acamprosate calcium
+739 abacavir sulfate
+740 lamivudine
+741 zidovudine
+742 omega-3-acid ethyl esters
+743 cabergoline
+744 bupropion hydrochloride
+745 escitalopram oxalate
+746 guanfacine hydrochloride
+747 prednisolone
+748 adapalene
+749 esomeprazole magnesium dihydrate
+750 budesonide
+751 fosinopril sodium
+752 clopidogrel bisulfate
+753 topiramate
+754 aripiprazole
+755 rosuvastatin calcium
+756 fentanyl citrate
+757 cimetidine
+758 mexiletine hydrochloride
+759 acyclovir
+760 amiodarone hydrochloride
+761 silver nitrate
+762 prochlorperazine maleate
+763 clobetasol propionate
+764 hydrocodone
+765 chlorpheniramine
+766 hyaluronate sodium
+767 acetic acid
+768 avobenzone
+769 aluminum chloride
+770 pyrithione zinc
+771 coal tar
+772 sodium phosphate, dibasic
+773 sodium phosphate, monobasic
+774 ibuprofen
+775 ranitidine hydrochloride
+776 menthol
+777 methyl salicylate
+778 bacitracin zinc
+779 dextrose, unspecified form
+780 fructose
+781 phosphoric acid
+782 resorcinol
+783 cocoa butter
+784 cetirizine hydrochloride
+785 minoxidil
+786 dextrose
+787 bismuth subsalicylate
+788 carboxymethylcellulose sodium, unspecified form
+789 shark liver oil
+790 docusate sodium
+791 zinc acetate
+792 zinc gluconate
+793 piperonyl butoxide
+794 pyrethrum extract
+795 permethrin
+796 zolmitriptan
+797 dextroamphetamine sulfate
+798 dextroamphetamine saccharate
+799 amphetamine sulfate
+800 amphetamine aspartate monohydrate
+801 ezetimibe
+802 pyridostigmine bromide
+803 methyltestosterone
+804 lidocaine
+805 prilocaine
+806 calcipotriene
+807 sevelamer carbonate
+808 naftifine hydrochloride
+809 ursodiol
+810 epinephrine
+811 rimantadine hydrochloride
+812 orphenadrine citrate
+813 terbutaline sulfate
+814 midodrine hydrochloride
+815 dantrolene sodium
+816 bendroflumethiazide
+817 pilocarpine hydrochloride
+818 fludrocortisone acetate
+819 chlorhexidine gluconate
+820 promethazine hydrochloride
+821 haloperidol
+822 anhydrous citric acid
+823 dextromethorphan
+824 amantadine hydrochloride
+825 fluphenazine hydrochloride
+826 trihexyphenidyl hydrochloride
+827 potassium citrate
+828 citric acid monohydrate
+829 ranitidine
+830 prednisolone sodium phosphate
+831 cyproheptadine
+832 theophylline
+833 sulfamethoxazole
+834 theophylline anhydrous
+835 homatropine methylbromide
+836 potassium nitrate
+837 sodium monofluorophosphate
+838 hydrogen peroxide
+839 stannous fluoride
+840 lacosamide
+841 sodium phosphate, dibasic, heptahydrate
+842 bisacodyl
+843 methylcellulose (4000 mpa.s)
+844 magnesium carbonate
+845 magnesium trisilicate
+846 docosanol
+847 fluticasone furoate
+848 aminophylline dihydrate
+849 scopolamine hydrobromide
+850 phenobarbital
+851 captopril
+852 chloroquine phosphate
+853 cortisone acetate
+854 chlorothiazide
+855 dicyclomine hydrochloride
+856 methocarbamol
+857 isosorbide mononitrate
+858 propylthiouracil
+859 primidone
+860 isosorbide dinitrate
+861 ergotamine tartrate
+862 colchicine
+863 ephedrine sulfate
+864 flurazepam hydrochloride
+865 chloroprocaine hydrochloride
+866 cefazolin sodium
+867 acetazolamide sodium
+868 ketamine hydrochloride
+869 fluphenazine decanoate
+870 dexmedetomidine hydrochloride
+871 allopurinol sodium
+872 nicardipine hydrochloride
+873 levoleucovorin calcium
+874 phentolamine mesylate
+875 thiotepa
+876 azathioprine sodium
+877 cefuroxime sodium
+878 labetalol hydrochloride
+879 acyclovir sodium
+880 cefotetan
+881 milrinone lactate
+882 levofloxacin
+883 clonidine hydrochloride
+884 benztropine mesylate
+885 oxytocin
+886 donepezil hydrochloride
+887 testosterone enanthate
+888 ceftriaxone sodium
+889 enalaprilat
+890 cefoxitin sodium
+891 cefotaxime sodium
+892 modafinil
+893 clavulanic acid
+894 camphor (natural)
+895 risedronate sodium
+896 betamethasone valerate
+897 dibucaine
+898 fluocinolone acetonide
+899 isopropyl alcohol
+900 desoximetasone
+901 erythromycin
+902 diflorasone diacetate
+903 alclometasone dipropionate
+904 amcinonide
+905 desonide
+906 econazole nitrate
+907 ciclopirox olamine
+908 terconazole
+909 halobetasol propionate
+910 oxiconazole nitrate
+911 prednicarbate
+912 ciclopirox
+913 imiquimod
+914 methscopolamine bromide
+915 repaglinide
+916 insulin degludec
+917 liraglutide
+918 insulin aspart
+919 insulin detemir
+920 somatropin
+921 baclofen
+922 flutamide
+923 anagrelide hydrochloride
+924 cefuroxime axetil
+925 beclomethasone dipropionate monohydrate
+926 epoprostenol sodium
+927 sumatriptan
+928 atovaquone
+929 proguanil hydrochloride
+930 zanamivir
+931 tamsulosin hydrochloride
+932 ezogabine
+933 vardenafil hydrochloride
+934 propafenone hydrochloride
+935 vilanterol trifenatate
+936 rosiglitazone maleate
+937 albiglutide
+938 umeclidinium bromide
+939 mepolizumab
+940 iron pentacarbonyl
+941 ferrous gluconate
+942 sulfur
+943 acetohydroxamic acid
+944 calcium citrate
+945 .alpha.-tocopherol, dl-
+946 alpha-tocopherol, dl-
+947 vitamin d
+948 .alpha.-tocopherol acetate
+949 thiamine
+950 riboprine
+951 potassium triiodide
+952 cupric oxide
+953 tiopronin
+954 chlorthalidone
+955 liothyronine sodium
+956 azithromycin
+957 temazepam
+958 acetazolamide
+959 cyclobenzaprine hydrochloride
+960 pramipexole dihydrochloride
+961 pyrimethamine
+962 delavirdine mesylate
+963 erythromycin stearate
+964 imipramine hydrochloride
+965 methylergonovine maleate
+966 phytonadione
+967 sodium phosphate, dibasic, anhydrous
+968 potassium phosphate, monobasic
+969 bromocriptine mesylate
+970 amiloride hydrochloride
+971 trazodone hydrochloride
+972 omeprazole magnesium
+973 fluvoxamine maleate
+974 tizanidine hydrochloride
+975 metolazone
+976 ticlopidine hydrochloride
+977 nitrofurantoin monohydrate
+978 nizatidine
+979 zonisamide
+980 methimazole
+981 metaxalone
+982 itraconazole
+983 sulfadiazine
+984 cholestyramine
+985 quinidine sulfate
+986 phendimetrazine tartrate
+987 leuprolide acetate
+988 candesartan cilexetil
+989 ticagrelor
+990 metoprolol succinate
+991 esomeprazole magnesium
+992 esomeprazole sodium
+993 brodalumab
+994 sodium phenylacetate
+995 sodium benzoate
+996 dihydroergotamine mesylate
+997 selegiline hydrochloride
+998 methoxsalen
+999 tolcapone
+1000 meradimate
+1001 trientine hydrochloride
+1002 flucytosine
+1003 chlordiazepoxide hydrochloride
+1004 clidinium bromide
+1005 morphine
+1006 secobarbital sodium
+1007 sodium nitroprusside
+1008 amobarbital sodium
+1009 isoproterenol hydrochloride
+1010 pimecrolimus
+1011 sertaconazole nitrate
+1012 tretinoin
+1013 efinaconazole
+1014 ferric oxide red
+1015 hydroquinone
+1016 bexarotene
+1017 verteporfin
+1018 tazobactam sodium
+1019 piperacillin sodium
+1020 matricaria recutita
+1021 arabica coffee bean
+1022 tribasic calcium phosphate
+1023 aconitum napellus
+1024 horse chestnut
+1025 onion
+1026 aluminum oxide
+1027 ambrosia artemisiifolia
+1028 semecarpus anacardium juice
+1029 antimony trisulfide
+1030 antimony potassium tartrate
+1031 apis mellifera
+1032 arnica montana
+1033 arsenic trioxide
+1034 arsenic triiodide
+1035 arisaema triphyllum root
+1036 gold
+1037 baptisia tinctoria root
+1038 barium carbonate
+1039 atropa belladonna
+1040 bellis perennis
+1041 berberis vulgaris root bark
+1042 blatta orientalis
+1043 sodium borate
+1044 bryonia alba root
+1045 oyster shell calcium carbonate, crude
+1046 calcium fluoride
+1047 calcium sulfate anhydrous
+1048 calendula officinalis flowering top
+1049 candida albicans
+1050 lytta vesicatoria
+1051 activated charcoal
+1052 caulophyllum thalictroides root
+1053 causticum
+1054 erysimum cheiri
+1055 chelidonium majus
+1056 black cohosh
+1057 artemisia cina pre-flowering top
+1058 cinchona officinalis bark
+1059 anamirta cocculus seed
+1060 colchicum autumnale bulb
+1061 citrullus colocynthis fruit pulp
+1062 conium maculatum flowering top
+1063 copper
+1064 drosera rotundifolia
+1065 solanum dulcamara top
+1066 echinacea angustifolia
+1067 eupatorium perfoliatum flowering top
+1068 euphrasia stricta
+1069 ferrum phosphoricum
+1070 estrone
+1071 galphimia glauca flowering top
+1072 gelsemium sempervirens root
+1073 graphite
+1074 hamamelis virginiana root bark/stem bark
+1075 hekla lava
+1076 helleborus niger root
+1077 calcium sulfide
+1078 histamine dihydrochloride
+1079 goldenseal
+1080 hyoscyamus niger
+1081 hypericum perforatum
+1082 strychnos ignatii seed
+1083 iodine
+1084 ipecac
+1085 iris versicolor root
+1086 potassium dichromate
+1087 potassium carbonate
+1088 potassium phosphate, dibasic
+1089 potassium sulfate
+1090 wood creosote
+1091 lachesis muta venom
+1092 ledum palustre twig
+1093 lobelia inflata
+1094 lycopodium clavatum spore
+1095 magnesium phosphate, dibasic trihydrate
+1096 mercurius solubilis
+1097 mercury
+1098 daphne mezereum bark
+1099 sodium carbonate
+1100 nitric acid
+1101 strychnos nux-vomica seed
+1102 passiflora incarnata flowering top
+1103 kerosene
+1104 phosphorus
+1105 phytolacca americana root
+1106 lead
+1107 podophyllum
+1108 anemone patens
+1109 rancid beef
+1110 radium bromide
+1111 ranunculus bulbosus
+1112 rhododendron aureum leaf
+1113 toxicodendron pubescens leaf
+1114 rumex crispus root
+1115 ruta graveolens flowering top
+1116 schoenocaulon officinale seed
+1117 juniperus sabina leafy twig
+1118 sambucus nigra flowering top
+1119 sanguinaria canadensis root
+1120 saponaria officinalis root
+1121 smilax regelii root
+1122 claviceps purpurea sclerotium
+1123 selenium
+1124 sepia officinalis juice
+1125 silicon dioxide
+1126 spigelia anthelmia
+1127 spongia officinalis skeleton, roasted
+1128 delphinium staphisagria seed
+1129 lobaria pulmonaria
+1130 datura stramonium
+1131 sulfur iodide
+1132 comfrey root
+1133 tobacco leaf
+1134 lycosa tarantula
+1135 tellurium
+1136 thuja occidentalis leafy twig
+1137 thyroid, unspecified
+1138 urtica urens
+1139 valerian
+1140 veratrum album root
+1141 wyethia helenioides root
+1142 zinc
+1143 picea mariana resin
+1144 robinia pseudoacacia bark
+1145 collinsonia canadensis root
+1146 protortonia cacti
+1147 drosera rotundifolia flowering top
+1148 pulsatilla vulgaris
+1149 citrullus colocynthis fruit
+1150 dichromate ion
+1151 rhubarb
+1152 solidago virgaurea flowering top
+1153 paeonia officinalis root
+1154 krameria lappacea root
+1155 cairina moschata heart/liver autolysate
+1156 nutmeg
+1157 daikon
+1158 jacobaea maritima
+1159 passiflora incarnata top
+1160 belladonna leaf
+1161 bromine
+1162 abrus precatorius seed
+1163 viburnum opulus bark
+1164 spigelia marilandica root
+1165 spigelia
+1166 lactic acid, l-
+1167 psyllium husk
+1168 plantago seed
+1169 benzyl alcohol
+1170 propylhexedrine
+1171 oxazepam
+1172 indapamide
+1173 calcitonin salmon
+1174 ferrous fumarate
+1175 ginger
+1176 crypthecodinium cohnii dha oil
+1177 oxandrolone
+1178 docusate calcium
+1179 allantoin
+1180 urea
+1181 dextrose monohydrate
+1182 histidine
+1183 isoleucine
+1184 leucine
+1185 lysine acetate
+1186 methionine
+1187 phenylalanine
+1188 threonine
+1189 tryptophan
+1190 valine
+1191 cysteine hydrochloride
+1192 alanine
+1193 glycine
+1194 arginine
+1195 proline
+1196 serine
+1197 magnesium acetate
+1198 potassium acetate
+1199 hetastarch
+1200 hydroxyethyl starch 130/0.4
+1201 sodium lactate
+1202 sodium gluconate
+1203 sorbitol
+1204 mannitol
+1205 ceftazidime
+1206 cefotetan disodium
+1207 meropenem
+1208 cefepime hydrochloride
+1209 glutamic acid
+1210 aspartic acid
+1211 tyrosine
+1212 soybean oil
+1213 n-acetyltyrosine
+1214 taurine
+1215 lidocaine hydrochloride anhydrous
+1216 acacia longifolia pollen
+1217 alnus incana subsp. rugosa pollen
+1218 fraxinus americana pollen
+1219 paspalum notatum pollen
+1220 fagus grandifolia pollen
+1221 cynodon dactylon pollen
+1222 betula lenta pollen
+1223 poa annua pollen
+1224 acer negundo pollen
+1225 bromus inermis pollen
+1226 xanthium strumarium pollen
+1227 zea mays pollen
+1228 populus deltoides subsp. monilifera pollen
+1229 rumex acetosella pollen
+1230 rumex crispus pollen
+1231 ulmus americana pollen
+1232 ulmus pumila pollen
+1233 corylus americana pollen
+1234 carya ovata pollen
+1235 sorghum halepense pollen
+1236 poa pratensis pollen
+1237 bassia scoparia pollen
+1238 chenopodium album pollen
+1239 acer saccharum pollen
+1240 festuca pratensis pollen
+1241 prosopis juliflora pollen
+1242 artemisia vulgaris pollen
+1243 morus rubra pollen
+1244 quercus agrifolia pollen
+1245 quercus virginiana pollen
+1246 quercus alba pollen
+1247 avena sativa pollen
+1248 olea europaea pollen
+1249 dactylis glomerata pollen
+1250 carya illinoinensis pollen
+1251 amaranthus retroflexus pollen
+1252 plantago lanceolata pollen
+1253 populus alba pollen
+1254 ambrosia acanthicarpa pollen
+1255 ambrosia trifida pollen
+1256 ambrosia psilostachya pollen
+1257 agrostis gigantea top
+1258 salsola kali pollen
+1259 lolium perenne pollen
+1260 artemisia tridentata pollen
+1261 atriplex wrightii pollen
+1262 platanus occidentalis pollen
+1263 platanus racemosa pollen
+1264 holcus lanatus pollen
+1265 juglans nigra pollen
+1266 juglans californica pollen
+1267 salix nigra pollen
+1268 histamine phosphate
+1269 felis catus skin
+1270 dermatophagoides farinae
+1271 dermatophagoides pteronyssinus
+1272 allergenic extract- orchard grass dactylis glomerata
+1273 agrostis gigantea pollen
+1274 anthoxanthum odoratum pollen
+1275 allergenic extract- ryegrass, perennial lolium perenne
+1276 bos taurus skin
+1277 cotton fiber
+1278 cotton seed
+1279 canis lupus familiaris skin
+1280 equus caballus skin
+1281 ceiba pentandra fiber
+1282 mus musculus skin
+1283 iris x germanica root
+1284 tanacetum cinerariifolium flower
+1285 rabbit
+1286 cavia porcellus skin
+1287 periplaneta americana
+1288 blatella germanica
+1289 solenopsis invicta
+1290 gallus gallus feather
+1291 anas platyrhynchos feather
+1292 anser anser feather
+1293 culex pipiens
+1294 sarocladium strictum
+1295 alternaria alternata
+1296 aspergillus fumigatus
+1297 aspergillus niger var. niger
+1298 aureobasidium pullulans var. pullutans
+1299 botrytis cinerea
+1300 chaetomium globosum
+1301 cladosporium cladosporioides
+1302 cladosporium sphaerospermum
+1303 cochliobolus sativus
+1304 epicoccum nigrum
+1305 fusarium oxysporum vasinfectum
+1306 helminthosporium solani
+1307 mucor plumbeus
+1308 neurospora intermedia
+1309 penicillium chrysogenum var. chrysogenum
+1310 phoma exigua var. exigua
+1311 rhizopus arrhizus var. arrhizus
+1312 rhodotorula rubra
+1313 ustilago maydis
+1314 ustilago tritici
+1315 stemphylium solani
+1316 trichophyton mentagrophytes
+1317 saccharomyces cerevisiae
+1318 aspergillus flavus var. oryzae
+1319 aspergillus repens
+1320 aspergillus terreus
+1321 curvularia inaequalis
+1322 acacia
+1323 ailanthus altissima pollen
+1324 medicago sativa pollen
+1325 fraxinus velutina pollen
+1326 populus tremuloides pollen
+1327 morella cerifera pollen
+1328 betula nigra pollen
+1329 amaranthus palmeri pollen
+1330 juniperus ashei pollen
+1331 juniperus virginiana pollen
+1332 xanthium strumarium var. canadense pollen
+1333 populus deltoides pollen
+1334 populus fremontii pollen
+1335 cupressus arizonica pollen
+1336 taxodium distichum pollen
+1337 blattella germanica
+1338 eupatorium capillifolium pollen
+1339 ulmus crassifolia pollen
+1340 eucalyptus globulus pollen
+1341 solidago canadensis pollen
+1342 celtis occidentalis pollen
+1343 juniperus californica pollen
+1344 robinia pseudoacacia pollen
+1345 acer rubrum pollen
+1346 cyclachaena xanthifolia pollen
+1347 iva annua pollen
+1348 melaleuca quinquenervia pollen
+1349 rumex acetosella whole
+1350 rumex crispus top
+1351 morus alba pollen
+1352 quercus rubra pollen
+1353 syagrus romanzoffiana pollen
+1354 schinus molle pollen
+1355 amaranthus spinosus pollen
+1356 casuarina equisetifolia pollen
+1357 pinus strobus pollen
+1358 pinus echinata pollen
+1359 ligustrum vulgare pollen
+1360 elymus repens pollen
+1361 ambrosia tenuifolia pollen
+1362 ambrosia bidentata pollen
+1363 lolium multiflorum pollen
+1364 artemisia frigida pollen
+1365 distichlis spicata pollen
+1366 atriplex lentiformis pollen
+1367 liquidambar styraciflua pollen
+1368 juglans regia pollen
+1369 amaranthus tuberculatus pollen
+1370 triticum aestivum pollen
+1371 felis catus hair
+1372 house dust
+1373 almond
+1374 apple
+1375 apricot
+1376 asparagus
+1377 avocado
+1378 banana
+1379 barley
+1380 kidney bean
+1381 string bean
+1382 beef
+1383 brazil nut
+1384 broccoli
+1385 buckwheat
+1386 cabbage
+1387 cantaloupe
+1388 carrot
+1389 casein
+1390 celery
+1391 cherry
+1392 chicken
+1393 cinnamon
+1394 northern quahog
+1395 cocoa
+1396 coconut
+1397 atlantic cod
+1398 coffee bean
+1399 red king crab
+1400 cucumber
+1401 egg white
+1402 egg
+1403 egg yolk
+1404 southern flounder
+1405 garlic
+1406 grape
+1407 grapefruit
+1408 karaya gum
+1409 honeydew melon
+1410 lamb
+1411 lemon
+1412 lettuce
+1413 lima bean
+1414 american lobster
+1415 goat milk
+1416 cow milk
+1417 cultivated mushroom
+1418 mustard seed
+1419 oat
+1420 black olive
+1421 orange
+1422 eastern oyster
+1423 pea
+1424 peach
+1425 peanut
+1426 pear
+1427 pecan
+1428 green bell pepper
+1429 black pepper
+1430 pineapple
+1431 pistachio
+1432 plum
+1433 pork
+1434 sweet potato
+1435 potato
+1436 brown rice
+1437 rye
+1438 atlantic salmon
+1439 sesame seed
+1440 common shrimp
+1441 soybean
+1442 spinach
+1443 squash
+1444 strawberry
+1445 corn
+1446 tomato
+1447 northern bluefin tuna
+1448 turkey
+1449 vanilla
+1450 english walnut
+1451 watermelon
+1452 wheat
+1453 tea leaf
+1454 orris
+1455 pyrethrum cinerariifolium
+1456 acremonium strictum
+1457 khuskia oryzae
+1458 kochia scoparia pollen
+1459 iva xanthifolia pollen
+1460 iva annua var. annua pollen
+1461 chenopodium ambrosioides pollen
+1462 lolium perenne ssp. multiflorum pollen
+1463 artemisia annua pollen
+1464 black walnut
+1465 salix nigra bark
+1466 cynodon dactylon
+1467 phleum pratense
+1468 dactylis glomerata
+1469 poa pratensis
+1470 anthoxanthum odoratum
+1471 festuca pratensis
+1472 lolium perenne
+1473 alnus rhombifolia pollen
+1474 betula lenta whole
+1475 acer saccharinum pollen
+1476 betula populifolia pollen
+1477 gibberella zeae
+1478 crab leg, unspecified
+1479 shrimp, unspecified
+1480 lobster, unspecified
+1481 oyster, unspecified
+1482 artemisia vulgaris root
+1483 mebrofenin
+1484 rubidium chloride rb-82
+1485 iodipamide meglumine
+1486 sincalide
+1487 gadoteridol
+1488 iopamidol
+1489 gadobenate dimeglumine
+1490 phenylephrine bitartrate
+1491 benzalkonium chloride
+1492 dextromethorphan hydriodide
+1493 potassium bicarbonate
+1494 pyrilamine maleate
+1495 pamabrom
+1496 ovine digoxin immune fab
+1497 potassium bitartrate
+1498 sulfacetamide
+1499 triclosan
+1500 tetracaine
+1501 roflumilast
+1502 zafirlukast
+1503 gefitinib
+1504 olaparib
+1505 fulvestrant
+1506 aclidinium bromide
+1507 goserelin acetate
+1508 osimertinib
+1509 lesinurad
+1510 naloxegol oxalate
+1511 durvalumab
+1512 saxagliptin hydrochloride
+1513 dapagliflozin propanediol
+1514 exenatide
+1515 pramlintide acetate
+1516 vandetanib
+1517 aluminum sesquichlorohydrate
+1518 clioquinol
+1519 chlorine
+1520 gluconolactone
+1521 magnesium sulfate heptahydrate
+1522 lysine hydrochloride
+1523 dopamine hydrochloride
+1524 oxacillin sodium
+1525 nafcillin sodium
+1526 dobutamine hydrochloride
+1527 lysine
+1528 mesna
+1529 fibrinogen human
+1530 human thrombin
+1531 allium cepa whole
+1532 avena sativa flowering top
+1533 matricaria chamomilla
+1534 drosera anglica
+1535 dibasic potassium phosphate
+1536 saw palmetto
+1537 epinephrine bitartrate
+1538 bupivacaine hydrochloride
+1539 prilocaine hydrochloride
+1540 articaine hydrochloride
+1541 magnesium citrate
+1542 witch hazel
+1543 eucalyptol
+1544 thymol
+1545 lanolin
+1546 castor oil
+1547 phenazopyridine hydrochloride
+1548 triprolidine hydrochloride
+1549 dimenhydrinate
+1550 undecylenic acid
+1551 benzethonium chloride
+1552 dyclonine hydrochloride
+1553 eucalyptus oil
+1554 magnesium salicylate
+1555 ensulizole
+1556 magnesium sulfate
+1557 tioconazole
+1558 levmetamfetamine
+1559 pyrantel pamoate
+1560 talc
+1561 ibuprofen sodium
+1562 starch, corn
+1563 padimate o
+1564 pectin
+1565 tetrahydrozoline hydrochloride
+1566 aluminum zirconium trichlorohydrex gly
+1567 ephedrine hydrochloride
+1568 benzalkonium
+1569 capsaicin
+1570 oatmeal
+1571 chamomile
+1572 clorazepate dipotassium
+1573 perphenazine
+1574 amitriptyline hydrochloride
+1575 pindolol
+1576 maprotiline hydrochloride
+1577 allopurinol
+1578 probenecid
+1579 methyclothiazide
+1580 chlorpropamide
+1581 chlordiazepoxide
+1582 tolbutamide
+1583 tolazamide
+1584 sulindac
+1585 fenoprofen calcium
+1586 thioridazine hydrochloride
+1587 clonidine
+1588 thiothixene
+1589 azathioprine
+1590 doxepin hydrochloride
+1591 memantine hydrochloride
+1592 acebutolol hydrochloride
+1593 terazosin hydrochloride anhydrous
+1594 paroxetine hydrochloride hemihydrate
+1595 nisoldipine
+1596 meclofenamate sodium
+1597 trifluoperazine hydrochloride
+1598 clomipramine hydrochloride
+1599 frovatriptan succinate
+1600 etoposide
+1601 etidronate disodium
+1602 norelgestromin
+1603 fosamprenavir calcium
+1604 paliperidone
+1605 mycophenolic acid
+1606 amphetamine aspartate
+1607 alfuzosin hydrochloride
+1608 felodipine
+1609 butenafine hydrochloride
+1610 isotretinoin
+1611 eprosartan mesylate
+1612 loxapine succinate
+1613 bromfenac sodium
+1614 norethindrone
+1615 cysteamine bitartrate
+1616 fentanyl
+1617 ammonia
+1618 arnica montana flower
+1619 asafetida
+1620 benzoin resin
+1621 gentian violet
+1622 sodium iodide
+1623 turpentine
+1624 sennosides a and b
+1625 chloroxylenol
+1626 mepivacaine hydrochloride
+1627 levonordefrin
+1628 ofloxacin
+1629 proparacaine hydrochloride
+1630 naltrexone hydrochloride
+1631 gadodiamide
+1632 iohexol
+1633 iodixanol
+1634 human albumin microspheres
+1635 perflutren
+1636 daptomycin
+1637 docetaxel anhydrous
+1638 pentostatin
+1639 atracurium besylate
+1640 indomethacin sodium
+1641 droperidol
+1642 naloxone hydrochloride
+1643 norepinephrine bitartrate
+1644 nalbuphine hydrochloride
+1645 tromethamine
+1646 procainamide hydrochloride
+1647 adenosine
+1648 pentazocine lactate
+1649 alfentanil hydrochloride
+1650 fenoldopam mesylate
+1651 sodium acetate anhydrous
+1652 acetylcysteine
+1653 sufentanil citrate
+1654 zinc chloride
+1655 manganese chloride
+1656 cupric chloride
+1657 chromic chloride
+1658 n-acetyl-tyrosine
+1659 aminocaproic acid
+1660 pancuronium bromide
+1661 propofol
+1662 erythromycin lactobionate
+1663 succinylcholine chloride
+1664 dextran 40
+1665 bivalirudin
+1666 ropivacaine hydrochloride
+1667 darifenacin hydrobromide
+1668 risedronate sodium hemi-pentahydrate
+1669 sodium hypochlorite
+1670 silver sulfadiazine
+1671 atorvastatin calcium propylene glycol solvate
+1672 tetracycline hydrochloride
+1673 ceftaroline fosamil
+1674 thyroid, porcine
+1675 vilazodone hydrochloride
+1676 linaclotide
+1677 milnacipran hydrochloride
+1678 levomilnacipran hydrochloride
+1679 avibactam sodium
+1680 fosfomycin tromethamine
+1681 benzphetamine hydrochloride
+1682 enzalutamide
+1683 isavuconazonium sulfate
+1684 mirabegron
+1685 amphotericin b
+1686 micafungin sodium
+1687 regadenoson
+1688 griseofulvin
+1689 dexchlorpheniramine maleate
+1690 phenylephrine
+1691 sodium phosphate, monobasic, anhydrous
+1692 racepinephrine hydrochloride
+1693 salicylamide
+1694 caffeine citrate
+1695 indigotindisulfonate sodium
+1696 ferric carboxymaltose
+1697 nandrolone decanoate
+1698 hydralazine hydrochloride
+1699 busulfan
+1700 levocarnitine
+1701 esmolol hydrochloride
+1702 chlorothiazide sodium
+1703 calcium gluconate monohydrate
+1704 papaverine hydrochloride
+1705 zinc sulfate anhydrous
+1706 zinc sulfate heptahydrate
+1707 manganese sulfate
+1708 selenious acid
+1709 methyldopate hydrochloride
+1710 diphenoxylate
+1711 atropine
+1712 bethanechol chloride
+1713 phentermine
+1714 danazol
+1715 diethylpropion hydrochloride
+1716 cocaine hydrochloride
+1717 carbamide peroxide
+1718 esomeprazole
+1719 fat, hard
+1720 selenium sulfide
+1721 hypromellose 2910 (3 mpa.s)
+1722 cosyntropin
+1723 hyaluronidase
+1724 demeclocycline hydrochloride
+1725 ethambutol hydrochloride
+1726 human rho(d) immune globulin
+1727 dimethicone 100
+1728 flavoxate hydrochloride
+1729 trospium chloride
+1730 podophyllum resin
+1731 podofilox
+1732 methazolamide
+1733 colistimethate sodium
+1734 estradiol valerate
+1735 light mineral oil
+1736 opium
+1737 prochlorperazine
+1738 diazoxide
+1739 pentazocine hydrochloride
+1740 estropipate
+1741 ammonium lactate
+1742 chlorzoxazone
+1743 hydroxocobalamin acetate
+1744 azacitidine
+1745 levalbuterol tartrate
+1746 atorvastatin calcium
+1747 meprobamate
+1748 tranylcypromine sulfate
+1749 amoxapine
+1750 tipranavir
+1751 glucagon hydrochloride
+1752 tiotropium bromide monohydrate
+1753 tiotropium bromide
+1754 dabigatran etexilate mesylate
+1755 afatinib
+1756 linagliptin
+1757 nintedanib
+1758 empagliflozin
+1759 olodaterol hydrochloride
+1760 idarucizumab
+1761 ferrous sulfate
+1762 magnesium oxide
+1763 capsicum oleoresin
+1764 vitamin a palmitate
+1765 thiamine hydrochloride
+1766 riboflavin 5'-phosphate sodium
+1767 terazosin hydrochloride
+1768 chlorpromazine hydrochloride
+1769 phenobarbital sodium
+1770 prochlorperazine edisylate
+1771 doxapram hydrochloride
+1772 neostigmine methylsulfate
+1773 amikacin sulfate
+1774 vitamin a
+1775 magnesium
+1776 omega-3 fatty acids
+1777 vitamin e
+1778 .beta.-carotene
+1779 vitamin a acetate
+1780 levomefolate calcium
+1781 cobalamin
+1782 lauric acid
+1783 pantothenic acid
+1784 chromium
+1785 molybdenum
+1786 manganese
+1787 .alpha.-lipoic acid
+1788 lutein
+1789 .alpha.-tocopherol acetate, d-
+1790 flavone
+1791 chromic chloride cr-51
+1792 manganese gluconate
+1793 selenomethionine
+1794 cresol
+1795 guaiacol
+1796 eugenol
+1797 aluminum chloride anhydrous
+1798 bleomycin sulfate
+1799 carboplatin
+1800 vincristine sulfate
+1801 streptozocin
+1802 dacarbazine
+1803 daunorubicin hydrochloride
+1804 haloperidol decanoate
+1805 neomycin
+1806 hydrogenated palm kernel oil
+1807 hydrocortisone valerate
+1808 chenodiol
+1809 mecamylamine hydrochloride
+1810 amoxicillin sodium
+1811 ampicillin trihydrate
+1812 triamcinolone hexacetonide
+1813 decitabine
+1814 fomepizole
+1815 levoleucovorin calcium pentahydrate
+1816 glatiramer acetate
+1817 clindamycin
+1818 cefpodoxime proxetil
+1819 penicillin g sodium
+1820 oxyquinoline sulfate
+1821 fluoxymesterone
+1822 aluminum acetate
+1823 gramicidin
+1824 paroxetine hydrochloride anhydrous
+1825 azithromycin anhydrous
+1826 paroxetine hydrochloride
+1827 antipyrine
+1828 nimodipine
+1829 anhydrous dextrose
+1830 icodextrin
+1831 trisodium citrate dihydrate
+1832 adenine
+1833 human immunoglobulin g
+1834 .alpha.1-proteinase inhibitor human
+1835 pegaspargase
+1836 thrombin human
+1837 oxygen
+1838 nitrous oxide
+1839 carbon dioxide
+1840 nitrogen
+1841 helium
+1842 isoflurane
+1843 desflurane
+1844 aluminum chlorohydrate
+1845 aluminum zirconium pentachlorohydrate
+1846 poractant alfa
+1847 clevidipine
+1848 zileuton
+1849 salsalate
+1850 dalfampridine
+1851 miglustat
+1852 abt-925 anhydrous free base
+1853 morphine hydrochloride
+1854 codeine anhydrous
+1855 codeine
+1856 chloral hydrate
+1857 apomorphine hydrochloride
+1858 cuttlefish
+1859 comfrey leaf
+1860 calcium sulfate
+1861 air
+1862 butamben
+1863 luffa operculata fruit
+1864 passiflora incarnata flower
+1865 aluminum zirconium tetrachlorohydrex gly
+1866 turpentine oil
+1867 senna leaf
+1868 hydrocortisone probutate
+1869 sinecatechins
+1870 tavaborole
+1871 barium sulfate
+1872 choline fenofibrate
+1873 guanfacine
+1874 penicillium glabrum
+1875 mucor racemosus
+1876 aloe
+1877 okoubaka aubrevillei bark
+1878 candida parapsilosis
+1879 penicillium roqueforti
+1880 mucor circinelloides f. lusitanicus
+1881 rimabotulinumtoxinb
+1882 ferric subsulfate
+1883 formaldehyde
+1884 sodium hydroxide
+1885 trichloroacetic acid
+1886 potassium hydroxide
+1887 glycyrrhiza glabra
+1888 zinc citrate
+1889 selenocysteine
+1890 beta carotene
+1891 oxycodone
+1892 sodium sulfate anhydrous
+1893 calendula officinalis flower
+1894 allylthiourea
+1895 zinc undecylenate
+1896 betula pubescens leaf
+1897 crataegus laevigata fruit
+1898 equisetum hyemale
+1899 frangula alnus bark
+1900 adonis vernalis
+1901 apocynum androsaemifolium root
+1902 drimia maritima bulb
+1903 formic acid
+1904 pseudognaphalium luteoalbum leaf
+1905 petroselinum crispum
+1906 rhus aromatica root bark
+1907 milk thistle
+1908 taraxacum officinale
+1909 calomel
+1910 daphne odora bark
+1911 syzygium jambos seed
+1912 dieffenbachia seguine
+1913 hops
+1914 liquid petroleum
+1915 chaste tree
+1916 ambergris
+1917 asclepias tuberosa flowering top
+1918 tin
+1919 potassium arsenite anhydrous
+1920 tetraarsenic tetrasulfide
+1921 haemophilus influenzae type b
+1922 calcium silicate
+1923 sulfuric acid
+1924 capsicum
+1925 fucus vesiculosus
+1926 thyroid
+1927 spongilla lacustris
+1928 euphorbia lathyris
+1929 ferrosoferric phosphate
+1930 anemone pulsatilla
+1931 crotamiton
+1932 sulconazole nitrate
+1933 dexbrompheniramine maleate
+1934 zinc sulfate, unspecified form
+1935 hydroxyethyl cellulose (2000 mpa.s at 1%)
+1936 povidones
+1937 dimethyl sulfone
+1938 triclocarban
+1939 st. john's wort
+1940 crotalus horridus horridus venom
+1941 naja naja venom
+1942 aluminum zirconium octachlorohydrex gly
+1943 chlophedianol hydrochloride
+1944 anthralin
+1945 oxybutynin
+1946 sodium sulfide
+1947 estrogens, esterified
+1948 phenyltoloxamine citrate
+1949 magnesium sulfate, unspecified form
+1950 polyethylene glycol 300
+1951 pralidoxime chloride
+1952 hydroxocobalamin
+1953 zinc sulfate
+1954 hypromellose 2910 (4000 cps)
+1955 hypromellose
+1956 potassium nitrite
+1957 picric acid
+1958 tannic acid
+1959 flurbiprofen sodium
+1960 tetrakis(2-methoxyisobutylisocyanide)copper(i) tetrafluoroborate
+1961 fludeoxyglucose f-18
+1962 samarium sm-153 lexidronam pentasodium
+1963 technetium tc-99m sodium pertechnetate
+1964 gallium citrate ga-67
+1965 xenon xe-133
+1966 thallous chloride tl-201
+1967 propoxyphene napsylate
+1968 rosin
+1969 diazolidinyl urea
+1970 sodium fluoride f-18
+1971 ammonia n-13
+1972 clostridium tetani toxoid antigen (formaldehyde inactivated)
+1973 corynebacterium diphtheriae toxoid antigen (formaldehyde inactivated)
+1974 human rabies virus immune globulin
+1975 human clostridium tetani toxoid immune globulin
+1976 human hepatitis b virus immune globulin
+1977 carbinoxamine maleate
+1978 trimethoprim hydrochloride
+1979 amlodipine
+1980 alpha-tocopherol
+1981 cycloserine
+1982 methenamine mandelate
+1983 calcium ascorbate
+1984 sodium ascorbate
+1985 iodoquinol
+1986 aloe vera leaf polysaccharides
+1987 caraway oil
+1988 fennel seed
+1989 melissa officinalis
+1990 mentha piperita
+1991 prunus spinosa flower bud
+1992 ferula assa-foetida resin
+1993 radish
+1994 caraway seed
+1995 ferric sulfate
+1996 myrrh
+1997 sesame oil
+1998 sodium phosphate, monobasic, dihydrate
+1999 isometheptene mucate
+2000 lanreotide acetate
+2001 mecasermin
+2002 sucrose
+2003 levomefolic acid
+2004 levomefolate glucosamine
+2005 levomefolate magnesium
+2006 cupric acetate
+2007 emtricitabine
+2008 tenofovir disoproxil fumarate
+2009 tsuga canadensis bark
+2010 artemisia abrotanum flowering top
+2011 wormwood
+2012 actaea spicata root
+2013 aethusa cynapium
+2014 amanita muscaria fruiting body
+2015 ailanthus altissima flowering twig
+2016 aletris farinosa root
+2017 alfalfa
+2018 alnus glutinosa bark
+2019 alstonia constricta bark
+2020 alstonia scholaris bark
+2021 potassium alum
+2022 ammonium benzoate
+2023 ammonium bromide
+2024 ammonium carbonate
+2025 ammonium iodide
+2026 ammonium chloride
+2027 ammonium phosphate, dibasic
+2028 amyl nitrite
+2029 anacardium occidentale fruit
+2030 anagallis arvensis
+2031 antimony arsenate
+2032 antimony triiodide
+2033 celery seed
+2034 apocynum cannabinum root
+2035 aralia racemosa root
+2036 araneus diadematus
+2037 silver
+2038 silver oxide
+2039 silver phosphate
+2040 aristolochia clematitis root
+2041 arsenic tribromide
+2042 arsenic
+2043 arsenic trisulfide
+2044 asarum europaeum
+2045 asterias rubens
+2046 gold tribromide
+2047 gold monoiodide
+2048 gold trichloride
+2049 sodium tetrachloroaurate
+2050 balsam peru
+2051 barium iodide
+2052 barium chloride dihydrate
+2053 mahonia aquifolium root bark
+2054 bismuth
+2055 boric acid
+2056 selenicereus grandiflorus stem
+2057 cadmium sulfate
+2058 calcium arsenate
+2059 calcium hydroxide
+2060 calcium iodide
+2061 calcium oxalate monohydrate
+2062 calotropis gigantea root
+2063 cantharidin
+2064 carbo animalis
+2065 d&c black no. 2
+2066 carbon disulfide
+2067 croton eluteria bark
+2068 castanea sativa leaf
+2069 equus caballus leg callous
+2070 castor canadensis scent gland secretion
+2071 ceanothus americanus leaf
+2072 simaba cedron seed
+2073 agkistrodon contortrix venom
+2074 cephalanthus occidentalis bark
+2075 dysphania ambrosioides
+2076 chimaphila umbellata
+2077 quinine arsenate
+2078 quinine salicylate
+2079 chionanthus virginicus bark
+2080 cholesterol
+2081 chromium trioxide
+2082 cicuta virosa root
+2083 cimex lectularius
+2084 helianthemum canadense
+2085 pummelo
+2086 clematis recta flowering top
+2087 cobalt
+2088 coffea arabica seed, roasted
+2089 marsdenia condurango bark
+2090 convallaria majalis
+2091 copaifera officinalis resin
+2092 corallium rubrum exoskeleton
+2093 saffron
+2094 croton tiglium seed
+2095 piper cubeba fruit
+2096 watermelon seed
+2097 cyclamen purpurascens tuber
+2098 digitalis
+2099 dioscorea villosa tuber
+2100 dioscorine
+2101 mucuna pruriens fruit trichome
+2102 echinacea purpurea
+2103 micrurus corallinus venom
+2104 epigaea repens
+2105 epifagus virginiana
+2106 equisetum arvense top
+2107 conyza canadensis
+2108 eucalyptus globulus leaf
+2109 eutrochium purpureum root
+2110 fagopyrum esculentum
+2111 bos taurus bile
+2112 ferric acetate, basic
+2113 ferrous arsenate
+2114 ferrous bromide
+2115 ferric chloride hexahydrate
+2116 ferric picrate
+2117 ficus religiosa leafy twig
+2118 dryopteris filix-mas root
+2119 formica rufa
+2120 fraxinus americana bark
+2121 galanthus nivalis
+2122 gallic acid monohydrate
+2123 gamboge
+2124 gaultheria procumbens top
+2125 gentianella quinquefolia
+2126 geranium maculatum root
+2127 pseudognaphalium obtusifolium
+2128 gossypium herbaceum root bark
+2129 gratiola officinalis
+2130 mikania parviflora leaf
+2131 guaiacum officinale resin
+2132 hedeoma pulegioides
+2133 helianthus annuus flowering top
+2134 helleborus foetidus root
+2135 heloderma horridum venom
+2136 chamaelirium luteum root
+2137 hydrangea arborescens root
+2138 centella asiatica
+2139 iberis amara seed
+2140 ichthammol
+2141 d&c blue no. 6
+2142 indium
+2143 influenza a virus
+2144 iridium
+2145 iris tenax
+2146 jacaranda caroba flower
+2147 ipomoea purga root
+2148 juniper berry
+2149 juniperus virginiana twig
+2150 potassium bromide
+2151 kalmia latifolia leaf
+2152 canis lupus familiaris milk
+2153 skim milk
+2154 felis catus milk
+2155 lachnanthes caroliniana
+2156 lactuca virosa
+2157 lactic acid, dl-
+2158 lamium album
+2159 calcium hexafluorosilicate
+2160 arctium lappa root
+2161 lathyrus sativas seed
+2162 latrodectus mactans
+2163 prunus laurocerasus leaf
+2164 egg phospholipids
+2165 lemna minor
+2166 veronicastrum virginicum root
+2167 lilium lancifolium whole flowering
+2168 lycopus virginicus
+2169 magnolia grandiflora flower
+2170 manganese acetate tetrahydrate
+2171 melilotus officinalis top
+2172 menyanthes trifoliata
+2173 mephitis mephitis anal gland fluid
+2174 mercuric chloride
+2175 mercurous iodide
+2176 mercuric iodide
+2177 achillea millefolium
+2178 moschus moschiferus musk sac resin
+2179 hexaplex trunculus hypobranchial gland juice
+2180 hydrochloric acid
+2181 avicularia avicularia
+2182 morella cerifera root bark
+2183 virola sebifera resin
+2184 naphthalene
+2185 narcissus pseudonarcissus
+2186 sodium arsenate, dibasic, heptahydrate
+2187 sodium salicylate
+2188 nickel
+2189 nickel sulfate hexahydrate
+2190 oenanthe crocata root
+2191 nerium oleander leaf
+2192 onosmodium virginianum whole
+2193 sus scrofa ovary
+2194 opuntia ficus-indica
+2195 osmium
+2196 egg shell, cooked
+2197 oxalic acid dihydrate
+2198 palladium
+2199 paraffin
+2200 chondrodendron tomentosum root
+2201 paris quadrifolia
+2202 oenanthe aquatica fruit
+2203 physalis alkekengi fruit
+2204 physostigma venenosum seed
+2205 pilocarpus jaborandi leaf
+2206 pinus lambertiana resin
+2207 pinus sylvestris leafy twig
+2208 piper methysticum root
+2209 green peppercorn
+2210 pine tar
+2211 plantago major
+2212 platinum
+2213 platinic chloride hexahydrate
+2214 lead acetate anhydrous
+2215 lead iodide
+2216 fomitopsis pinicola fruiting body
+2217 symplocarpus foetidus root
+2218 quassia amara wood
+2219 aspidosperma quebracho-blanco bark
+2220 quercus robur nut
+2221 rauwolfia serpentina
+2222 rheum officinale root
+2223 rhodium
+2224 rhus glabra top
+2225 ricinus communis seed
+2226 rumex acetosa leaf
+2227 lactose, unspecified form
+2228 sage
+2229 sambucus canadensis flowering top
+2230 santonin
+2231 scrophularia nodosa
+2232 scutellaria lateriflora
+2233 packera aurea
+2234 jacobaea vulgaris
+2235 polygala senega root
+2236 black mustard seed
+2237 skatole
+2238 solanum nigrum whole
+2239 stannous iodide
+2240 stellaria media
+2241 corn silk
+2242 strontium bromide
+2243 strophanthus hispidus seed
+2244 ferula sumbul root
+2245 tanacetum vulgare top
+2246 citharacanthus spinicrus
+2247 tartaric acid
+2248 teucrium marum
+2249 thallium
+2250 zizia aurea root
+2251 green tea leaf
+2252 theridion curassavicum
+2253 capsella bursa-pastoris
+2254 thymus serpyllum
+2255 tilia x europaea flower
+2256 titanium
+2257 trifolium repens flower
+2258 uranyl nitrate hexahydrate
+2259 arctostaphylos uva-ursi leaf
+2260 vanadium
+2261 veratrum viride root
+2262 verbascum thapsus
+2263 verbena hastata top
+2264 vinca minor
+2265 viola odorata
+2266 viola tricolor
+2267 viscum album fruiting top
+2268 zanthoxylum americanum bark
+2269 alcohol, x-ray exposed (1000 rad)
+2270 zinc bromide
+2271 zinc carbonate
+2272 zinc phosphide
+2273 american ginseng
+2274 azadirachta indica bark
+2275 ginkgo
+2276 justicia adhatoda leaf
+2277 ocimum tenuiflorum top
+2278 syzygium cumini seed
+2279 yohimbine
+2280 2-(l-menthoxy)ethanol
+2281 povidone k29/32
+2282 retapamulin
+2283 isradipine
+2284 chlorcyclizine hydrochloride
+2285 cyclizine hydrochloride
+2286 loteprednol etabonate
+2287 propoxyphene hydrochloride
+2288 tapentadol hydrochloride
+2289 lubiprostone
+2290 beclomethasone dipropionate
+2291 betula pendula tar oil
+2292 mitomycin
+2293 hydrocortisone butyrate
+2294 aluminum sulfate tetradecahydrate
+2295 calcium acetate monohydrate
+2296 levomenthol
+2297 peppermint oil
+2298 methyl salicylate 2-ethylbutyrate
+2299 camphor oil
+2300 polysorbate 20
+2301 asclepias curassavica
+2302 laminaria digitata
+2303 botryoglossum platycarpum
+2304 fucus serratus
+2305 sus scrofa capillary tissue
+2306 ubidecarenone
+2307 sus scrofa collagen
+2308 ascophyllum nodosum
+2309 sus scrofa placenta
+2310 retinol
+2311 ulva lactuca extract
+2312 sus scrofa skin
+2313 germanium dioxide
+2314 asian ginseng
+2315 hamamelis virginiana leaf
+2316 eleuthero
+2317 ballota foetida
+2318 sus scrofa cerebral cortex
+2319 lenograstim
+2320 glutathione
+2321 interferon gamma-1b
+2322 melatonin
+2323 sus scrofa stomach
+2324 sus scrofa superior gastric plexus
+2325 sus scrofa thalamus
+2326 sus scrofa artery
+2327 sus scrofa small intestine mucosa lymph follicle
+2328 cranberry
+2329 sus scrofa vein
+2330 viscum album fruit
+2331 adenosine triphosphate
+2332 .alpha.-ketoglutaric acid
+2333 alpha lipoic acid
+2334 barium oxalosuccinate
+2335 beet
+2336 cerous oxalate nonahydrate
+2337 aconitic acid, cis-
+2338 coenzyme a
+2339 cysteine
+2340 sus scrofa embryo
+2341 fumaric acid
+2342 sus scrofa adrenal gland
+2343 lactic acid
+2344 malic acid
+2345 manganese phosphate, dibasic
+2346 sodium diethyl oxalacetate
+2347 sodium pyruvate
+2348 succinic acid
+2349 aldesleukin
+2350 binetrakin
+2351 human interleukin-6 (nonglycosylated)
+2352 sus scrofa bone marrow
+2353 sus scrofa thymus
+2354 adenosine cyclic 3',5'-phosphate
+2355 sus scrofa corpus luteum
+2356 sus scrofa pituitary gland
+2357 sus scrofa hypothalamus
+2358 lilium tigrinum
+2359 sus scrofa pancreas
+2360 sus scrofa pineal gland
+2361 turnera diffusa top
+2362 sus scrofa testicle
+2363 angelica sinensis root
+2364 sus scrofa blood
+2365 interleukin-11
+2366 interleukin-3
+2367 shiitake mushroom
+2368 reishi
+2369 sus scrofa spleen
+2370 silybum marianum seed
+2371 pork liver
+2372 turmeric
+2373 juniper
+2374 papaver rhoeas flower
+2375 sugarcane
+2376 black currant
+2377 eschscholzia californica
+2378 stevia leaf
+2379 everlasting extract
+2380 metenkefalin
+2381 rice
+2382 serotonin
+2383 calcitonin human
+2384 calcium phosphate
+2385 sus scrofa bone
+2386 sus scrofa parathyroid gland
+2387 amiloride
+2388 berberis vulgaris fruit
+2389 hieracium pilosella flowering top
+2390 5-hydroxytryptophan, dl-
+2391 salix alba bark
+2392 salmonella enterica subsp. enterica serovar typhi
+2393 human herpesvirus 1
+2394 human herpesvirus 2
+2395 human papillomavirus
+2396 magnesium phosphate
+2397 juglans regia leaf
+2398 levothyroxine
+2399 myosotis arvensis
+2400 sarsaparilla
+2401 dodecahydroxycyclohexane dihydrate
+2402 collinsonia
+2403 sus scrofa colon
+2404 sus scrofa rectum
+2405 solanum dulcamara flower
+2406 aesculus hippocastanum flower
+2407 anti-interleukin-1.alpha. immunoglobulin g rabbit
+2408 hydrocotyle asiatica extract
+2409 podophyllum peltatum root
+2410 escherichia coli
+2411 pork kidney
+2412 ononis campestris
+2413 clerodendranthus spicatus leaf
+2414 proteus vulgaris
+2415 quinhydrone
+2416 sus scrofa ureter
+2417 sus scrofa urinary bladder
+2418 arundo pliniana root
+2419 human interleukin 12
+2420 parietaria officinalis
+2421 anguilla rostrata blood serum
+2422 viburnum opulus root
+2423 angelica archangelica root
+2424 anisum
+2425 sus scrofa diencephalon
+2426 sus scrofa duodenum
+2427 sus scrofa gall bladder
+2428 gentiana lutea root
+2429 sus scrofa pylorus
+2430 trypsin
+2431 bismuth subnitrate
+2432 dioscorea villosa root
+2433 dopamine
+2434 human epidermal growth factor
+2435 momordica balsamina immature fruit
+2436 oregano
+2437 sus scrofa sympathetic nerve
+2438 sus scrofa cartilage
+2439 sus scrofa conjunctiva
+2440 velafermin
+2441 sus scrofa umbilical cord
+2442 nadide
+2443 nerve growth factor
+2444 strontium carbonate
+2445 prasterone
+2446 sus scrofa cerebellum
+2447 pteridium aquilinum root
+2448 choline hydroxide
+2449 inositol
+2450 sus scrofa jejunum
+2451 culver's root
+2452 danio rerio egg
+2453 human interleukin-10 (nonglycosylated)
+2454 sus scrofa prostate
+2455 transforming growth factor beta-1
+2456 thuja occidentalis twig
+2457 melilotus
+2458 olea europaea flower
+2459 interleukin-10
+2460 sus scrofa vagus nerve
+2461 corticotropin
+2462 brain-derived neurotrophic factor human
+2463 sus scrofa frontal lobe
+2464 rinfabate
+2465 lutrelin
+2466 neurotrophin-3
+2467 neurotrophin-4
+2468 1,4-benzoquinone
+2469 pyruvic acid
+2470 thyrotropin alfa
+2471 bufo bufo cutaneous gland
+2472 chromic sulfate
+2473 sus scrofa temporal lobe
+2474 betaine
+2475 interleukin-5
+2476 interleukin-6
+2477 interleukin-7
+2478 interleukin-8
+2479 interleukin-9
+2480 interleukin-12 human recombinant
+2481 sus scrofa esophagus
+2482 follicle stimulating hormone beta polypeptide
+2483 levant cotton oil
+2484 lutropin alfa
+2485 atosiban
+2486 althaea officinalis leaf
+2487 cat's claw
+2488 indole
+2489 tabebuia impetiginosa bark
+2490 bilberry
+2491 histidine monohydrochloride
+2492 prolactin
+2493 basic cupric carbonate
+2494 ferric phosphate
+2495 sus scrofa bronchus
+2496 sus scrofa nasal mucosa
+2497 euphorbia resinifera resin
+2498 rosa canina fruit
+2499 european elderberry
+2500 rhizopus stolonifer
+2501 acetylcarnitine, l-
+2502 herring sperm dna
+2503 pyruvaldehyde
+2504 potassium aspartate
+2505 saccharomyces cerevisiae rna
+2506 mercuric sulfide
+2507 sinusitisinum
+2508 sus scrofa tooth
+2509 cetraria islandica subsp. islandica
+2510 cochineal
+2511 thyme
+2512 ovemotide
+2513 turnera diffusa leafy twig
+2514 potassium iodate
+2515 sus scrofa urethra
+2516 interferon alfa-2a
+2517 indium in-111 oxyquinoline
+2518 technetium tc-99m exametazime
+2519 tetrofosmin
+2520 flutemetamol f-18
+2521 ioflupane i-123
+2522 iobenguane i-123
+2523 indium chloride in-111
+2524 strontium chloride sr-89
+2525 light green sf yellowish
+2526 citrus bioflavonoids
+2527 zinc picolinate
+2528 magnesium ascorbate
+2529 sedum roseum root
+2530 echinacea, unspecified
+2531 human sputum, bordetella pertussis infected
+2532 human breast tumor cell
+2533 influenza b virus
+2534 scutellaria lateriflora top
+2535 histamine
+2536 unoprostone isopropyl
+2537 hypromellose 2906 (4000 mpa.s)
+2538 hypromellose 2906 (50 mpa.s)
+2539 capreomycin sulfate
+2540 timolol
+2541 d&c yellow no. 8
+2542 physostigmine salicylate
+2543 dimercaprol
+2544 tafluprost
+2545 benoxinate hydrochloride
+2546 hydroxyamphetamine hydrobromide
+2547 iodine povacrylex
+2548 sevelamer hydrochloride
+2549 hyaluronidase (human recombinant)
+2550 ziconotide acetate
+2551 tricalcium phosphate
+2552 alpha-tocopherol, d-
+2553 influenza a virus a/singapore/gp1908/2015 ivr-180 (h1n1) antigen (uv, formaldehyde inactivated)
+2554 influenza a virus a/hong kong/4801/2014 x-263b (h3n2) antigen (uv, formaldehyde inactivated)
+2555 influenza b virus b/phuket/3073/2013 antigen (uv, formaldehyde inactivated)
+2556 influenza b virus b/brisbane/60/2008 antigen (uv, formaldehyde inactivated)
+2557 sulisobenzone
+2558 anhydrous tacrolimus
+2559 ramelteon
+2560 albuterol
+2561 d&c yellow no. 10
+2562 clostridium tetani
+2563 corynebacterium diphtheriae
+2564 trimethobenzamide hydrochloride
+2565 febuxostat
+2566 erythromycin ethylsuccinate
+2567 sulfisoxazole acetyl
+2568 diclofenac epolamine
+2569 colesevelam hydrochloride
+2570 propafenone
+2571 felis catus dander
+2572 red pepper
+2573 urtica dioica
+2574 tanacetum parthenium
+2575 pelargonium sidoides root
+2576 paromomycin sulfate
+2577 cidofovir
+2578 cupric sulfate anhydrous
+2579 .alpha.-tocopherol, d-
+2580 inosine
+2581 calcium bicarbonate
+2582 fumaria officinalis flowering top
+2583 hyaluronidase, ovine
+2584 carteolol hydrochloride
+2585 besifloxacin
+2586 ganciclovir
+2587 bepotastine besilate
+2588 hydroxypropyl cellulose (type h)
+2589 carmustine
+2590 xylitol
+2591 methylcellulose (4000 cps)
+2592 camphor, (synthetic)
+2593 zinc acetate anhydrous
+2594 sodium phosphate, dibasic dihydrate
+2595 ethanol
+2596 hydroxyethyl ethylcellulose
+2597 glyceryl monostearate
+2598 powdered cellulose
+2599 methscopolamine nitrate
+2600 ocriplasmin
+2601 symphytum officinale whole
+2602 comfrey
+2603 thuja occidentalis leaf
+2604 thuja occidentalis whole
+2605 ethacrynate sodium
+2606 metyrosine
+2607 pentobarbital sodium
+2608 tirofiban hydrochloride
+2609 eculizumab
+2610 sebelipase alfa
+2611 asfotase alfa
+2612 capsicum annuum whole
+2613 silybum marianum seed oil
+2614 cervus elaphus horn oil
+2615 galium aparine
+2616 baptisia tinctoria
+2617 rosmarinus officinalis flowering top
+2618 ovis aries testicle
+2619 tribulus terrestris
+2620 nitazoxanide
+2621 cefixime
+2622 polymyxin b
+2623 safinamide mesylate
+2624 amphetamine
+2625 spinosad
+2626 gambir
+2627 mucuna pruriens seed
+2628 erythroxylum catuaba bark
+2629 epimedium grandiflorum top
+2630 turnera diffusa leaf
+2631 panax notoginseng root
+2632 tribulus terrestris fruit
+2633 phenazopyridine
+2634 choline salicylate
+2635 sipuleucel-t
+2636 isocarboxazid
+2637 dexpanthenol
+2638 quassia
+2639 bupivacaine hydrochloride anhydrous
+2640 duloxetine
+2641 montelukast
+2642 tetrabenazine
+2643 entecavir anhydrous
+2644 alpha-tocopherol acetate
+2645 cephalexin anhydrous
+2646 influenza a virus a/california/7/2009 x-181 (h1n1) antigen (propiolactone inactivated)
+2647 influenza a virus a/south australia/55/2014 ivr-175 (h3n2) antigen (propiolactone inactivated)
+2648 influenza b virus b/phuket/3073/2013 antigen (propiolactone inactivated)
+2649 influenza a virus a/singapore/gp1908/2015 ivr-180a (h1n1) antigen (propiolactone inactivated)
+2650 influenza a virus a/hong kong/4801/2014 x-263b (h3n2) antigen (propiolactone inactivated)
+2651 influenza b virus b/brisbane/46/2015 antigen (propiolactone inactivated)
+2652 iinfluenza a virus a/singapore/gp1908/2015 ivr-180a (h1n1) antigen (propiolactone inactivated)
+2653 influenza b virus b/phuket/3073/2013 bvr-1b antigen (propiolactone inactivated)
+2654 aluminum sulfate
+2655 feverfew
+2656 sage oil
+2657 nonoxynol-9
+2658 clove
+2659 cinchona officinalis
+2660 hydrastis canadensis extract
+2661 passiflora incarnata
+2662 cypripedium parvifolum root
+2663 medicago sativa leaf
+2664 cinchona officinalis whole
+2665 hydrastis canadensis whole
+2666 cinchona pubescens bark
+2667 lilium lancifolium bulb
+2668 viburnum prunifolium bark
+2669 matricaria chamomilla flowering top oil
+2670 toxicodendron radicans leaf
+2671 camphor
+2672 darifenacin
+2673 levocarnitine hydrochloride
+2674 tapentadol
+2675 hypericum oil
+2676 lisdexamfetamine dimesylate
+2677 trinitrophenol
+2678 uric acid
+2679 cnicus benedictus
+2680 ptelea trifoliata bark
+2681 cynara scolymus leaf
+2682 juniperus communis whole
+2683 strychnine
+2684 basic copper sulfate
+2685 dichloralphenazone
+2686 menthyl salicylate, (+/-)-
+2687 meriones unguiculatus skin
+2688 capra hircus skin
+2689 mesocricetus auratus skin
+2690 oryctolagus cuniculus skin
+2691 rattus norvegicus skin
+2692 bombyx mori fiber
+2693 duck
+2694 allergenic extract- beef liver
+2695 veal
+2696 bluefish
+2697 common carp
+2698 clam
+2699 codfish
+2700 crab
+2701 flounder
+2702 haddock
+2703 pacific halibut
+2704 herring
+2705 lobster
+2706 mackerel
+2707 oyster
+2708 northern pike
+2709 red snapper
+2710 european pilchard
+2711 scallop
+2712 shrimp
+2713 smelt
+2714 swordfish
+2715 trout
+2716 tuna
+2717 white fish
+2718 blackberry
+2719 blueberry
+2720 sour cherry
+2721 date
+2722 fig
+2723 wine grape
+2724 lime (citrus)
+2725 raspberry
+2726 tangerine
+2727 artichoke
+2728 kiwi fruit
+2729 brussels sprout
+2730 cauliflower
+2731 eggplant
+2732 lentil
+2733 green olive
+2734 parsley
+2735 allergenic extract- pumpkin cucurbita pepo
+2736 raphanus sativus
+2737 turnip
+2738 cashew
+2739 hazelnut
+2740 macadamia nut
+2741 nectarine
+2742 mango
+2743 papaya
+2744 leek
+2745 okra
+2746 parsnip
+2747 chickpea
+2748 black-eyed pea
+2749 watercress
+2750 chocolate
+2751 tragacanth
+2752 malt extract, barley
+2753 allspice
+2754 laurus nobilis
+2755 dill
+2756 horseradish
+2757 licorice
+2758 paprika
+2759 white pepper
+2760 peppermint flowering top
+2761 poppy seed
+2762 salvia officinalis
+2763 spearmint
+2764 garden thyme
+2765 wheat bran
+2766 american chestnut
+2767 musca domestica
+2768 allergenic extract- cockroach periplaneta americana
+2769 ctenocephalides canis
+2770 aedes taeniorhynchus
+2771 allergenic extract- cockroach, german blatella germanica
+2772 ctenocephalides felis
+2773 aspergillus flavus
+2774 eurotium herbariorum
+2775 trichothecium roseum
+2776 fusarium compactum
+2777 geotrichum candidum
+2778 phoma glomerata
+2779 rhodotorula mucilaginosa
+2780 stemphylium sarciniforme
+2781 trichoderma harzianum
+2782 ustilago avenae
+2783 tilletia caries
+2784 puccinia graminis
+2785 cotton
+2786 flax seed
+2787 iris germanica var. florentina root
+2788 corcorus capsularis fiber
+2789 agave sisalana fiber
+2790 poa compressa pollen
+2791 phalaris arundinacea pollen
+2792 bouteloua gracilis pollen
+2793 urochloa mutica pollen
+2794 secale cereale pollen
+2795 leymus condensatus pollen
+2796 pascopyrum smithii pollen
+2797 acacia baileyana pollen
+2798 alnus rubra pollen
+2799 fraxinus latifolia pollen
+2800 tamarix gallica pollen
+2801 carya alba pollen
+2802 juniperus monosperma pollen
+2803 juniperus pinchotii pollen
+2804 juniperus scopulorum pollen
+2805 juniperus osteosperma pollen
+2806 juniperus occidentalis pollen
+2807 tilia americana pollen
+2808 mangifera indica pollen
+2809 acer macrophyllum pollen
+2810 broussonetia papyrifera pollen
+2811 quercus velutina pollen
+2812 quercus macrocarpa pollen
+2813 quercus kelloggii pollen
+2814 quercus gambelii pollen
+2815 quercus lobata pollen
+2816 quercus nigra pollen
+2817 citrus sinensis pollen
+2818 pinus taeda pollen
+2819 pinus palustris pollen
+2820 pinus ponderosa pollen
+2821 pinus elliottii pollen
+2822 pinus virginiana pollen
+2823 pinus monticola pollen
+2824 populus nigra pollen
+2825 elaeagnus angustifolia pollen
+2826 salix lasiolepis pollen
+2827 salix discolor pollen
+2828 populus balsamifera subsp. trichocarpa pollen
+2829 taraxacum officinale pollen
+2830 atriplex polycarpa pollen
+2831 baccharis halimifolia pollen
+2832 hymenoclea salsola pollen
+2833 allenrolfea occidentalis pollen
+2834 artemisia douglasiana pollen
+2835 artemisia ludoviciana pollen
+2836 urtica dioica pollen
+2837 iva axillaris pollen
+2838 ambrosia deltoidea pollen
+2839 sarcobatus vermiculatus pollen
+2840 atriplex canescens pollen
+2841 artemisia absinthium pollen
+2842 ethylhexyl methoxycrylene
+2843 colistimethate
+2844 streptomycin sulfate
+2845 ibuprofen lysine
+2846 sodium phosphate, dibasic anhydrous
+2847 penciclovir
+2848 kaolin
+2849 tuberculin purified protein derivative
+2850 methohexital sodium
+2851 colistin sulfate
+2852 thonzonium bromide
+2853 melphalan
+2854 levothyroxine sodium anhydrous
+2855 vasopressin, unspecified
+2856 malathion
+2857 hypromellose 2208 (15000 mpa.s)
+2858 liothyronine
+2859 boron
+2860 dihydrocodeine bitartrate
+2861 diclofenac
+2862 human c1-esterase inhibitor
+2863 panthenol
+2864 frankincense
+2865 rosemary
+2866 dibasic calcium phosphate dihydrate
+2867 alcloxa
+2868 cabozantinib s-malate
+2869 mechlorethamine
+2870 glutamine
+2871 atractylodes lancea root
+2872 maclura tricuspidata whole
+2873 aluminum chlorohydrex propylene glycol
+2874 japanese encephalitis virus strain sa 14-14-2 antigen (formaldehyde inactivated)
+2875 urea c-14
+2876 mefenamic acid
+2877 isoxsuprine hydrochloride
+2878 foreskin fibroblast (neonatal)
+2879 bovine type i collagen
+2880 foreskin keratinocyte (neonatal)
+2881 momordica charantia fruit
+2882 tribulus terrestris root
+2883 panax ginseng fruit
+2884 influenza a virus a/new caledonia/20/99 (h1n1) antigen (propiolactone inactivated)
+2885 influenza b virus b/hong kong/330/2001 antigen (propiolactone inactivated)
+2886 influenza a virus a/panama/2007/99 (h3n2) antigen (propiolactone inactivated)
+2887 aconitum napellus root
+2888 influenza a virus a/california/7/2009 (h1n1)-like hemagglutinin antigen (propiolactone inactivated)
+2889 influenza b virus b/phuket/3073/2013 hemagglutinin antigen (propiolactone inactivated)
+2890 influenza a virus a/switzerland/9715293/2013 nib-88 (h3n2) hemagglutinin antigen (propiolactone inactivated)
+2891 toremifene citrate
+2892 granisetron
+2893 adefovir dipivoxil
+2894 sodium phenylbutyrate
+2895 influenza a virus a/california/7/2009 (h1n1) recombinant hemagglutinin antigen
+2896 influenza a virus a/victoria/361/2011 (h3n2) recombinant hemagglutinin antigen
+2897 influenza b virus b/wisconsin/1/2010 recombinant hemagglutinin antigen
+2898 influenza a virus a/texas/50/2012 (h3n2) recombinant hemagglutinin antigen
+2899 influenza b virus b/massachusetts/2/2012 recombinant hemagglutinin antigen
+2900 influenza a virus a/switzerland/9715293/2013 (h3n2) recombinant hemagglutinin antigen
+2901 influenza b virus b/phuket/3073/2013 recombinant hemagglutinin antigen
+2902 influenza a virus a/hong kong/4801/2014 (h3n2) recombinant hemagglutinin antigen
+2903 influenza b virus b/brisbane/60/2008 recombinant hemagglutinin antigen
+2904 influenza a virus a/michigan/45/2015 (h1n1) recombinant hemagglutinin antigen
+2905 antithrombin alfa
+2906 deflazacort
+2907 tasimelteon
+2908 ranolazine
+2909 pseudoephedrine
+2910 astragalus nuttallii leaf
+2911 juglans cinerea branch bark/root bark
+2912 chenopodium ambrosioides
+2913 atropa belladonna root
+2914 hydrogen
+2915 amanita muscaria var. muscaria
+2916 arnica montana root
+2917 proteus morganii
+2918 ferrous iodide
+2919 giant puffball
+2920 artemisia cina flower
+2921 mercuric sulfate
+2922 pueraria montana var. lobata root
+2923 trifolium pratense flower
+2924 betula pubescens bark
+2925 acer pseudoplatanus pollen
+2926 evernia prunastri
+2927 pinus massoniana pollen
+2928 pinus tabuliformis pollen
+2929 gonorrheal urethral secretion human
+2930 scabies lesion lysate (human)
+2931 treponemic skin canker human
+2932 cadmium sulfide
+2933 loxosceles reclusa
+2934 pediculus humanus var. capitis
+2935 pulex irritans
+2936 vespa crabro
+2937 toxicodendron diversilobum leaf
+2938 toxicodendron vernix leafy twig
+2939 semecarpus anacardium fruit
+2940 xerophyllum asphodeloides
+2941 bos taurus hypothalamus
+2942 bos taurus pituitary gland, posterior
+2943 digitalis purpurea whole
+2944 pulsatilla patens
+2945 sus scrofa pituitary gland, posterior
+2946 bos taurus pituitary gland
+2947 insulin pork
+2948 beryllium
+2949 cadmium
+2950 nickel carbonate hydroxide tetrahydrate
+2951 paroxetine mesylate
+2952 clocortolone pivalate
+2953 levalbuterol
+2954 trimipramine maleate
+2955 fondaparinux sodium
+2956 coniine
+2957 magnesium phosphate, dibasic
+2958 bryonia alba whole
+2959 sus scrofa lung
+2960 hippomane mancinella fruiting leafy twig
+2961 mercuric cyanide
+2962 bacillus anthracis immunoserum rabbit
+2963 calcium picrate
+2964 filipendula ulmaria root
+2965 asclepias tuberosa root
+2966 lithium benzoate
+2967 vaccinia virus strain new york city board of health live antigen
+2968 coumarin
+2969 tyramine
+2970 pork heart
+2971 shigella dysenteriae
+2972 salmonella enterica subsp. enterica serovar enteritidis
+2973 magnesium orotate
+2974 beta vulgaris
+2975 amygdalin
+2976 aminobenzoic acid
+2977 pangamic acid
+2978 orotic acid monohydrate
+2979 acetylcholine chloride
+2980 .gamma.-aminobutyric acid
+2981 octopamine
+2982 sus scrofa cerebrum
+2983 sus scrofa thalamus lateral geniculate nucleus
+2984 sus scrofa lymph
+2985 amber
+2986 ornithogalum umbellatum
+2987 helianthemum nummularium flower
+2988 impatiens glandulifera flower
+2989 prunus cerasifera flower
+2990 clematis vitalba flower
+2991 calcium hypophosphite
+2992 coxiella burnetii
+2993 francisella tularensis
+2994 plasmodium malariae
+2995 yersinia pestis
+2996 ligusticum porteri root
+2997 propolis wax
+2998 cajuput oil
+2999 alpine strawberry
+3000 frasera caroliniensis root
+3001 amoeba proteus
+3002 blastocystis hominis
+3003 cryptosporidium parvum
+3004 giardia lamblia
+3005 acetaldehyde
+3006 caffeic acid
+3007 yeast mannan
+3008 apiole (parsley)
+3009 estriol
+3010 adenosine triphosphate disodium
+3011 staphylococcus aureus
+3012 klebsiella pneumoniae
+3013 streptococcus agalactiae
+3014 enterococcus faecalis
+3015 streptococcus mutans
+3016 streptococcus pneumoniae
+3017 cynanchum vincetoxicum root
+3018 methylcobalamin
+3019 7-keto-dehydroepiandrosterone
+3020 glucagon
+3021 pyrrole
+3022 zinc valerate dihydrate
+3023 phenyl isothiocyanate
+3024 borrelia burgdorferi
+3025 oxalis acetosella leaf
+3026 sus scrofa bile duct
+3027 sus scrofa eye
+3028 sus scrofa gallbladder
+3029 sus scrofa ileum
+3030 pork intestine
+3031 sus scrofa oral mucosa
+3032 mandragora officinarum root
+3033 lemon juice
+3034 schisandra chinensis fruit
+3035 tylophora indica whole
+3036 magnesium gluconate
+3037 potassium gluconate
+3038 helicobacter pylori
+3039 lomatium dissectum root
+3040 anemone pulsatilla whole
+3041 stachybotrys chartarum
+3042 fenugreek seed
+3043 japanese encephalitis virus
+3044 neisseria meningitidis
+3045 hepatitis b virus
+3046 human herpesvirus 5
+3047 human herpesvirus 4
+3048 mercuric oxide
+3049 sus scrofa intervertebral disc
+3050 enterobacter cloacae
+3051 menadione
+3052 glyoxal trimer dihydrate
+3053 geranium robertianum
+3054 sus scrofa tonsil
+3055 stillingia sylvatica root
+3056 stearyl alcohol
+3057 potassium sorbate
+3058 isopropyl palmitate
+3059 phenylbutazone
+3060 lophatherum gracile leaf
+3061 levant cotton seed
+3062 millet
+3063 sorghum bicolor whole
+3064 safflower
+3065 sorghum
+3066 sunflower seed
+3067 bitter almond
+3068 casein, streptococcus thermophilus cultured, propionibacterium freudenreichii subsp. shermanii cultured, aged
+3069 malus domestica flower
+3070 pacific cod
+3071 tuna, unspecified
+3072 salmon, unspecified
+3073 limulus polyphemus
+3074 interferon .gamma. porcine recombinant
+3075 germanium sesquioxide
+3076 norepinephrine
+3077 apis mellifera venom
+3078 agathosma betulina leaf
+3079 sus scrofa renal pelvis
+3080 quercetin
+3081 chromium gluconate
+3082 cobaltous gluconate
+3083 copper gluconate
+3084 cichorium intybus flower
+3085 verbena officinalis flowering top
+3086 neopicrorhiza scrophulariiflora root
+3087 peptostreptococcus anaerobius
+3088 vibrio cholerae
+3089 campylobacter jejuni
+3090 yersinia enterocolitica
+3091 nasturtium aquaticum
+3092 teucrium scorodonia flowering top
+3093 centaurium erythraea
+3094 carpinus betulus flower
+3095 larix decidua flowering top
+3096 asparagine
+3097 cinnamic acid
+3098 piperine
+3099 rutin
+3100 lactose
+3101 vanillylamine
+3102 xanthine
+3103 potassium asparaginate
+3104 magnesium asparaginate
+3105 sodium molybdate
+3106 nickel acetate tetrahydrate
+3107 aluminum
+3108 cerium
+3109 cesium chloride
+3110 dysprosium
+3111 erbium
+3112 europium oxide
+3113 gadolinium oxide
+3114 holmium
+3115 lanthanum oxide
+3116 neodymium oxide
+3117 niobium
+3118 praseodymium
+3119 rubidium
+3120 samarium oxide
+3121 tantalum
+3122 terbium
+3123 ytterbium oxide
+3124 benzene
+3125 acetone
+3126 sodium tripolyphosphate
+3127 sodium benzenesulfonate
+3128 sodium lauryl sulfate
+3129 methyl alcohol
+3130 phenethylamine
+3131 sus scrofa brainstem
+3132 pork brain
+3133 peumus boldus leaf
+3134 centaurea benedicta
+3135 7-oxo-prasterone
+3136 proteus inconstans
+3137 gallic acid
+3138 malvin
+3139 sus scrofa thyroid
+3140 mercurialis perennis
+3141 boron gluconate
+3142 calcium gluconate
+3143 nickel gluconate
+3144 selenium dioxide
+3145 atropa belladonna whole
+3146 oxitriptan
+3147 alcaligenes faecalis
+3148 measles virus
+3149 mumps virus
+3150 poliovirus
+3151 rubella virus
+3152 thimerosal
+3153 influenza a virus a/california/7/2009 x-179a (h1n1) antigen (formaldehyde inactivated)
+3154 influenza a virus a/perth/16/2009 (h3n2) live (attenuated) antigen
+3155 influenza b virus b/brisbane/60/2008 antigen (formaldehyde inactivated)
+3156 salsolinol hydrochloride
+3157 aldosterone
+3158 androsterone
+3159 streptococcus viridans group
+3160 brucella melitensis
+3161 aspartame
+3162 methylene chloride
+3163 methylparaben
+3164 propylparaben
+3165 equisetum arvense branch
+3166 rubia tinctorum root
+3167 fagus sylvatica flowering top
+3168 ulex europaeus flower
+3169 mimulus guttatus flowering top
+3170 ascaris lumbricoides
+3171 trichinella spiralis
+3172 enterobius vermicularis
+3173 taenia solium
+3174 trichomonas vaginalis
+3175 taenia saginata
+3176 brugia malayi
+3177 human herpesvirus 3
+3178 ornithogalum umbellatum flowering top
+3179 human adenovirus b serotype 7 strain 55142
+3180 human adenovirus e serotype 4 strain cl-68578
+3181 bos taurus colostrum
+3182 malus sylvestris flower
+3183 solanum dulcamara stem
+3184 apc-356433
+3185 apc-356434
+3186 veronica officinalis flowering top
+3187 coniferyl alcohol
+3188 mycoplasma pneumoniae
+3189 phlorizin
+3190 aquilegia vulgaris
+3191 lycoperdon utriforme fruiting body
+3192 sus scrofa uterus
+3193 aconitic acid, (z)-
+3194 adenosine cyclic phosphate
+3195 arsenic acid
+3196 betula pendula bark
+3197 caltha palustris
+3198 sedum acre
+3199 hedera helix flowering twig
+3200 ononis spinosa root
+3201 quillaja saponaria bark
+3202 sempervivum tectorum leaf
+3203 2,5-piperazinedione
+3204 monosodium glutamate
+3205 juglans regia fruit rind, immature
+3206 nasturtium officinale
+3207 bisphenol a
+3208 chlorogenic acid
+3209 oregano leaf oil
+3210 pepsin
+3211 maltodextrin
+3212 sucralose
+3213 respiratory syncytial virus immune globulin intravenous (human)
+3214 centaurium erythraea flower
+3215 streptococcus pyogenes
+3216 bambusa vulgaris leaf
+3217 gossypium herbaceum seed resin
+3218 avena sativa whole
+3219 oryza sativa whole
+3220 glycine max whole
+3221 saccharum officinarum whole
+3222 amaranth
+3223 elymus repens root
+3224 chondrus crispus
+3225 cadmium iodide
+3226 babesia microti
+3227 chondroitin sulfate sodium (bovine)
+3228 ascorbyl palmitate
+3229 hordeum vulgare top
+3230 n,n-dimethylglycine
+3231 sodium selenite
+3232 triticum aestivum whole
+3233 magnesium fluoride
+3234 glyoxal
+3235 ribose, d-
+3236 acer saccharum sap
+3237 citrulline
+3238 lanosterol
+3239 mevalonolactone, (+/-)-
+3240 squalene
+3241 red yeast
+3242 nitric oxide
+3243 strychnine phosphate
+3244 serotonin hydrochloride
+3245 serinus canaria feather
+3246 melopsittacus undulatus feather
+3247 corn grain
+3248 populus deltoides subsp. deltoides pollen
+3249 betula occidentalis pollen
+3250 poa pratensis top
+3251 dactylis glomerata top
+3252 phleum pratense top
+3253 casein, lactococcus lactis cultured
+3254 cod, unspecified
+3255 salsolinol
+3256 proteus mirabilis
+3257 pseudomonas aeruginosa
+3258 legionella pneumophila
+3259 listeria monocytogenes
+3260 shigella sonnei
+3261 streptococcus dysgalactiae
+3262 streptococcus uberis
+3263 streptococcus equinus
+3264 tetracycline
+3265 orotic acid
+3266 bartonella bacilliformis
+3267 bartonella clarridgeiae
+3268 bartonella henselae
+3269 bartonella elizabethae
+3270 bartonella quintana
+3271 bartonella vinsonii
+3272 bartonella washoensis
+3273 grindelia hirsutula whole
+3274 quinine arsenite
+3275 juglans regia flowering top
+3276 toxoplasma gondii
+3277 ononis spinosa whole
+3278 anthraquinone
+3279 1,4-naphthoquinone
+3280 vipera berus venom
+3281 astragalus exscapus whole flowering/fruiting
+3282 acetyl coenzyme a
+3283 human parvovirus b19
+3284 hesperadin
+3285 chlorophyll
+3286 oxalic acid
+3287 sus scrofa nerve
+3288 thioctic acid
+3289 barium oxalate
+3290 alloxan
+3291 gymnema sylvestre leaf
+3292 oxogluric acid
+3293 juglans nigra leaf
+3294 trigonella foenum-graecum whole
+3295 brucella abortus
+3296 chlamydia trachomatis
+3297 populus tremuloides bark
+3298 populus tremuloides leaf
+3299 equol, (+/-)-
+3300 salsolinol hydrochloride, (+/-)-
+3301 clostridium difficile
+3302 ehrlichia canis
+3303 adenosine phosphate disodium
+3304 bos taurus parathyroid gland
+3305 magnesium aspartate
+3306 nickel acetate
+3307 lycopodium complanatum spore
+3308 sus scrofa adrenal cortex
+3309 bacopa monnieri whole
+3310 oxytocin acetate
+3311 strychnine phosphate dihydrate
+3312 equol, (+)-
+3313 human adenovirus e serotype 4 strain cl-68578 antigen
+3314 human adenovirus b serotype 7 strain 55142 antigen
+3315 norwalk virus
+3316 3,3'-diindolylmethane
+3317 thuringiensin
+3318 wheat gluten
+3319 hesperidin
+3320 sodium copper chlorophyllin
+3321 high fructose corn syrup
+3322 asparagine monohydrate
+3323 human milk
+3324 cesium
+3325 europium
+3326 gadolinium
+3327 lithium
+3328 rubidium nitrite
+3329 samarium
+3330 uranium
+3331 ytterbium
+3332 lanthanum
+3333 7-oxodehydroepiandrosterone 3-acetate
+3334 sus scrofa rectal mucosa
+3335 human coxsackievirus a2
+3336 human coxsackievirus a7
+3337 human coxsackievirus b1
+3338 human coxsackievirus b3
+3339 human coxsackievirus b4
+3340 tylophora indica leaf
+3341 naphthoquine
+3342 manganese pyrophosphate
+3343 bordetella pertussis
+3344 rickettsia rickettsii
+3345 octopamine hydrochloride
+3346 phenethylamine hydrochloride
+3347 chicken breast
+3348 fragaria vesca fruit
+3349 bean
+3350 influenza a virus a/brisbane/10/2010 (h1n1) hemagglutinin antigen (mdck cell derived, propiolactone inactivated)
+3351 influenza a virus a/brisbane/10/2010 (h1n1) neuraminidase antigen (mdck cell derived, propiolactone inactivated)
+3352 influenza a virus a/south australia/55/2014 (h3n2) hemagglutinin antigen (mdck cell derived, propiolactone inactivated)
+3353 influenza a virus a/south australia/55/2014 (h3n2) neuraminidase antigen (mdck cell derived, propiolactone inactivated)
+3354 influenza b virus b/utah/9/2014 hemagglutinin antigen (mdck cell derived, propiolactone inactivated)
+3355 influenza b virus b/utah/9/2014 neuraminidase antigen (mdck cell derived, propiolactone inactivated)
+3356 human adenovirus e serotype 4
+3357 human adenovirus b serotype 7
+3358 strontium
+3359 entamoeba histolytica
+3360 bacillus thuringiensis
+3361 glyphosate
+3362 phytolacca americana fruit
+3363 aloe vera leaf
+3364 ribes nigrum leaf
+3365 quebracho bark
+3366 mevalonolactone
+3367 equol, (-)-
+3368 sus scrofa large intestine
+3369 magnesium orotate dihydrate
+3370 influenza a virus a/california/7/2009 x-181 (h1n1) hemagglutinin antigen (propiolactone inactivated)
+3371 influenza a virus a/hong kong/4801/2014 x-263b (h3n2) hemagglutinin antigen (propiolactone inactivated)
+3372 influenza b virus b/brisbane/60/2008 hemagglutinin antigen (propiolactone inactivated)
+3373 taraxacum officinale flowering top
+3374 trifolium pratense leaf
+3375 rickettsia prowazekii
+3376 cypripedium parviflorum var. pubescens root
+3377 choline
+3378 rhododendron tomentosum leafy twig
+3379 astacus astacus
+3380 berberis aquifolium root bark
+3381 smilax ornata root
+3382 anemone pratensis
+3383 euphorbia corollata root
+3384 malus pumila flower
+3385 asarum canadense root
+3386 macropiper methysticum root
+3387 comocladia dentata bark/leaf
+3388 argemone mexicana
+3389 androctonus australis venom
+3390 tripe
+3391 amanita muscaria var. muscaria fruiting body
+3392 bos taurus thymus
+3393 bos taurus adrenal gland
+3394 bos taurus spleen
+3395 pasteurella multocida
+3396 etilevodopa
+3397 fallopia multiflora root
+3398 beef liver
+3399 astragalus propinquus root
+3400 eupatorium purpureum root
+3401 shark cartilage
+3402 diphtherial respiratory pseudomembrane human
+3403 hepatitis a virus
+3404 hepatitis c virus
+3405 chelone glabra
+3406 ferula communis subsp. glauca
+3407 althaea officinalis root
+3408 guaiac
+3409 hamamelis virginiana bark
+3410 whey
+3411 cervus elaphus velvet
+3412 nuphar luteum root
+3413 bos taurus testicle
+3414 long-(arg3)insulin-like growth factor-i
+3415 cochlearia officinalis flowering top
+3416 ambrosia psilostachya top
+3417 epimedium grandiflorum flowering top
+3418 androstenedione
+3419 tabebuia impetiginosa whole
+3420 eriodictyon californicum leaf
+3421 grindelia hirsutula flowering top
+3422 pregnenolone
+3423 rhamnus cathartica fruit
+3424 frangula purshiana bark
+3425 sanguinaria canadensis whole
+3426 bos taurus gallbladder
+3427 ammi visnaga fruit
+3428 bos taurus eye
+3429 beef heart
+3430 phosphoramidic acid
+3431 human mammary gland
+3432 bos taurus brain
+3433 harpagophytum procumbens root
+3434 lespedeza capitata flowering top
+3435 larrea tridentata top
+3436 cobaltous acetate
+3437 germanium
+3438 quercus alba bark
+3439 leonurus cardiaca
+3440 potassium chlorate
+3441 ethylene glycol
+3442 propyl alcohol
+3443 palmitic acid
+3444 sodium polyacrylate (8000 mw)
+3445 glutaral
+3446 methyl methacrylate
+3447 glycolic acid
+3448 ammonium thioglycolate
+3449 ethanolamine
+3450 2,5-diaminotoluene sulfate
+3451 p-aminophenol
+3452 diphenyltrichloroethane
+3453 chicory root
+3454 ruta graveolens flowering top oil
+3455 agrimonia eupatoria
+3456 chenopodium album whole
+3457 festuca pratensis top
+3458 myrtus communis top
+3459 jateorhiza calumba root
+3460 sinapis arvensis flowering/fruiting top
+3461 agrimonia eupatoria flower
+3462 melaleuca alternifolia flowering top
+3463 ulmus procera flowering twig
+3464 bromus ramosus flower
+3465 ptychopetalum olacoides root
+3466 beef lung
+3467 clostridium perfringens
+3468 influenza a virus a/vietnam/1203/2004 (h5n1, clade 1) antigen (formaldehyde inactivated)
+3469 populus tremula flowering top
+3470 calcium phosphate, unspecified form
+3471 sodium citrate, unspecified form
+3472 sodium phosphate
+3473 sorbic acid
+3474 apocarotenal
+3475 casein, lactococcus lactis cultured, penicillium camemberti cultured, aged
+3476 casein, lactococcus lactis cultured, aged
+3477 casein, emmental cultured
+3478 crotalus durissus terrificus venom
+3479 oxyuranus scutellatus canni venom
+3480 croton oil
+3481 ornithine
+3482 pinus sylvestris flowering top
+3483 salix alba flower
+3484 solanum lycopersicum
+3485 methyl acrylate
+3486 juniperus virginiana oil
+3487 sodium oxalate
+3488 vitis vinifera flowering top
+3489 maritime pine
+3490 sus scrofa ligament
+3491 gentianella amarella flower
+3492 carpinus betulus flowering top
+3493 scleranthus annuus flowering top
+3494 tubocurarine chloride
+3495 rosa arkansana root
+3496 hottonia palustris flower
+3497 white rice
+3498 monoethanolamine
+3499 lonicera caprifolium flowering top
+3500 ilex aquifolium fruiting top
+3501 castanea sativa flower
+3502 bos taurus mammary gland
+3503 aronia melanocarpa fruit
+3504 anhydrous trisodium citrate
+3505 tetanus toxin
+3506 ceratostigma willmottianum flower
+3507 antimony
+3508 polyacrylic acid (8000 mw)
+3509 toluene-2,5-diamine
+3510 larrea tridentata leaf
+3511 handroanthus impetiginosus bark
+3512 clostridium botulinum
+3513 aesculus hippocastanum leaf
+3514 solidago virgaurea pollen
+3515 trifolium pratense pollen
+3516 aesculus x carnea flower
+3517 arbutin
+3518 nymphaea odorata root
+3519 yucca filamentosa
+3520 tea tree oil
+3521 enzacamene
+3522 gemifloxacin mesylate
+3523 cefditoren pivoxil
+3524 interferon beta-1a
+3525 choriogonadotropin alfa
+3526 avelumab
+3527 ceftibuten dihydrate
+3528 desvenlafaxine
+3529 human cytomegalovirus immune globulin
+3530 xylometazoline hydrochloride
+3531 teniposide
+3532 echinacea
+3533 n-acetylglucosamine
+3534 hyaluronic acid
+3535 creatine
+3536 1-octacosanol
+3537 epinephrine hydrochloride
+3538 punica granatum root bark
+3539 brosimum acutifolium bark
+3540 himatanthus lancifolius bark
+3541 mansoa alliacea bark
+3542 mansoa alliacea leaf
+3543 minquartia guianensis bark
+3544 phyllanthus niruri whole
+3545 piper aduncum leaf
+3546 taraxacum officinale whole
+3547 iva angustifolia pollen
+3548 red clover
+3549 agrostis stolonifera pollen
+3550 butyl acetate
+3551 toluene
+3552 xylene
+3553 dibutyl phthalate
+3554 ethyl acetate
+3555 abies concolor pollen
+3556 liriodendron tulipifera whole
+3557 magnolia sprengeri flower bud
+3558 syringa vulgaris flower
+3559 acacia senegal flower
+3560 alnus serrulata bark
+3561 populus deltoides subsp. wislizeni pollen
+3562 pinus nigra pollen
+3563 populus trichocarpa pollen
+3564 carpinus caroliniana pollen
+3565 picea pungens pollen
+3566 quercus dumosa pollen
+3567 phoenix dactylifera pollen
+3568 pinus banksiana pollen
+3569 pinus thunbergii pollen
+3570 ligustrum lucidum pollen
+3571 pinus contorta pollen
+3572 betula papyrifera pollen
+3573 pinus sylvestris pollen
+3574 pinus rigida pollen
+3575 pinus resinosa pollen
+3576 carya tomentosa pollen
+3577 aesculus carnea flower
+3578 calluna vulgaris flowering top
+3579 ilex aquifolium flowering top
+3580 lonicera caprifolium flower
+3581 quercus robur flower
+3582 rosa canina flower
+3583 salix alba flowering top
+3584 bismuth subcarbonate
+3585 amaranthus hybridus pollen
+3586 trifolium repens pollen
+3587 rumex acetosa whole
+3588 avena sativa top
+3589 bos taurus intestinal mucosa
+3590 thyrotropin
+3591 paeonia officinalis whole
+3592 parathyroid hormone
+3593 asparagus adscendens root
+3594 pomegranate
+3595 spermidine
+3596 spermine
+3597 pulsatilla pratensis
+3598 casein, lactococcus lactis cultured, penicillium roqueforti cultured, aged
+3599 borage
+3600 solidago canadensis flowering top
+3601 human ligament
+3602 lilium longiflorum bulb
+3603 oxaloacetic acid
+3604 1,2-naphthoquinone
+3605 butylated hydroxytoluene
+3606 human coxsackievirus a
+3607 human coxsackievirus b
+3608 thyroid, bovine
+3609 zinc picrate nonahydrate
+3610 silicon
+3611 chloride ion
+3612 potassium
+3613 yttrium
+3614 fluoride ion
+3615 neodymium
+3616 zirconium
+3617 sodium
+3618 thulium
+3619 scandium
+3620 lutetium
+3621 gallium
+3622 thorium
+3623 tungsten
+3624 barium
+3625 ruthenium
+3626 hafnium
+3627 rhenium
+3628 laricifomes officinalis fruiting body
+3629 vaccinia virus
+3630 egg shell membrane
+3631 aconitic acid
+3632 amino acids
+3633 bromelains
+3634 pancrelipase
+3635 papain
+3636 brinolase
+3637 olive oil
+3638 borage oil
+3639 paullinia cupana seed
+3640 camellia japonica flower
+3641 glebionis coronaria whole
+3642 leucanthemum vulgare
+3643 gardenia jasminoides flower
+3644 narcissus pseudonarcissus flower
+3645 rosa damascena flowering top
+3646 thysanotus tuberosus flower
+3647 grevillea buxifolia flower
+3648 telopea speciosissima flower
+3649 manganese acetate
+3650 alternanthera sessilis
+3651 solanum tuberosum
+3652 allium sativum whole
+3653 kale
+3654 sarracenia purpurea
+3655 sepia esculenta bone
+3656 acmella oleracea flowering top
+3657 chinese chestnut
+3658 trapa bicornis seed
+3659 pine nut
+3660 american hazelnut
+3661 mockernut
+3662 corticotropin human
+3663 carnitine
+3664 bambusa vulgaris top
+3665 calcium phosphate, dibasic, anhydrous
+3666 tocopherol
+3667 thiamine ion
+3668 cholic acid
+3669 technetium tc-99m sestamibi
+3670 technetium tc-99m medronate
+3671 technetium tc-99m pyrophosphate
+3672 technetium tc-99m disofenin
+3673 alogliptin benzoate
+3674 butoconazole nitrate
+3675 calcipotriene hydrate
+3676 vinorelbine
+3677 viscum album whole
+3678 strychnos wallichiana bark
+3679 neisseria meningitidis serogroup b nhba fusion protein antigen
+3680 neisseria meningitidis serogroup b fhbp fusion protein antigen
+3681 neisseria meningitidis serogroup b nada protein antigen
+3682 neisseria meningitidis serogroup b strain nz98/254 outer membrane vesicle
+3683 sodium phosphate, monobasic, unspecified form
+3684 benzoin
+3685 tolu balsam
+3686 liquidambar styraciflua resin
+3687 polidocanol
+3688 sunflower oil
+3689 gadopentetate dimeglumine
+3690 ecallantide
+3691 ecballium elaterium fruit
+3692 peg-100 stearate
+3693 benzophenone
+3694 sodium iodide i-123
+3695 pralatrexate
+3696 adonis vernalis flowering top
+3697 hawthorn leaf with flower
+3698 onopordum acanthium flower
+3699 primula veris flower
+3700 hyoscyamus niger leaf
+3701 aesculus hippocastanum bark
+3702 borago officinalis whole
+3703 melilotus indicus seed
+3704 sloe
+3705 quercus robur whole
+3706 silver fluoride
+3707 ostrea edulis shell
+3708 levisticum officinale root
+3709 acmella oleracea whole
+3710 inula helenium root
+3711 plantago major leaf
+3712 verbascum densiflorum leaf
+3713 amniotic fluid (bovine)
+3714 fragaria vesca whole
+3715 taraxacum palustre root
+3716 vitis vinifera leaf
+3717 cichorium intybus whole
+3718 colloidal silicon dioxide
+3719 larix decidua resin
+3720 anise
+3721 ferrous disulfide
+3722 bos taurus artery
+3723 cucurbita pepo flower
+3724 fluorapatite
+3725 honey
+3726 eucalyptus gum
+3727 colchicum autumnale flower
+3728 silver sulfide
+3729 bos taurus brainstem
+3730 royal jelly
+3731 imperatoria ostruthia root
+3732 rosa rugosa flower
+3733 cardamom
+3734 lesser galangal root
+3735 lavandula angustifolia flower
+3736 sweet marjoram
+3737 centaurium erythraea flowering top
+3738 cola nut
+3739 litsea cubeba fruit
+3740 hyssopus officinalis whole
+3741 myristica fragrans whole
+3742 syzygium aromaticum fruit
+3743 coriander oil
+3744 long pepper
+3745 pteridium aquilinum whole
+3746 salix purpurea bark
+3747 asplenium scolopendrium top
+3748 willow bark
+3749 kalanchoe daigremontiana leaf
+3750 oxalis montana leaf
+3751 silver chloride
+3752 teucrium scorodonia whole
+3753 bos taurus cerebellum
+3754 bos taurus nerve
+3755 bos taurus pineal gland
+3756 sus scrofa ear
+3757 bifenthrin
+3758 orchis mascula tuber
+3759 bos taurus bone
+3760 bos taurus tendon
+3761 bos taurus frontal lobe
+3762 antimony pentasulfide
+3763 bos taurus joint capsule
+3764 strophanthus kombe whole
+3765 mammal liver
+3766 valerian root
+3767 silver carbonate
+3768 bos taurus ovary
+3769 sus scrofa fallopian tube
+3770 esculin
+3771 arum maculatum root
+3772 eupatorium cannabinum
+3773 acorus calamus root
+3774 geum urbanum root
+3775 rosa rugosa flower bud
+3776 urtica dioica leaf
+3777 urtica dioica root
+3778 levisticum officinale leaf
+3779 prunus spinosa budding top
+3780 origanum majorana
+3781 rose petal extract
+3782 azadirachta indica flower
+3783 cupric cation
+3784 rosemary oil
+3785 bambusa vulgaris whole
+3786 bos taurus intervertebral disc
+3787 stachys officinalis
+3788 penoxsulam
+3789 bos taurus placenta
+3790 bos taurus prostate gland
+3791 populus tremula whole
+3792 berberis vulgaris root
+3793 bos taurus nasal mucosa
+3794 bos taurus uterus
+3795 lead sulfide
+3796 betula pendula leaf
+3797 juniperus communis fruit
+3798 melilotus indicus whole
+3799 lonicera dasystyla flower bud
+3800 jujube fruit
+3801 bryonia cretica subsp. dioica root
+3802 eupatorium cannabinum whole flowering
+3803 spongia officinalis whole
+3804 quince
+3805 barium iodate
+3806 barium citrate
+3807 colchicum autumnale whole
+3808 oxalis stricta whole
+3809 magnesium sulfate, unspecified
+3810 magnesium phosphate, tribasic, pentahydrate
+3811 carbonate ion
+3812 malus domestica whole
+3813 bos taurus cartilage
+3814 lead carbonate
+3815 chelidonium majus root
+3816 sedum roseum whole
+3817 chrysosplenetin
+3818 mercuric cation
+3819 potash
+3820 agropyron fragile whole
+3821 sambucus canadensis flower
+3822 tilia americana flower
+3823 anamirta cocculus whole
+3824 conium maculatum root
+3825 bos taurus colon
+3826 asplenium scolopendrium whole
+3827 leonurus cardiaca flowering top
+3828 cortisone
+3829 lobelia spicata leaf
+3830 lead monosilicate
+3831 lemon peel
+3832 bos taurus conjunctiva
+3833 linden leaf
+3834 origanum majorana whole
+3835 avens extract
+3836 daphne mezereum whole
+3837 bos taurus red blood cell
+3838 chinese yam
+3839 petasites hybridus root
+3840 ferrous picrate
+3841 c12-17 alkane
+3842 echinacea pallida
+3843 ferrous cation
+3844 hamamelis virginiana top
+3845 hirudin
+3846 krameria lappacea whole
+3847 magnesium cation
+3848 aesculus glabra nut
+3849 desirudin
+3850 gonadotrophin, chorionic
+3851 potentilla erecta root
+3852 potassium phosphate, unspecified form
+3853 potassium sulfide
+3854 bos taurus parasympathetic nerve
+3855 chinese quince extract
+3856 sulfide ion
+3857 lysimachia nummularia
+3858 bos taurus ligament
+3859 chaenomeles sinensis fruit
+3860 magnesite
+3861 sus scrofa meniscus
+3862 cervus elaphus whole
+3863 bos taurus spinal cord
+3864 bos taurus bone marrow
+3865 tropaeolum majus
+3866 croton tiglium whole
+3867 bos taurus lymph vessel
+3868 cupric arsenite
+3869 copper arsenate
+3870 spinacia oleracea root
+3871 cupric arsenate
+3872 pumpkin
+3873 white oak bark
+3874 hydrated silica
+3875 bos taurus somatic nerve
+3876 lead tetroxide
+3877 pandanus tectorius root
+3878 beef tongue
+3879 abies alba leafy twig
+3880 picea abies leaf
+3881 eupatorium cannabinum flowering top
+3882 plantago lanceolata
+3883 helleborus
+3884 platinic chloride
+3885 prunus spinosa whole
+3886 hyacinthus orientalis whole
+3887 elymus repens top
+3888 ononis repens root
+3889 cytisus scoparius flowering top
+3890 taraxacum officinale root
+3891 sanguisorba officinalis root
+3892 cytisus scoparius flower
+3893 aristolochia clematitis whole
+3894 sphagnum squarrosum peat
+3895 bos taurus esophagus
+3896 polygonatum cyrtonema root
+3897 lead diphosphate
+3898 primula veris
+3899 equus caballus whole
+3900 wheat sprout
+3901 viola odorata flowering top
+3902 calcium cation
+3903 impatiens balsamina flower
+3904 schorl tourmaline
+3905 onopordum
+3906 thermus thermophilus lysate
+3907 garcinia cambogia fruit
+3908 ferric oxyhydroxide
+3909 bordetella pertussis toxoid antigen (glutaraldehyde inactivated)
+3910 bordetella pertussis filamentous hemagglutinin antigen (formaldehyde inactivated)
+3911 bordetella pertussis pertactin antigen
+3912 bordetella pertussis fimbriae 2/3 antigen
+3913 influenza a virus a/michigan/45/2015 x-275 (h1n1) antigen (formaldehyde inactivated)
+3914 influenza a virus a/hong kong/4801/2014 x-263b (h3n2) antigen (formaldehyde inactivated)
+3915 influenza b virus b/phuket/3073/2013 antigen (formaldehyde inactivated)
+3916 poliovirus type 1 antigen (formaldehyde inactivated)
+3917 poliovirus type 2 antigen (formaldehyde inactivated)
+3918 poliovirus type 3 antigen (formaldehyde inactivated)
+3919 neisseria meningitidis group a capsular polysaccharide diphtheria toxoid conjugate antigen
+3920 neisseria meningitidis group c capsular polysaccharide diphtheria toxoid conjugate antigen
+3921 neisseria meningitidis group y capsular polysaccharide diphtheria toxoid conjugate antigen
+3922 neisseria meningitidis group w-135 capsular polysaccharide diphtheria toxoid conjugate antigen
+3923 influenza a virus a/california/7/2009(h1n1)-like antigen (formaldehyde inactivated)
+3924 salmonella typhi ty2 vi polysaccharide antigen
+3925 yellow fever virus strain 17d-204 live antigen
+3926 fusarium oxysporum
+3927 candida tropicalis
+3928 penicillium camemberti
+3929 penicillium expansum
+3930 penicillium italicum
+3931 phoma destructiva
+3932 fraxinus pennsylvanica pollen
+3933 atriplex confertifolia pollen
+3934 passalora fulva
+3935 cochliobolus spicifer
+3936 myrothecium verrucaria
+3937 hypomyces perniciosus
+3938 neurospora crassa
+3939 paecilomyces variotii
+3940 microascus brevicaulis
+3941 colletotrichum coccodes
+3942 pleospora herbarum
+3943 streptomyces griseus
+3944 trichoderma viride
+3945 trichophyton schoenleinii
+3946 basil
+3947 mung bean
+3948 betula alleghaniensis pollen
+3949 ustilago cynodontis
+3950 ustilago nuda hordei
+3951 bromus secalinus pollen
+3952 beta vulgaris pollen
+3953 chenopodium botrys pollen
+3954 mycocladus corymbiferus
+3955 acrothecium robustum
+3956 humicola grisea
+3957 microsporum audouinii
+3958 microsporum canis
+3959 apiospora montagnei
+3960 phycomyces blakesleeanus
+3961 sporotrichum pruinosum
+3962 syncephalastrum racemosum
+3963 tetracoccosporium paxianum
+3964 verticillium albo-atrum
+3965 white catfish
+3966 carob
+3967 sweet cherry
+3968 quahog
+3969 cocoa bean
+3970 opilio crab
+3971 bos taurus hair
+3972 melilotus albus pollen
+3973 melilotus officinalis pollen
+3974 typha latifolia pollen
+3975 red currant
+3976 caraway
+3977 cumin
+3978 cladosporium herbarum
+3979 acheta domesticus
+3980 canis lupus familiaris hair
+3981 odocoileus virginianus hair
+3982 grain mill dust
+3983 epidermophyton floccosum
+3984 ambrosia dumosa pollen
+3985 ambrosia confertiflora pollen
+3986 sporisorium cruentum
+3987 goose
+3988 concord grape
+3989 capra hircus hair
+3990 cavia porcellus hair
+3991 sorghum bicolor ssp. drummondii pollen
+3992 arrhenatherum elatius pollen
+3993 equus caballus hair
+3994 sus scrofa hair
+3995 carya cordiformis pollen
+3996 carya glabra pollen
+3997 millet seed
+3998 mustard greens
+3999 quercus muehlenbergii pollen
+4000 quercus palustris pollen
+4001 quercus stellata pollen
+4002 quercus garryana pollen
+4003 red bell pepper
+4004 perch
+4005 chili pepper
+4006 oryctolagus cuniculus hair
+4007 sequoia sempervirens pollen
+4008 rumex obtusifolius pollen
+4009 rumex altissimus pollen
+4010 rumex salicifolius var. mexicanus pollen
+4011 sitotroga cerealella
+4012 english sole
+4013 platanus hybrida pollen
+4014 artemisia californica pollen
+4015 helianthus annuus pollen
+4016 starch, tapioca
+4017 larix occidentalis pollen
+4018 trichophyton rubrum
+4019 salix lucida ssp. lasiandra pollen
+4020 juniperus virginiana
+4021 venison
+4022 whitefish
+4023 artemisia dracunculus pollen
+4024 amaranthus retroflexus whole
+4025 albumin (human)
+4026 nadh
+4027 arginine pyroglutamate
+4028 ferulic acid
+4029 ornithine .alpha.-ketoglutarate
+4030 creatine monohydrate
+4031 belimumab
+4032 raxibacumab
+4033 benzylpenicilloyl polylysine
+4034 selegiline
+4035 hydrocotyle asiatica
+4036 sambucus nigra flower
+4037 almasilate
+4038 cephalosporium roseum
+4039 cochliobolus lunatus
+4040 haematonectria haematococca
+4041 chrysonilia sitophila
+4042 pleospora betae
+4043 puccinia striiformis var. striiformis
+4044 pleospora tarda
+4045 aspergillus nidulans
+4046 ustilago nuda
+4047 acacia pollen
+4048 bassia hyssopifolia pollen
+4049 brassica rapa pollen
+4050 callistemon citrinus pollen
+4051 parkinsonia florida pollen
+4052 dicoria canescens pollen
+4053 krascheninnikovia lanata pollen
+4054 ambrosia ambrosioides pollen
+4055 ambrosia chamissonis pollen
+4056 ambrosia salsola pollen
+4057 koeleria macrantha pollen
+4058 suaeda nigra pollen
+4059 tilia cordata pollen
+4060 padimate a
+4061 indocyanine green
+4062 bacillus cereus
+4063 bacillus firmus
+4064 mycobacterium phlei
+4065 bacillus subtilis
+4066 dolutegravir sodium
+4067 amiloxate
+4068 bemotrizinol
+4069 snail, unspecified
+4070 peppermint
+4071 lilium lancifolium flowering top
+4072 fraxinus excelsior leaf
+4073 silver iodide
+4074 cobaltous nitrate hexahydrate
+4075 sodium bromide
+4076 aconitum ferox root
+4077 chrysopogon zizanioides root
+4078 silodrate
+4079 amiloride hydrochloride anhydrous
+4080 metaproterenol sulfate
+4081 pimozide
+4082 vigabatrin
+4083 mafenide acetate
+4084 panax quinquefolius whole
+4085 hydrogen cyanide
+4086 aminosalicylic acid
+4087 benzocaine hydrochloride
+4088 ecamsule
+4089 viscum album leaf
+4090 fagus sylvatica nut
+4091 aloe vera flower
+4092 aloe ferox leaf
+4093 ulipristal acetate
+4094 influenza a virus a/singapore/6/86 (h1n1) hemagglutinin antigen (heat inactivated)
+4095 influenza a virus a/beijing/32/92 (h3n2) hemagglutinin antigen (heat inactivated)
+4096 influenza b virus b/panama/45/90 hemagglutinin antigen (heat inactivated)
+4097 influenza a virus a/singapore/6/86 (h1n1) antigen (heat inactivated)
+4098 anemone americana
+4099 petroleum alkylate
+4100 dioscorea villosa extract
+4101 cetyl alcohol
+4102 atropa belladonna fruiting top
+4103 leptin human
+4104 sus scrofa spinal cord
+4105 unithiol
+4106 issatchenkia orientalis whole
+4107 kluyveromyces marxianus
+4108 ehrlichia chaffeensis
+4109 plutonium
+4110 escargot shell, cooked
+4111 citrobacter koseri
+4112 serratia marcescens
+4113 enterobacter aerogenes
+4114 estrone sodium sulfate
+4115 ingenol mebutate
+4116 omalizumab
+4117 alteplase
+4118 rituximab
+4119 bevacizumab
+4120 erlotinib hydrochloride
+4121 obinutuzumab
+4122 ranibizumab
+4123 ado-trastuzumab emtansine
+4124 vemurafenib
+4125 dornase alfa
+4126 pirfenidone
+4127 alectinib hydrochloride
+4128 trastuzumab
+4129 tocilizumab
+4130 vismodegib
+4131 pertuzumab
+4132 ocrelizumab
+4133 cobimetinib fumarate
+4134 atezolizumab
+4135 star anise
+4136 lonicera xylosteum fruit
+4137 cimetidine hydrochloride
+4138 gatifloxacin anhydrous
+4139 trifluridine
+4140 jojoba oil
+4141 lycopene
+4142 saccharide isomerate
+4143 lecithin, soybean
+4144 regorafenib monohydrate
+4145 radium ra-223 dichloride
+4146 riociguat
+4147 gadoxetate disodium
+4148 gadobutrol
+4149 iopromide
+4150 copanlisib
+4151 drospirenone
+4152 sorafenib
+4153 praziquantel
+4154 pentosan polysulfate sodium
+4155 canagliflozin
+4156 paliperidone palmitate
+4157 rivaroxaban
+4158 mebendazole
+4159 brivaracetam
+4160 certolizumab pegol
+4161 rotigotine
+4162 collagenase clostridium histolyticum
+4163 becaplermin
+4164 hamamelis virginiana whole
+4165 silver citrate
+4166 swertia japonica
+4167 crotalus atrox immune fab antivenin (ovine)
+4168 agkistrodon piscivorus immune fab antivenin (ovine)
+4169 crotalus scutulatus immune fab antivenin (ovine)
+4170 crotalus adamanteus immune fab antivenin (ovine)
+4171 glucarpidase
+4172 medium-chain triglycerides
+4173 chitosan medium molecular weight (200-800 mpa.s)
+4174 sodium sulfide nonahydrate
+4175 shark
+4176 euphorbia hirta flowering top
+4177 human chorionic gonadotropin
+4178 symphoricarpos albus fruit
+4179 matricaria chamomilla whole
+4180 cod liver oil
+4181 monosodium glutamate anhydrous
+4182 chlorella vulgaris
+4183 spirulina platensis
+4184 lactobacillus acidophilus
+4185 garcinia gummi-gutta fruit
+4186 ruxolitinib
+4187 iodinated i-131 serum albumin
+4188 iothalamate sodium i-125
+4189 iodinated i-125 serum albumin
+4190 calcium formate
+4191 ferrous bisglycinate
+4192 choline bitartrate
+4193 antazoline
+4194 nardostachys chinensis whole
+4195 thonzylamine hydrochloride
+4196 polyethylene glycol 3500
+4197 trypsin, unspecified form
+4198 menthyl salicylate
+4199 brentuximab vedotin
+4200 ivacaftor
+4201 lumacaftor
+4202 soy isoflavones
+4203 indian frankincense
+4204 trolamine
+4205 solifenacin succinate
+4206 cocamidopropyl betaine
+4207 argan oil
+4208 calendula officinalis whole
+4209 thuja occidentalis root
+4210 thuja occidentalis bark
+4211 lavandula angustifolia flowering top
+4212 verbena hastata root
+4213 aesculus hippocastanum whole
+4214 ruta graveolens whole
+4215 butylene glycol
+4216 stearic acid
+4217 dipropylene glycol
+4218 1,2-hexanediol
+4219 dichlorphenamide
+4220 oxyquinoline
+4221 rose bengal sodium
+4222 chromium cr-51
+4223 iodide ion i-123
+4224 iobenguane sulfate i-123
+4225 sodium iodide i-131
+4226 indium in-111 pentetate disodium
+4227 phosphorus p-32
+4228 isosulfan blue
+4229 pentagastrin
+4230 protirelin
+4231 dextran 75
+4232 2,3-dimercaptosuccinic acid
+4233 calcium gluceptate
+4234 exametazime
+4235 bicisate
+4236 sodium pyrophosphate
+4237 gelatin
+4238 hypromellose 2910 (15000 mpa.s)
+4239 hypromellose 2910 (15 mpa.s)
+4240 ethyl macadamiate
+4241 cyclomethicone 5
+4242 zinc pidolate
+4243 carthamus tinctorius flower bud
+4244 corydalis ambigua tuber
+4245 cynanchum vincetoxicum leaf
+4246 fidaxomicin
+4247 albendazole
+4248 camphor, (+/-)-
+4249 collagenase
+4250 telavancin hydrochloride
+4251 azithromycin, unspecified form
+4252 darunavir ethanolate
+4253 acrivastine
+4254 esomeprazole strontium
+4255 carglumic acid
+4256 poloxamer 407
+4257 xanthan gum
+4258 hexylresorcinol
+4259 silodosin
+4260 triptorelin pamoate
+4261 acetyl hexapeptide-3
+4262 vasopressin
+4263 deferiprone
+4264 achyrocline satureioides
+4265 senna occidentalis
+4266 mirabilis jalapa flowering top
+4267 petiveria alliacea whole
+4268 physalis angulata
+4269 schinus molle bark
+4270 cinnamon bark oil
+4271 clove oil
+4272 lemon oil
+4273 choline c-11
+4274 quinic acid
+4275 aralia hispida root
+4276 chimaphila maculata
+4277 dalbergia pinnata root
+4278 vespula vulgaris venom protein
+4279 dolichovespula arenaria venom protein
+4280 dolichovespula maculata venom protein
+4281 polistes fuscatus venom protein
+4282 hepatica nobilis var. obtusa
+4283 selenicereus grandiflorus flower
+4284 silver cation
+4285 chromium picolinate
+4286 ferrous asparto glycinate
+4287 mahonia aquifolium fruiting top
+4288 pine needle oil (pinus sylvestris)
+4289 abies balsamea leaf oil
+4290 berberis vulgaris whole
+4291 rorippa nasturtium-aquaticum
+4292 pinus sylvestris top
+4293 icosapent ethyl
+4294 nelfinavir mesylate
+4295 simmondsia chinensis seed
+4296 ceramide 3
+4297 purslane
+4298 chamaemelum nobile flower
+4299 phellinus linteus mycelium
+4300 lagerstroemia indica whole
+4301 diosmetin
+4302 diacetyl benzoyl lathyrol
+4303 hydroxyproline
+4304 atractylodes japonica root
+4305 bisoctrizole
+4306 polydatin
+4307 calcium glycerophosphate
+4308 glycyrrhizinate dipotassium
+4309 curcuma xanthorrhiza oil
+4310 sea salt
+4311 angelica dahurica root
+4312 octyltriethoxysilane
+4313 protocatechualdehyde
+4314 diethylamino hydroxybenzoyl hexyl benzoate
+4315 atractylodes japonica root oil
+4316 polysilicone-15
+4317 methyl undecenoyl leucinate
+4318 human varicella-zoster immune globulin
+4319 dimethicone 410
+4320 bryonia dioica root
+4321 cinchona bark
+4322 calcium phosphate, dibasic, dihydrate
+4323 eschscholzia californica flowering top
+4324 lead acetate
+4325 eriodictyon californicum flowering top
+4326 potentilla anserina flowering top
+4327 mahonia aquifolium whole
+4328 betaine hydrochloride
+4329 coconut oil
+4330 racemethionine
+4331 cystine
+4332 lithium bromide
+4333 pumpkin seed
+4334 hippeastrum puniceum whole
+4335 patiromer
+4336 gabapentin enacarbil
+4337 dihydroergocornine mesylate
+4338 dihydroergocristine mesylate
+4339 dihydro-.alpha.-ergocryptine mesylate
+4340 dihydro-.beta.-ergocryptine mesylate
+4341 cardiospermum halicacabum flowering top
+4342 iris versicolor whole
+4343 gelsemium sempervirens whole
+4344 cedar leaf oil
+4345 illicium anisatum whole
+4346 ferrous carbonate
+4347 citalopram
+4348 cinacalcet hydrochloride
+4349 etravirine
+4350 elvitegravir
+4351 soursop
+4352 withania somnifera root
+4353 lanthanum carbonate
+4354 lifitegrast
+4355 idursulfase
+4356 velaglucerase alfa
+4357 icatibant acetate
+4358 bos taurus urinary bladder
+4359 hydrangea arborescens whole
+4360 beef kidney
+4361 rubia tinctorum whole
+4362 solidago virgaurea whole
+4363 arctostaphylos uva-ursi whole
+4364 cherry plum
+4365 dopa, dl-
+4366 noradrenaline, (+/-)-
+4367 bos taurus mesencephalon
+4368 gliotoxin
+4369 lomatium dissectum whole
+4370 bos taurus lymph
+4371 bos taurus mesenchyme
+4372 phytolacca americana whole
+4373 elymus repens whole
+4374 valeriana officinalis whole
+4375 commiphora myrrha whole
+4376 lachesis muta whole
+4377 salvia officinalis whole
+4378 thymus vulgaris whole
+4379 magnesium phosphate anhydrous
+4380 acetylcarnitine
+4381 uncaria tomentosa leaf
+4382 populus alba whole
+4383 ulmus alata whole
+4384 gentiana acaulis
+4385 impatiens capensis whole
+4386 larix decidua whole
+4387 brassica nigra whole
+4388 olea europaea fruit volatile oil
+4389 avena fatua whole
+4390 clematis chinensis root
+4391 impatiens balsamina leaf
+4392 cistus incanus whole
+4393 mycobacterium tuberculosis
+4394 human thymus
+4395 arctium lappa whole
+4396 angelica atropurpurea root
+4397 anemone nemorosa
+4398 rumex crispus whole
+4399 pine needle oil (pinus mugo)
+4400 aluminum zirconium pentachlorohydrex gly
+4401 pegloticase
+4402 cysteamine hydrochloride
+4403 procarbazine hydrochloride
+4404 galphimia glauca whole
+4405 teucrium marum top
+4406 verbascum densiflorum flowering top
+4407 toxicodendron pubescens shoot
+4408 drosera intermedia
+4409 eichhornia crassipes whole
+4410 apis cerana whole
+4411 achillea millefolium flowering top
+4412 scrophularia nodosa leaf with stem
+4413 hordeum vulgare pollen
+4414 phalaris minor pollen
+4415 lolium perenne subsp. multiflorum pollen
+4416 sorghum bicolor subsp. bicolor pollen
+4417 sorghum bicolor subsp. drummondii pollen
+4418 amphiachyris dracunculoides pollen
+4419 neurospora sitophila
+4420 trichophyton tonsurans
+4421 mycogone nigra
+4422 absidia capillata
+4423 thermomyces lanuginosus
+4424 trichosporon cutaneum
+4425 largemouth bass
+4426 blue ridge blueberry
+4427 catfish
+4428 cod
+4429 blue crab
+4430 barley malt
+4431 pink salmon
+4432 ulmus rubra pollen
+4433 pseudotsuga menziesii pollen
+4434 carya laciniosa pollen
+4435 maclura pomifera pollen
+4436 rhus glabra pollen
+4437 ulmus rubra bark
+4438 pueraria montana var. lobata whole
+4439 quercus robur twig bark
+4440 eucalyptus globulus whole
+4441 sambucus nigra whole
+4442 interferon alfa-n3
+4443 auranofin
+4444 difenoxin hydrochloride
+4445 homatropine hydrobromide
+4446 florbetaben f-18
+4447 choline magnesium trisalicylate
+4448 estrogens, conjugated synthetic a
+4449 oxycodone terephthalate
+4450 filgrastim
+4451 erythropoietin
+4452 cefadroxil hemihydrate
+4453 telithromycin
+4454 penicillin g benzathine
+4455 penicillin g procaine
+4456 rifaximin
+4457 ciclesonide
+4458 dexlansoprazole
+4459 bismuth subcitrate potassium
+4460 estrogens, conjugated synthetic b
+4461 bepotastine
+4462 rilpivirine hydrochloride
+4463 avena sativa leaf
+4464 humulus lupulus stem
+4465 coffea arabica fruit
+4466 echinacea angustifolia root
+4467 hepatitis a virus strain hm175 antigen (formaldehyde inactivated)
+4468 valacyclovir
+4469 .alpha.-lipoic acid, (+/-)-
+4470 carbon monoxide
+4471 chloroform
+4472 lonicera periclymenum flowering twig
+4473 rhodiola kirilowii whole
+4474 humulus lupulus pollen
+4475 cinnamomum camphora whole
+4476 crocus sativus flower
+4477 insulin argine
+4478 carapichea ipecacuanha whole
+4479 lycopodium clavatum whole
+4480 momordica balsamina whole
+4481 marsdenia cundurango whole
+4482 ceftazidime sodium
+4483 dexamethasone phosphate
+4484 tacrolimus anhydrous
+4485 piperacillin
+4486 tazobactam
+4487 protamine sulfate
+4488 methylephedrine hydrochloride, dl-
+4489 vardenafil hydrochloride trihydrate
+4490 succimer
+4491 ethotoin
+4492 hemin
+4493 dactinomycin
+4494 mechlorethamine hydrochloride
+4495 amifostine
+4496 darbepoetin alfa
+4497 talimogene laherparepvec
+4498 pegfilgrastim
+4499 romiplostim
+4500 denosumab
+4501 etelcalcetide hydrochloride
+4502 evolocumab
+4503 ivabradine hydrochloride
+4504 panitumumab
+4505 corticorelin ovine triflutate
+4506 sodium picosulfate
+4507 tussilago farfara
+4508 sanicula europaea leaf
+4509 cow milk fat
+4510 phasianus colchicus feather
+4511 meleagris gallopavo feather
+4512 human dander
+4513 human hair
+4514 human skin
+4515 sheep wool
+4516 mesocricetus auratus hair
+4517 fd&c yellow no. 5
+4518 fd&c yellow no. 6
+4519 carmoisine
+4520 ponceau 4r
+4521 fd&c red no. 3
+4522 acid red 1
+4523 fd&c blue no. 2
+4524 acid green 50
+4525 potassium benzoate
+4526 sodium dithionate
+4527 2-phenylphenol
+4528 sodium nitrite
+4529 quahog, unspecified
+4530 scallop, unspecified
+4531 trillium erectum root
+4532 hazelnut, unspecified
+4533 trout, unspecified
+4534 herring, unspecified
+4535 cynosurus cristatus pollen
+4536 echinochloa crus-galli pollen
+4537 fagus sylvatica pollen
+4538 betula pendula pollen
+4539 fraxinus excelsior pollen
+4540 platanus orientalis pollen
+4541 ulmus glabra pollen
+4542 salix alba pollen
+4543 lilium candidum flower
+4544 dianthus caryophyllus flower
+4545 cytisus scoparius pollen
+4546 calluna vulgaris pollen
+4547 crataegus monogyna pollen
+4548 saccharin
+4549 alopecurus pratensis pollen
+4550 primula vulgaris
+4551 rheum officinale whole
+4552 juglans regia whole
+4553 arsenic cation (3+)
+4554 arisaema dracontium root
+4555 artemisia maritima flower
+4556 populus balsamifera leaf bud
+4557 hura crepitans sap
+4558 phosphate ion
+4559 agkistrodon piscivorus venom
+4560 heloderma suspectum venom
+4561 bacillus anthracis
+4562 sanicula europaea whole
+4563 artemisia maritima pre-flowering top
+4564 onosmodium virginianum root
+4565 human parathyroid
+4566 crisaborole
+4567 brilliant green
+4568 proflavine hemisulfate
+4569 chlorhexidine acetate
+4570 ferric pyrophosphate citrate
+4571 eugenia jambos
+4572 echinococcus granulosus
+4573 tylophora indica root
+4574 acai
+4575 rubus idaeus leaf
+4576 levocarnitine tartrate
+4577 sarsaparilla root
+4578 bis(carboxyethyl)germanium sesquioxide
+4579 chondrus
+4580 hydroxycitric acid
+4581 thymus
+4582 colostrum human
+4583 theanine
+4584 tabebuia heterophylla bark
+4585 sambucus nigra subsp. canadensis flowering top
+4586 lomatium
+4587 mirabilis jalapa top
+4588 petiveria alliacea root
+4589 agrostis gigantea
+4590 west nile virus
+4591 tea leaf oil
+4592 defibrotide (bovine lung)
+4593 agrimonia eupatoria flowering top
+4594 physalia physalis
+4595 mercuric oxide, yellow
+4596 benzenesulfonic acid
+4597 european flounder
+4598 atlantic halibut
+4599 scomberomorus cavalla whole
+4600 edible oyster
+4601 sea scallop
+4602 diethyltoluamide
+4603 labetalol
+4604 pegademase bovine
+4605 dimyristoylphosphatidylcholine, dl-
+4606 dimyristoylphosphatidylglycerol, dl-
+4607 helianthemum nummularium whole
+4608 clematis vitalba whole
+4609 impatiens glandulifera whole
+4610 prunus cerasifera whole
+4611 fagus sylvatica whole
+4612 ceratostigma willmottianum whole
+4613 clematis vitalba top
+4614 malus sylvestris whole
+4615 ulmus procera whole
+4616 gentianella amarella whole
+4617 carlina vulgaris whole
+4618 lonicera caprifolium whole
+4619 mimulus guttatus whole
+4620 sinapis arvensis whole
+4621 pinus sylvestris whole
+4622 aesculus carnea whole
+4623 scleranthus annuus whole
+4624 castanea sativa whole
+4625 verbena officinalis
+4626 vitis vinifera whole
+4627 bromus ramosus whole
+4628 salix alba whole
+4629 elm
+4630 loxapine
+4631 infliximab, license holder unspecified
+4632 ustekinumab
+4633 golimumab
+4634 abiraterone acetate
+4635 siltuximab
+4636 daratumumab
+4637 guselkumab
+4638 asparaginase erwinia chrysanthemi
+4639 prunus persica flower
+4640 fraxinus excelsior bark
+4641 grindelia squarrosa whole
+4642 coccinella septempunctata
+4643 boletus luridus fruiting body
+4644 erechtites hieraciifolius
+4645 butyric acid
+4646 calcium lactate pentahydrate
+4647 persicaria punctata
+4648 angostura bark
+4649 aconitum lycoctonum
+4650 acalypha indica
+4651 manganese carbonate
+4652 chiococca alba root
+4653 oxydendrum arboreum leaf
+4654 chromic oxide
+4655 chloramphenicol
+4656 oxytropis lambertii top
+4657 parthenium hysterophorus
+4658 harrisia pomanensis stem
+4659 erodium cicutarium
+4660 jatropha curcas seed
+4661 lolium temulentum top
+4662 abelmoschus moschatus seed
+4663 tsuga canadensis flower bud
+4664 lobelia cardinalis
+4665 bismuth oxide
+4666 sodium nitrate
+4667 ephedra distachya flowering twig
+4668 ilex paraguariensis leaf
+4669 cola acuminata seed
+4670 solanine
+4671 sandalwood oil
+4672 barium acetate
+4673 sassafras albidum root bark
+4674 agrostemma githago seed
+4675 platanus occidentalis whole
+4676 euonymus atropurpureus branch bark/root bark
+4677 ageratina aromatica root
+4678 hyacinthoides non-scripta
+4679 chenopodium vulvaria
+4680 mimosa pudica leaf
+4681 vetiveria zizanioides root
+4682 .beta.-sitosterol
+4683 sodium sulfite
+4684 elaeis guineensis fruit
+4685 ibrutinib
+4686 dalbavancin hydrochloride
+4687 ferric ferrocyanide
+4688 marrubium vulgare
+4689 cervus nippon velvet
+4690 bordetella pertussis toxoid antigen (formaldehyde, glutaraldehyde inactivated)
+4691 bordetella pertussis pertactin antigen (formaldehyde inactivated)
+4692 hepatitis b virus subtype adw2 hbsag surface protein antigen
+4693 influenza a virus a/singapore/gp1908/2015 ivr-180 (h1n1) antigen (formaldehyde inactivated)
+4694 lomustine
+4695 kaempferia galanga root
+4696 ethyl ferulate
+4697 larix sibirica wood
+4698 racementhol
+4699 4,4'-oxydi-2-butanol
+4700 magaldrate
+4701 troxerutin
+4702 lonicera confusa flower
+4703 forsythia suspensa fruit
+4704 mentha arvensis top
+4705 platycodon grandiflorus root
+4706 frangula californica bark
+4707 trametes versicolor fruiting body
+4708 etanercept
+4709 agalsidase beta
+4710 laronidase
+4711 lapine t-lymphocyte immune globulin
+4712 alglucosidase alfa
+4713 mipomersen sodium
+4714 alemtuzumab
+4715 teriflunomide
+4716 eliglustat
+4717 autologous cultured chondrocytes
+4718 imiglucerase
+4719 tizanidine
+4720 flibanserin
+4721 methylene blue anhydrous
+4722 hyoscyamine sulfate anhydrous
+4723 didecyldimethylammonium
+4724 benzalkonium bromide
+4725 borneol
+4726 garden snail mucin
+4727 morus alba root bark
+4728 ferrous cysteine glycinate
+4729 p-phenylenediamine
+4730 panax ginseng whole
+4731 methicone (20 cst)
+4732 aluminum stearate
+4733 2-ethylhexyl benzoate
+4734 naldemedine tosylate
+4735 yellow wax
+4736 shea butter
+4737 tolvaptan
+4738 brexpiprazole
+4739 linum catharticum
+4740 platycladus orientalis leaf
+4741 crataegus fruit
+4742 strophanthus gratus seed
+4743 reslizumab
+4744 ferumoxytol non-stoichiometric magnetite
+4745 glechoma hederacea flowering top
+4746 pulmonaria officinalis whole
+4747 atropa bella-donna flowering top
+4748 lophophytum leandrii
+4749 cynara scolymus whole
+4750 ailanthus altissima whole
+4751 nasturtium officinale whole
+4752 usnea barbata
+4753 centella asiatica flowering top
+4754 pilocarpus jaborandii leaf
+4755 anemone pratensis flowering top
+4756 lamium album flowering top
+4757 capsella bursa-pastoris top
+4758 sanicula europaea top
+4759 cobaltous nitrate
+4760 convallaria majalis flowering top
+4761 selenicereus grandiflorus whole
+4762 fumaria officinalis whole
+4763 syzygium cumini fruit
+4764 datura stramonium flowering top
+4765 matricaria recutita flowering top
+4766 ginkgo biloba leaf oil
+4767 tripterygium wilfordii whole
+4768 rice bran oil
+4769 thalidomide
+4770 lenalidomide
+4771 pomalidomide
+4772 apremilast
+4773 enasidenib mesylate
+4774 coccidioides immitis spherule
+4775 betula pubescens flower bud
+4776 quercus marilandica pollen
+4777 cupressus sempervirens fruiting leafy twig
+4778 boletus satanas fruiting body
+4779 doripenem
+4780 ospemifene
+4781 ricinus communis whole
+4782 cannabis sativa subsp. indica top
+4783 cannabis sativa subsp. sativa flowering top
+4784 senecio vulgaris
+4785 cicuta virosa whole
+4786 agrostis capillaris pollen
+4787 bromus commutatus pollen
+4788 alnus glutinosa pollen
+4789 corylus avellana pollen
+4790 platanus x acerifolia pollen
+4791 populus tremula pollen
+4792 quercus robur pollen
+4793 brassica napus subsp. napus pollen
+4794 chenopodium bonus-henricus pollen
+4795 plantago major pollen
+4796 ranunculus bulbosus pollen
+4797 d&c yellow no. 11
+4798 modified corn starch (1-octenyl succinic anhydride)
+4799 bambusa bambos whole
+4800 anhydrous dibasic calcium phosphate
+4801 colchicum autumnale seed
+4802 alum, potassium
+4803 muromonab-cd3
+4804 simeprevir
+4805 trabectedin
+4806 bedaquiline fumarate
+4807 oleic acid
+4808 chrysanthellum indicum subsp. afroamericanum
+4809 tetraferric tricitrate decahydrate
+4810 sodium thiosulfate
+4811 cianidanol
+4812 mometasone
+4813 lindane
+4814 equine botulinum neurotoxin a immune fab2
+4815 equine botulinum neurotoxin b immune fab2
+4816 equine botulinum neurotoxin c immune fab2
+4817 equine botulinum neurotoxin d immune fab2
+4818 equine botulinum neurotoxin e immune fab2
+4819 equine botulinum neurotoxin f immune fab2
+4820 equine botulinum neurotoxin g immune fab2
+4821 human vaccinia virus immune globulin
+4822 anthrax immune globulin human
+4823 moxifloxacin hydrochloride monohydrate
+4824 actaea cimicifuga root
+4825 hyoscyamus niger whole
+4826 amanita muscaria whole
+4827 alfalfa whole
+4828 thyroid, ovine
+4829 magnesium carbonate hydroxide
+4830 acetanilide
+4831 aconitine
+4832 agaricic acid
+4833 ammonium valerate
+4834 aniline
+4835 artemisia absinthium whole
+4836 iresine calea
+4837 agaricus campestris var. campestris whole
+4838 russula emetica whole
+4839 amanita pantherina whole
+4840 amanita phalloides whole
+4841 agave americana leaf
+4842 agave tequilana top
+4843 vitex agnus-castus whole
+4844 argemone mexicana whole
+4845 aristolochia serpentaria root
+4846 dactylopius coccus whole
+4847 potentilla anserina whole
+4848 echinacea purpurea root
+4849 5-methoxytryptamine
+4850 palivizumab
+4851 azilsartan kamedoxomil
+4852 penicillium brevicompactum
+4853 calvatia gigantea whole
+4854 maitake
+4855 brevibacterium stationis
+4856 propionibacterium acnes
+4857 germanium citrate lactate
+4858 human placenta hydrolysate
+4859 mycobacterium bovis
+4860 trichophyton verrucosum
+4861 manuka oil
+4862 propionibacterium avidum
+4863 mucor racemosus immunoserum rabbit
+4864 aspergillus niger
+4865 aspergillus niger immunoserum rabbit
+4866 fomitopsis pinicola
+4867 mycobacterium bovis immunoserum rabbit
+4868 mycobacterium microti immunoserum rabbit
+4869 lactococcus lactis immunoserum rabbit
+4870 streptococcus pyogenes immunoserum rabbit
+4871 streptococcus viridans group immunoserum rabbit
+4872 staphylococcus epidermidis immunoserum rabbit
+4873 staphylococcus aureus immunoserum rabbit
+4874 streptococcus pneumoniae immunoserum rabbit
+4875 treponema pallidum immunoserum rabbit
+4876 influenza a/b virus immunoserum rabbit
+4877 haemophilus influenzae immunoserum rabbit
+4878 malarial plasmodium group immunoserum rabbit
+4879 aspergillus ruber
+4880 thymus extract
+4881 citric acid
+4882 ginkgo biloba leaf
+4883 strophanthus hispidus
+4884 ethiodized oil
+4885 prezatide copper
+4886 palmitoyl oligopeptide
+4887 nepidermin
+4888 basic fibroblast growth factor (human)
+4889 thioredoxin
+4890 vanillyl butyl ether
+4891 zinc gluconate trihydrate
+4892 triethylhexanoin
+4893 heterotheca inuloides flower
+4894 eteplirsen
+4895 hyaluronidase recombinant human
+4896 iris germanica root
+4897 alchemilla xanthochlora flowering top
+4898 galium odoratum
+4899 trillium erectum whole
+4900 crataegus laevigata whole
+4901 polygonum aviculare top
+4902 acorus calamus whole
+4903 argentina anserina flowering top
+4904 luffa acutangula fruit
+4905 phenyl butyrate
+4906 hydrogenated soybean oil
+4907 curcuma aromatica root oil
+4908 panax ginseng root oil
+4909 deoxycholic acid
+4910 nicotine bitartrate anhydrous
+4911 filgrastim, license holder unspecified
+4912 metipranolol
+4913 capsicum spp.
+4914 peramivir
+4915 nickel sulfate
+4916 crotalus horridus horridus whole
+4917 magnesium phosphate, monobasic, unspecified
+4918 naja naja whole
+4919 rhus spp. whole
+4920 angelica sinensis whole
+4921 morinda officinalis whole
+4922 quinupristin
+4923 dalfopristin
+4924 thuja plicata leaf
+4925 hyoscyamine
+4926 foscolic acid
+4927 sepia esculenta whole
+4928 taxus baccata fruit
+4929 arctium lappa fruit
+4930 solidago canadensis whole
+4931 caulophyllum robustum root
+4932 luffa operculata whole
+4933 ceanothus americanus whole
+4934 miltefosine
+4935 rilonacept
+4936 quazepam
+4937 eluxadoline
+4938 cariprazine
+4939 perindopril arginine
+4940 arnica cordifolia flower
+4941 kalmia angustifolia leaf
+4942 calfactant
+4943 glycyrrhiza glabra leaf
+4944 rosa canina leaf
+4945 tussilago farfara leaf
+4946 ambrisentan
+4947 sofosbuvir
+4948 idelalisib
+4949 ledipasvir
+4950 tenofovir alafenamide fumarate
+4951 velpatasvir
+4952 voxilaprevir
+4953 ginsenosides
+4954 oryctolagus cuniculus thyroid
+4955 oryctolagus cuniculus whole
+4956 oryctolagus cuniculus heart
+4957 oryctolagus cuniculus liver
+4958 oryctolagus cuniculus parasympathetic nerve
+4959 oryctolagus cuniculus kidney
+4960 oryctolagus cuniculus adrenal gland
+4961 oryctolagus cuniculus thymus
+4962 echinacea purpurea flowering top
+4963 oryctolagus cuniculus spleen
+4964 oryctolagus cuniculus lung
+4965 oryctolagus cuniculus pancreatin
+4966 oryctolagus cuniculus pituitary gland
+4967 oryctolagus cuniculus hypothalamus
+4968 genista tinctoria
+4969 bay leaf
+4970 adiantum capillus-veneris leaf
+4971 tussilago farfara whole
+4972 illicium verum whole
+4973 hieracium pilosella whole
+4974 salvia pratensis leaf
+4975 glechoma hederacea
+4976 combretum micranthum leaf
+4977 ajuga reptans whole
+4978 saxifraga granulata whole
+4979 origanum vulgare subsp. hirtum whole
+4980 star anise fruit
+4981 jacaranda caroba leaf
+4982 juniperus sabina leaf
+4983 manganese dioxide
+4984 betula pendula wood
+4985 rheum tanguticum whole
+4986 chinese rhubarb root
+4987 pilocarpus microphyllus leaf
+4988 saxifraga granulata flowering top
+4989 mercurialis annua flowering top
+4990 polygonum punctatum
+4991 rubus fruticosus leaf
+4992 oryctolagus cuniculus knee joint
+4993 oryctolagus cuniculus ligament
+4994 oryctolagus cuniculus bone
+4995 oryctolagus cuniculus cartilage
+4996 buxus sempervirens leafy twig
+4997 taxus baccata whole
+4998 bee pollen
+4999 equisetum hyemale top
+5000 barium chloride
+5001 oregano flowering top
+5002 acer negundo inner bark
+5003 ammonium cation
+5004 bothrops atrox venom
+5005 anaerococcus tetradius
+5006 moraxella catarrhalis subsp. catarrhalis
+5007 oryctolagus cuniculus spinal cord
+5008 oryctolagus cuniculus duodenum
+5009 oryctolagus cuniculus testicle
+5010 ledum palustre whole
+5011 phenoxyethanol
+5012 naloxone
+5013 oat straw
+5014 ketorolac
+5015 n-alkyl ethylbenzyl dimethyl ammonium chloride (c12-c14)
+5016 dicentra canadensis root
+5017 quaternium-18
+5018 sodium bentonite
+5019 hydroxyprogesterone caproate
+5020 povidone k30
+5021 fenugreek leaf
+5022 sorghum x drummondii pollen
+5023 sorghum bicolor pollen
+5024 salsola tragus pollen
+5025 canis lupus familiaris dander
+5026 equus caballus dander
+5027 bos taurus dander
+5028 cavia porcellus dander
+5029 sus scrofa dander
+5030 strychnine nitrate
+5031 altretamine
+5032 perampanel
+5033 eribulin mesylate
+5034 lorcaserin hydrochloride hemihydrate
+5035 rufinamide
+5036 alitretinoin
+5037 lenvatinib
+5038 netupitant
+5039 palonosetron
+5040 palonosetron hydrochloride
+5041 salmonella enterica enterica serovar enteritidis
+5042 phenolsulfonic acid
+5043 bortezomib
+5044 ixazomib citrate
+5045 diphenhydramine
+5046 intrinsic factor
+5047 pimavanserin tartrate
+5048 polyvinyl alcohol, unspecified
+5049 povidone, unspecified
+5050 chloramphenicol sodium succinate
+5051 pentamidine isethionate
+5052 cuprous chloride
+5053 ferric chloride
+5054 sodium molybdate dihydrate
+5055 floxuridine
+5056 sodium glycerophosphate anhydrous
+5057 vinblastine sulfate
+5058 cefuroxime
+5059 kanamycin a sulfate
+5060 fish oil
+5061 eslicarbazepine acetate
+5062 lurasidone hydrochloride
+5063 arformoterol tartrate
+5064 omacetaxine mepesuccinate
+5065 bendamustine hydrochloride
+5066 yttrium iodide
+5067 olivine
+5068 yttrium fluoride
+5069 yttrium bromide
+5070 cadmium chloride
+5071 lithium phosphate
+5072 magnesium acetate tetrahydrate
+5073 quercus rubra whole
+5074 silicon tetrachloride
+5075 strontium chloride hexahydrate
+5076 tellurium tetrachloride
+5077 veratrum nigrum flowering top
+5078 rubidium fluoride
+5079 dipsacus fullonum whole
+5080 potassium tartrate
+5081 potassium tellurite
+5082 manganese difluoride
+5083 ethyl nitrite
+5084 plumeria rubra whole
+5085 scandium chloride
+5086 vanilla planifolia whole
+5087 zinc iodide
+5088 zirconium carbonate hydroxide oxide
+5089 fexofenadine
+5090 sildenafil
+5091 choline chloride
+5092 interferon gamma-1a
+5093 interleukin-12 human
+5094 bos taurus peyer's patch
+5095 sus scrofa peyer's patch
+5096 apomorphine
+5097 sus scrofa joint capsule
+5098 ersofermin
+5099 bos taurus solar plexus
+5100 sus scrofa solar plexus
+5101 calcitonin
+5102 pork collagen
+5103 sus scrofa red blood cell
+5104 edodekin alfa
+5105 sus scrofa mesenchyme
+5106 bos taurus vein
+5107 bos taurus ankle joint
+5108 sus scrofa ankle joint
+5109 bos taurus achilles tendon
+5110 sus scrofa achilles tendon
+5111 bos taurus hip joint
+5112 sus scrofa hip joint
+5113 bos taurus knee joint
+5114 sus scrofa knee joint
+5115 avotermin
+5116 ammoniac
+5117 vaccinium vitis-idaea leaf
+5118 penicillin g
+5119 sus scrofa tendon
+5120 cetermin
+5121 arched swimming crab, cooked
+5122 dungeness crab, cooked
+5123 serrated swimming crab, cooked
+5124 snow crab, unspecified
+5125 starch, rice
+5126 bos taurus pancreas
+5127 bos taurus duodenum
+5128 tilia tomentosa bud
+5129 bos taurus hippocampus
+5130 sus scrofa hippocampus
+5131 mecasermin rinfabate
+5132 bos taurus sympathetic nerve
+5133 antiaris toxicaria resin
+5134 acetylcholinesterase human
+5135 melanin synthetic (tyrosine, peroxide)
+5136 bos taurus limbic system
+5137 sus scrofa limbic system
+5138 fluke, unspecified
+5139 juglans nigra whole
+5140 bos taurus tonsil
+5141 fluorine
+5142 barium cation
+5143 sodium cation
+5144 potassium cation
+5145 lactuca virosa leaf
+5146 camellia sinensis flower
+5147 lactose, x-ray exposed (1000 rad)
+5148 helianthus annuus flower
+5149 potassium silicate
+5150 ocimum americanum leaf
+5151 solanum nigrum top
+5152 guaiacum sanctum resin
+5153 lophophora williamsii flower
+5154 bovine tuberculin
+5155 burkholderia mallei
+5156 rabies virus
+5157 latrodectus mactans venom
+5158 phenyl trimethicone
+5159 methacholine chloride
+5160 dimethyl fumarate
+5161 natalizumab
+5162 peginterferon beta-1a
+5163 nusinersen
+5164 prunus virginiana bark
+5165 chlorpromazine
+5166 phenacetin
+5167 white mustard seed
+5168 agrimonia eupatoria whole
+5169 olea europaea leaf
+5170 prunus serotina bark
+5171 wood tar hydrocarbon distillate
+5172 chamaemelum nobile
+5173 calcium lactate
+5174 aqua regia
+5175 papaya seed
+5176 ether
+5177 sanguinarine nitrate
+5178 rheum palmatum root
+5179 californium cf-249
+5180 human colostrum
+5181 leucovorin
+5182 zinc ascorbate
+5183 cocarboxylase
+5184 flavin adenine dinucleotide
+5185 pyridoxal phosphate anhydrous
+5186 cobamamide
+5187 magnesium l-threonate
+5188 1,2-docosahexanoyl-sn-glycero-3-phosphoserine calcium
+5189 1,2-icosapentoyl-sn-glycero-3-phosphoserine calcium
+5190 phosphatidyl serine
+5191 bacillus anthracis strain v770-np1-r antigens
+5192 molindone hydrochloride
+5193 vedolizumab
+5194 vortioxetine hydrobromide
+5195 algeldrate
+5196 tipiracil hydrochloride
+5197 melaleuca citrina pollen
+5198 ulmus parvifolia pollen
+5199 poultry, unspecified
+5200 yeast
+5201 penicillium digitatum
+5202 clonostachys rosea f. rosea
+5203 dendryphiella vinosa
+5204 solenopsis richteri
+5205 polistes annularis venom protein
+5206 polistes exclamans venom protein
+5207 polistes metricus venom protein
+5208 vespula germanica venom protein
+5209 vespula maculifrons venom protein
+5210 vespula pensylvanica venom protein
+5211 vespula squamosa venom protein
+5212 eletriptan hydrobromide monohydrate
+5213 albumin aggregated
+5214 pentetic acid
+5215 medronic acid
+5216 bupivacaine
+5217 cangrelor
+5218 fentanyl hydrochloride
+5219 oritavancin
+5220 senna
+5221 edoxaban tosylate
+5222 methylnaltrexone bromide
+5223 crofelemer
+5224 aripiprazole lauroxil
+5225 potassium chromate
+5226 nesiritide
+5227 nevirapine hemihydrate
+5228 calcium threonate
+5229 glycol salicylate
+5230 nonivamide
+5231 influenza a virus a/slovenia/2903/2015 (h1n1) live (attenuated) antigen
+5232 influenza a virus a/new caledonia/71/2014 (h3n2) live (attenuated) antigen
+5233 influenza b virus b/phuket/3073/2013 live (attenuated) antigen
+5234 influenza b virus b/brisbane/60/2008 live (attenuated) antigen
+5235 moschus moschiferus whole
+5236 dalotuzumab
+5237 caviar
+5238 australian tea tree oil
+5239 soy sterol
+5240 bosentan
+5241 iloprost
+5242 epoprostenol
+5243 macitentan
+5244 selexipag
+5245 conivaptan hydrochloride
+5246 dinutuximab
+5247 treprostinil
+5248 acetylcholine
+5249 silver cyanide
+5250 lavandula angustifolia whole
+5251 influenza a virus a/california/7/2009 x-181 (h1n1) antigen (formaldehyde inactivated)
+5252 influenza a virus a/switzerland/9715293/2013 nib-88 (h3n2) antigen (formaldehyde inactivated)
+5253 influenza b virus b/brisbane/9/2014 antigen (formaldehyde inactivated)
+5254 influenza a virus a/christchurch/16/2010 nib-74 (h1n1) antigen (propiolactone inactivated)
+5255 influenza a virus a/switzerland/9715293/2013 nib-88 (h3n2) antigen (propiolactone inactivated)
+5256 influenza a virus a/california/7/2009(h1n1)-like hemagglutinin antigen (propiolactone inactivated)
+5257 gold monosulfide
+5258 centruroides fab2 antivenin (equine)
+5259 pit viper (crotalinae) immune globulin antivenin (equine)
+5260 nitisinone
+5261 palifermin
+5262 anakinra
+5263 cetuximab
+5264 dipyrithione
+5265 pitavastatin calcium
+5266 secretin human
+5267 inositol niacinate
+5268 zinc sulfate monohydrate
+5269 clobazam
+5270 droxidopa
+5271 tetradecyl hydrogen sulfate (ester)
+5272 dimethyl sulfoxide
+5273 edrophonium chloride
+5274 remifentanil hydrochloride
+5275 antihemophilic factor human
+5276 von willebrand factor human
+5277 ioxilan
+5278 gadoterate meglumine
+5279 sacrosidase
+5280 ethanolamine oleate
+5281 alvimopan
+5282 ceftolozane sulfate
+5283 tedizolid phosphate
+5284 valrubicin
+5285 histrelin acetate
+5286 testosterone undecanoate
+5287 conestat alfa
+5288 galsulfase
+5289 elosulfase alfa
+5290 sapropterin dihydrochloride
+5291 quinapril
+5292 belinostat
+5293 melphalan hydrochloride
+5294 ferrous sulfate, dried
+5295 oxymetholone
+5296 alpha-tocopherol succinate, d-
+5297 gnaphalium
+5298 citrullus colocynthis fruit without seed
+5299 linolenic acid
+5300 sitosterol, beta-
+5301 human botulinum neurotoxin a/b immune globulin
+5302 potassium mercuric iodide
+5303 aristolochia cymbifera flower
+5304 styrax benzoin resin
+5305 quinine
+5306 chrysarobin
+5307 citrus aurantium fruit rind
+5308 clematis virginiana top
+5309 pinctada margaritifera shell
+5310 cornus florida bark
+5311 erigeron canadensis
+5312 eryngium yuccifolium root
+5313 galega officinalis
+5314 gentiana cruciata root
+5315 grindelia squarrosa flowering top
+5316 guarea guidonia bark
+5317 saraca indica bark
+5318 kamala
+5319 hagenia abyssinica flower
+5320 lepidium didymum leaf
+5321 levisticum officinale
+5322 mangifera indica bark
+5323 mentha spicata
+5324 sodium hexafluorosilicate
+5325 nuphar lutea root
+5326 onosmodium virginianum
+5327 umbellularia californica leaf
+5328 giant scallop
+5329 penthorum sedoides
+5330 pimpinella saxifraga root
+5331 platanus x acerifolia whole
+5332 ranunculus sceleratus
+5333 rosa x damascena flowering top
+5334 scolopendra subspinipes
+5335 theobromine
+5336 alyssoides utriculata
+5337 diamond
+5338 amanita phalloides
+5339 visnaga daucoides fruit
+5340 ammonium picrate
+5341 parthenocissus quinquefolia leaf
+5342 arbutus andrachne leafy shoot
+5343 brassica napus subsp. napus
+5344 cadmium bromide
+5345 chromic sulfate pentadecahydrate
+5346 convolvulus arvensis
+5347 coriaria ruscifolia fruit
+5348 chamaecyparis lawsoniana fruiting twig
+5349 dichapetalum madagascariense bark/leaf
+5350 digitalin
+5351 duboisia myoporoides leaf
+5352 brunfelsia uniflora root
+5353 malmea depressa bark
+5354 hippuric acid
+5355 homarus americanus digestive fluid
+5356 iodoform
+5357 potassium cyanide
+5358 potassium permanganate
+5359 karwinskia humboldtiana seed
+5360 laburnum anagyroides flowering top
+5361 liatris spicata root
+5362 linaria vulgaris
+5363 lithium chloride
+5364 acer negundo root bark
+5365 deutetrabenazine
+5366 lobelia
+5367 american elderberry
+5368 2-ethylhexyl 4-phenylbenzophenone-2'-carboxylate
+5369 hyoscyamus
+5370 zinc methionine sulfate
+5371 acanthosepion cuttlefish
+5372 mint
+5373 bowfin
+5374 california sheephead
+5375 arnica angustifolia flower
+5376 lemon balm oil
+5377 castor fiber scent gland secretion
+5378 lilium lancifolium whole
+5379 strychnos nux-vomica whole
+5380 citrullus colocynthis whole
+5381 uranyl nitrate
+5382 sepia officinalis whole
+5383 sodium oxybate
+5384 daunorubicin
+5385 defibrotide sodium
+5386 pegaptanib sodium
+5387 hypromellose, unspecified
+5388 trypan blue
+5389 teduglutide
+5390 macadamia seed oil glycereth-8 esters
+5391 methylphenidate
+5392 plasma protein fraction (human)
+5393 poloxamer 188
+5394 zeaxanthin
+5395 fluoride ion f-18
+5396 myrtus communis whole
+5397 cymbopogon citratus whole
+5398 pelargonium graveolens whole
+5399 scopolia carniolica whole
+5400 phellodendron amurense whole
+5401 clematis hexapetala whole
+5402 momordica charantia whole
+5403 frankincense oil
+5404 azadirachta indica seed oil
+5405 emu oil
+5406 melaleuca alternifolia leaf
+5407 estradiol hemihydrate
+5408 rehmannia glutinosa root
+5409 betamethasone
+5410 pyridoxal 5-phosphate
+5411 coenzyme q10, (2z)-
+5412 meadowfoam seed oil
+5413 squalane
+5414 glucosamine
+5415 ubiquinol
+5416 resveratrol
+5417 moschus berezovskii musk sac resin
+5418 bos taurus gallstone
+5419 pearl (hyriopsis cumingii)
+5420 salmonella typhi ty21a live antigen
+5421 bitter orange oil
+5422 codeine phosphate anhydrous
+5423 cytisine
+5424 uridine triacetate
+5425 obeticholic acid
+5426 chitosan oligosaccharide
+5427 phytosphingosine
+5428 silanol
+5429 obiltoxaximab
+5430 rolapitant hydrochloride
+5431 niraparib
+5432 rucaparib camsylate
+5433 eutrema japonicum whole
+5434 menthol, (+)-
+5435 camphor, (-)-
+5436 asiaticoside
+5437 madecassic acid
+5438 asiatic acid
+5439 actaea racemosa whole
+5440 mahonia aquifolium root
+5441 phenolphthalein
+5442 crataegus monogyna leaf
+5443 passiflora incarnata root
+5444 betrixaban
+5445 levomenol
+5446 fluciclovine f-18
+5447 oxidronate disodium
+5448 stannous chloride
+5449 betiatide
+5450 gallium chloride ga-67
+5451 styphnolobium japonicum flower bud
+5452 l-methionine-s,r-sulfoximine
+5453 8-epi-cyanocobalamin
+5454 lactobacillus plantarum
+5455 telotristat ethyl
+5456 plecanatide
+5457 calcifediol
+5458 (1,2,6,7-3h)testosterone
+5459 hydroquinine
+5460 juglans regia shell
+5461 valbenazine
+5462 insulin-like growth factor-2
+5463 cyclomethicone
+5464 camellia japonica seed oil
+5465 ketamine
+5466 tramadol
+5467 lawsonia inermis leaf
+5468 indigofera tinctoria leaf
+5469 neratinib
+5470 influenza a virus a/singapore/gp1908/2015 ivr-180 (h1n1) antigen (propiolactone inactivated)
+5471 influenza b virus b/brisbane/60/2008 antigen (propiolactone inactivated)
+5472 influenza a virus a/singapore/gp1908/2015 ivr-180 (h1n1) antigen (mdck cell derived, propiolactone inactivated)
+5473 influenza a virus a/singapore/gp2050/2015 (h3n2) antigen (mdck cell derived, propiolactone inactivated)
+5474 influenza b virus b/utah/9/2014 antigen (mdck cell derived, propiolactone inactivated)
+5475 influenza b virus b/hong kong/259/2010 antigen (mdck cell derived, propiolactone inactivated)
+5476 fish skin collagen, soluble
+5477 balsam peru oil
+5478 salvia miltiorrhiza root
+5479 atractylodes lancea root oil
+5480 amantadine
+5481 chitosan low molecular weight (20-200 mpa.s)
+5482 edaravone
+5483 abaloparatide
+5484 domiphen bromide
+5485 aminolevulinic acid hydrochloride
+5486 pentetate calcium trisodium
+5487 pentetate zinc trisodium
+5488 chlorphenesin
+5489 polysorbate 60
+5490 magnesium stearate
+5491 vincetoxicum hirundinaria root
+5492 magnolia kobus flowering top
+5493 delafloxacin meglumine
+5494 hydrogenated soybean lecithin
+5495 grape seed oil
+5496 apricot kernel oil
+5497 avocado oil
+5498 holy basil leaf
+5499 holarrhena pubescens bark
+5500 rhopalurus princeps venom
+5501 citrus junos fruit
+5502 cullen corylifolium whole
+5503 nigella sativa seed
+5504 glyceryl stearate se
+5505 macadamia oil
+5506 achillea millefolium flower
+5507 tangerine peel
+5508 lowbush blueberry
+5509 lard
+5510 scutellaria baicalensis root
+5511 lactobacillus helveticus
+5512 rice bran
+5513 corymbia citriodora leaf oil
+5514 inonotus obliquus fruiting body
+5515 nelumbo nucifera flower
+5516 palmitoyl tetrapeptide-7
+5517 palmitoyl tripeptide-1
+5518 hydrogenated coconut oil
+5519 bergamot oil
+5520 rosa centifolia flower oil
+5521 hydroxyethyl cellulose (100 mpa.s at 2%)
+5522 interferon-.gamma.
+5523 sodium phosphate, dibasic, unspecified form
+5524 moringa oleifera leaf
+5525 icaridin
+5526 tremella fuciformis whole
+5527 ceramide np
+5528 magnesium ascorbyl phosphate
+5529 octyldodecanol
+5530 sulfate ion
+5531 lactobacillus reuteri
+5532 enterococcus faecium
+5533 5-methyltetrahydrofolic acid
+5534 linoleic acid
+5535 bird pepper
+5536 glycerol phenylbutyrate
+5537 methyl nicotinate
+5538 carfilzomib
+5539 stypocaulon scoparium
+5540 porfimer sodium
+5541 brigatinib
+5542 ponatinib hydrochloride
+5543 eucommia ulmoides bark
+5544 avanafil
+5545 foscarnet sodium
+5546 metyrapone
+5547 mifepristone
+5548 polyquaternium-10 (400 cps at 2%)
+5549 chlorambucil
+5550 thioguanine
+5551 lomitapide mesylate
+5552 metreleptin
+5553 human cord blood hematopoietic progenitor cell
+5554 miconazole
+5555 edetate calcium disodium
+5556 luliconazole

@@ -1,9 +1,11 @@
 import numpy as np
 import torch
 import timeit
-from src.loss import loss_sat_numpy, loss_maxcut_numpy, loss_maxcut_numpy, loss_maxind_numpy, loss_maxind_QUBO
+from src.loss import loss_sat_numpy, loss_maxcut_numpy, loss_maxcut_numpy, loss_maxind_numpy, loss_maxind_QUBO, loss_task_numpy, loss_task_numpy_vec, loss_mincut_numpy, loss_partition_numpy
 import random
 import networkx as nx
+import copy
+
 from collections import OrderedDict, defaultdict
 
 # Shared Functions
@@ -61,7 +63,8 @@ def generate_H_from_edges(edges, n, self_loop=False):
             temp = [0 for j in range(n)]
             temp[i] = 1
             H.append(temp)
-    return np.array(H, dtype=float).T
+    Ht=np.array(H, dtype=float).T
+    return Ht
 
 def _generate_G_from_H(H, variable_weight=False):
     """
@@ -74,7 +77,7 @@ def _generate_G_from_H(H, variable_weight=False):
     :param variable_weight: whether the weight of hyperedge is variable
     :return: G
     """
-    H = np.array(H)
+    #H = np.array(H)
     n_edge = H.shape[1]
     n_node = H.shape[0]
     #Adjacency matrix of the graph with self loop
@@ -93,8 +96,9 @@ def _generate_G_from_H(H, variable_weight=False):
     DE = np.sum(H, axis=0)
     DEm = DE-1
     inDEm = np.mat(np.diag(np.power(DEm, -1)))
-
+    inDEm = np.nan_to_num(inDEm, 0)
     invDE = np.mat(np.diag(np.power(DE, -1)))
+
 
     DV2 = np.mat(np.diag(np.power(DV, -0.5)))
     W = np.mat(np.diag(W))
@@ -161,6 +165,13 @@ def all_to_weights(weights_all, n, C):
     weights = {x+1: [] for x in range(n)}
     for c, w in zip(C, weights_all):
         for node in c:
+            weights[abs(node)].append(w)
+    return weights
+
+def all_to_weights_task(weights_all, n, C):
+    weights = {x+1: [] for x in range(n)}
+    for c, w in zip(C, weights_all):
+        for node in c[:-1]:
             weights[abs(node)].append(w)
     return weights
 
@@ -246,33 +257,66 @@ def mapping_distribution(best_outs, params, n, info, weights, constraints, all_w
     lb = float('inf')
     if params['mode'] == 'sat':
         _loss = loss_sat_numpy
-    elif params['mode'] == 'maxcut':
+    elif params['mode'] == 'maxcut' or params['mode'] == 'QUBO_maxcut' or params['mode'] == 'maxcut_annea':
         _loss = loss_maxcut_numpy
     elif params['mode'] == 'maxind' or params['mode'] == 'QUBO':
         _loss = loss_maxind_numpy
+    elif params['mode'] == 'task':
+        _loss = loss_task_numpy
+    elif params['mode'] == 'mincut':
+        _loss = loss_mincut_numpy
+
     for rea in range(params['N_realize']):
         res = {x: np.random.choice(range(2), p=[1 - best_outs[x], best_outs[x]]) for x in best_outs.keys()}
         best_score = _loss(res, constraints, all_weights, hyper=hyper)
-        best_res = res
-        ord = random.sample(range(1, n + 1), n)
-        t = 0
+        best_res = copy.deepcopy(res)
+        # ord = random.sample(range(1, n + 1), n)
+        t = params['t']
+        # l1=best_score
+        prev_score=best_score
+        # stepsize = n//200
         for it in range(params['Niter_h']):
             print(it)
+            # temp = copy.deepcopy(res)
+            ord = random.sample(range(1, n + 1), n)
+            # j=0
             for i in ord:
-                temp = res.copy()
+                # j+=1
+                temp = copy.deepcopy(res)
                 # temp = pr.copy()
                 if res[i] == 0:
                     temp[i] = 1
                 else:
                     temp[i] = 0
+                # if (j) % stepsize == 0:
+                # lt = _loss(temp, constraints, all_weights, penalty=penalty,  hyper=hyper)
+                # l1 = _loss(res, constraints, all_weights, penalty=penalty, hyper=hyper)
                 lt = _loss(temp, info[i], weights[i], penalty=penalty, hyper=hyper)
                 l1 = _loss(res, info[i], weights[i], penalty=penalty, hyper=hyper)
                 if lt < l1 or np.exp(- (lt - l1) / t) > np.random.uniform(0, 1):
-                    res = temp
+                    res = copy.deepcopy(temp)
+                    # l1=lt
+                    # print(l1)
+                    # temp=copy.deepcopy(res)
             t = t * 0.95
+            if (it+1)%100==0:
+                # score = _loss(res, constraints, all_weights, hyper=hyper)
+                score=l1
+                if score==prev_score:
+                    print('early stopping of SA')
+                    break
+                else:
+                    prev_score = score
+                    print(score)
+            # score = _loss(res, constraints, all_weights, hyper=hyper)
+            # print(score)
+            # if score < best_score:
+            #     best_res = copy.deepcopy(res)
+            #     best_score = score
         score = _loss(res, constraints, all_weights, hyper=hyper)
+        print(score)
         if score < best_score:
-            best_res =res
+            best_res =copy.deepcopy(res)
             best_score = score
     return best_res
 
@@ -308,6 +352,157 @@ def mapping_distribution_QUBO(best_outs, params, q_torch, n):
     return best_res
 
 
+
+def mapping_distribution_vec_task(best_outs, params, n, info, constraints, C_dic, all_weights, inc, lenc, leninfo, penalty, hyper):
+    if params['random_init']=='one_half':
+        best_outs= {x: 0.5 for x in best_outs.keys()}
+    elif params['random_init']=='uniform':
+        best_outs = {x: np.random.uniform(0,1) for x in best_outs.keys()}
+    elif params['random_init'] == 'threshold':
+        best_outs = {x: 0 if best_outs[x] < 0.5 else 1 for x in best_outs.keys()}
+    L=len(constraints)
+    best_score = float('inf')
+    lb = float('inf')
+
+    if params['mode'] == 'task_vec':
+        _loss = loss_task_numpy_vec
+
+    for rea in range(params['N_realize']):
+        res = {x: [np.random.choice(range(2), p=[1 - best_outs[x][i], best_outs[x][i]]) for i in range(L)] for x in best_outs.keys()}
+        res_array = np.array(list(res.values()))
+        # lbest = _loss(res, lenc, leninfo)
+        lbest = _loss(res_array, lenc, leninfo)
+        l1=lbest
+        resbest = res.copy()
+        # ord = random.sample(range(1, n + 1), n)
+        t = params['t']
+        for it in range(params['Niter_h']):
+            print(it)
+            ord = random.sample(range(1, n + 1), n)
+            for i in ord:
+                #temp = copy.deepcopy(res)
+                temp = copy.deepcopy(res_array)
+                # temp = pr.copy()
+                j=random.sample(range(L), 1)[0]
+                # if res[i][j] == 0:
+                #     temp[i][j] = 1
+                # else:
+                #     temp[i][j] = 0
+                if res_array[i-1,j] == 0:
+                    temp[i-1,j] = 1
+                else:
+                    temp[i-1,j] = 0
+                lt = _loss(temp, lenc, leninfo)
+                #l1 = _loss(res, lenc, leninfo)
+                if lt < l1 or np.exp(- (lt - l1) / t) > np.random.uniform(0, 1):
+                    # res = copy.deepcopy(temp)
+                    #res=temp.copy()
+                    if res_array[i-1,j] == 0:
+                        res_array[i-1,j] = 1
+                    else:
+                        res_array[i-1,j] = 0
+                    l1=lt
+                    if l1==0:
+                        break
+                    # if l1<=lbest:
+                    #     lbest=l1
+                    #     resbest=res.copy()
+            if l1 == 0:
+                break
+            t = t * 0.95
+        # score = _loss(res, lenc, leninfo)
+        lbest=l1
+        score = lbest
+        print(score)
+        if score <= best_score:
+            #best_res =resbest.copy()
+            best_res = copy.deepcopy(res_array)
+            best_score = score
+    return best_res
+
+
+def mapping_distribution_vec(best_outs, params, n, info, weights, constraints, all_weights, inc, L, penalty,hyper):
+    if params['random_init'] == 'one_half':
+        best_outs = {x: 0.5 for x in best_outs.keys()}
+    elif params['random_init'] == 'uniform':
+        best_outs = {x: np.random.uniform(0, 1) for x in best_outs.keys()}
+    elif params['random_init'] == 'threshold':
+        best_outs = {x: 0 if best_outs[x] < 0.5 else 1 for x in best_outs.keys()}
+
+    best_score = float('inf')
+    lb = float('inf')
+
+    if params['mode'] == 'partition':
+        _loss = loss_partition_numpy
+
+    for rea in range(params['N_realize']):
+        # res={x:best_outs[x].argmax()}
+        res={}
+        for x in best_outs.keys():
+            part=np.random.choice(range(params['n_partitions']), p=best_outs[x])
+            res_x=[0 for _ in range(params['n_partitions'])]
+            res_x[part]=1
+            res[x]=res_x
+        # res = {x: [np.random.choice(range(2), p=[1 - best_outs[x][i], best_outs[x][i]]) for i in range(L)] for x in
+        #        best_outs.keys()}
+        res_array = np.array(list(res.values()))
+        # lbest = _loss(res, lenc, leninfo)
+        lbest = _loss(res_array, constraints, weights, hyper)
+        l1 = lbest
+        resbest = res.copy()
+        # ord = random.sample(range(1, n + 1), n)
+        t = params['t']
+        for it in range(params['Niter_h']):
+            print(it)
+            ord = random.sample(range(1, n + 1), n)
+            for i in ord:
+                # temp = copy.deepcopy(res)
+                temp = copy.deepcopy(res_array)
+                # temp = pr.copy()
+                temp[i-1,:]=[0 for _ in range(params['n_partitions'])]
+                j = random.sample(range(L), 1)[0]
+                # if res[i][j] == 0:
+                #     temp[i][j] = 1
+                # else:
+                #     temp[i][j] = 0
+                # if res_array[i - 1, j] == 0:
+                temp[i - 1, j] = 1
+                # else:
+                #     temp[i - 1, j] = 0
+                lt = _loss(temp, constraints, weights, hyper)
+                # l1 = _loss(res, lenc, leninfo)
+                if lt < l1 or np.exp(- (lt - l1) / t) > np.random.uniform(0, 1):
+                    # res = copy.deepcopy(temp)
+                    # res=temp.copy()
+                    res_array[i-1,:] = [0 for _ in range(params['n_partitions'])]
+                    res_array[i - 1, j] = 1
+                    # if res_array[i - 1, j] == 0:
+                    #     res_array[i - 1, j] = 1
+                    # else:
+                    #     res_array[i - 1, j] = 0
+                    l1 = lt
+                    # if l1 == 0:
+                    #     break
+                    # if l1<=lbest:
+                    #     lbest=l1
+                    #     resbest=res.copy()
+
+                # if sum(res_array[i-1,:])==0 or sum(res_array[i-1,:])>1:
+                #     res_array[i - 1, :]=0
+                #     arg1=random.randint(0, L-1)
+                #     res_array[i - 1, :] = 1
+            # if l1 == 0:
+            #     break
+            t = t * 0.95
+        # score = _loss(res, lenc, leninfo)
+        lbest = l1
+        score = lbest
+        print(score)
+        if score <= best_score:
+            # best_res =resbest.copy()
+            best_res = copy.deepcopy(res_array)
+            best_score = score
+    return best_res
 
 # def mapping_distribution(best_outs, params, n, info, weights, constraints, all_weights, inc, penalty, hyper):
 #     best_score = float('inf')
@@ -389,10 +584,40 @@ def gen_q_mis(constraints, n_nodes, penalty=2 ,torch_dtype=None, torch_device=No
     # Update Q matrix for every edge in the graph
     # all off-diagonal terms get penalty
     for cons in constraints:
-        if cons[0]>=2002 or cons[1]>=2002:
-            print("fault")
         Q_mat[cons[0]-1][cons[1]-1] = penalty
         Q_mat[cons[1] - 1][cons[0] - 1] = penalty
+    # all diagonal terms get -1
+    for u in range(n_nodes):
+        Q_mat[u][u] = -1
+
+
+    if torch_dtype is not None:
+        Q_mat = Q_mat.type(torch_dtype)
+
+    if torch_device is not None:
+        Q_mat = Q_mat.to(torch_device)
+
+
+    return Q_mat
+
+def gen_q_maxcut(constraints, n_nodes,torch_dtype=None, torch_device=None):
+    """
+    Helper function to generate QUBO matrix for Maxcut as minimization problem.
+
+    Input:
+        nx_G: graph as networkx graph object (assumed to be unweigthed)
+    Output:
+        Q_dic: QUBO as defaultdict
+    """
+
+    # Initialize our Q matrix
+    Q_mat = torch.zeros(n_nodes, n_nodes)
+
+    # Update Q matrix for every edge in the graph
+    # all off-diagonal terms get penalty
+    for cons in constraints:
+        Q_mat[cons[0]-1][cons[1]-1] = 1
+        Q_mat[cons[1] - 1][cons[0] - 1] = 1
     # all diagonal terms get -1
     for u in range(n_nodes):
         Q_mat[u][u] = -1
@@ -437,3 +662,39 @@ def Maxind_postprocessing(res, constraints,n):
         score_sd = {id: jd for (id, jd) in score_s}
 
     return res_copy
+
+
+def sparsify_graph(constraints, header,  info, spars_p):
+    n=header['num_nodes']
+    m=header['num_constraints']
+    constraints2=copy.deepcopy(constraints)
+    info2=copy.deepcopy(info)
+    for edge in constraints:
+        n1=edge[0]
+        n2=edge[1]
+        if len(info2[n1])>1 and len(info2[n2])>1:
+            rnd=np.random.uniform(0, 1)
+            if rnd<spars_p:
+                constraints2.remove(edge)
+                info2[n1].remove(edge)
+                info2[n2].remove(edge)
+    header2={}
+    header2['num_nodes']=n
+    header2['num_constraints']=len(constraints2)
+    return constraints2, header2, info2
+
+
+def generate_watermark(N, wat_len, wat_seed_value):
+    # random.seed(wat_seed_value)
+    p=0.2
+    selected_nodes=random.sample(range(1,N),wat_len)
+    Gr = nx.erdos_renyi_graph(len(selected_nodes), p, seed=wat_seed_value, directed=False)
+
+    mapping = {i: node for i, node in enumerate(selected_nodes)}
+    Gr = nx.relabel_nodes(Gr, mapping)
+    wat_G = np.zeros([len(Gr.edges)+1, 2]).astype(np.int64)
+    wat_G[0,0]=[wat_len, len(Gr.edges)]
+    wat_G[1:,:]=[list(edge) for edge in Gr.edges]
+
+    return wat_G, selected_nodes
+

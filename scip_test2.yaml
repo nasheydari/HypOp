@@ -1,0 +1,39 @@
+name: scip_test2
+channels:
+- defaults
+- pytorch
+- nvidia
+dependencies:
+- python=3.8
+- mkl
+- pip=21.1.3
+- numpy=1.19.2
+- cpuonly
+- pytorch==1.9.0
+- torchvision==0.10.0
+- Cython
+- matplotlib
+- notebook
+- ipykernel
+- ipywidgets
+- h5py
+- pip:
+  - scikit-image
+  - pylint
+  - black
+  - flake8
+  - ipdb
+  - einops
+  - glfw
+  - scikit-learn
+  - setuptools
+  - panda
+  - scipy
+  - glob2
+  - gpustat
+  - imageio
+  - imageio-ffmpeg
+  - moviepy
+  - opencv-python
+  - wandb
+  - pillow

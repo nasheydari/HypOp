@@ -1,0 +1,50 @@
+{
+    "data": "stanford",
+    "mode": "QUBO",
+    "random_init": "none",
+    "transfer": false,
+    "initial_transfer": false,
+    "GD": false,
+    "K": 1,
+    "Att": false,
+    "dropout": 0,
+    "f_input": false,
+    "f": 50,
+
+    "lr": 0.0001,
+    "epoch": 2e3,
+    "tol": 1e-3,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxind_stanford_p1.log",
+    "res_path": "./res/maxind_stanford_p1.hdf5",
+    "folder_path": "./data/maxcut_data/stanford_data_single/",
+    "plot_path": "./res/plots/",
+    "model_save_path": "./models/maxcut/",
+    "model_load_path": "./models/maxcut/",
+    "N_realize": 1,
+    "Niter_h": 30,
+    "t": 0.3,
+    "hyper": false,
+    "penalty": 0,
+    "patience": 50,
+    "sparsify": false,
+    "sparsify_p": 0.8,
+    "load_G": false,
+    "load best out": false,
+
+    "penalty_inc": false,
+    "penalty_c": 1e-5,
+    "n_partitions": 4,
+    "sparcify": false,
+    "sparcify_p": 0.8,
+    "coarsen": true,
+
+
+
+
+
+    "multi_gpu": 0,
+    "num_gpus": 1,
+    "test_multi_gpu": 0
+}

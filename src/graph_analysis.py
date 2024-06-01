@@ -44,7 +44,7 @@ for name in os.listdir(path1):
         G_info[name]['is connected']=Graph.is_connected(g)
         G_info[name]['MIS']=len(nx.maximal_independent_set(G))
 
-with open("G_info_stanford_p1.json", "w") as write_file:
+with open("../data/G_info_stanford_p1.json", "w") as write_file:
     json.dump(G_info, write_file)
 
 
