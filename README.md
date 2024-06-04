@@ -1,4 +1,4 @@
-#HyoOp
+# HyoOp
 
 Here you can find the code for HypOp, a tool for combinatorial optimization that employs hypergraph neural networks. It is versatile and can address a range of constrained optimization problems.
 In the current version, we have included the following problems: graph and hypergraph MaxCut, graph MIS, SAT, and Resource Allocation (see paper for details). To add new problems, add the appropriate loss function in the loss.py file and add the appropriate function in data_reading.py to read your specific dataset. 
