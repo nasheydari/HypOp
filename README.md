@@ -97,3 +97,20 @@ python -m torch.distributed.launch run.py
 ```
 
 Note that the results generated in Step1 **is not** the final results, you have to run Step 2 for postprocessing. 
+
+
+# Citation:
+
+If you use this code, please cite the following:
+
+@article{heydaribeni2024distributed,
+  title={Distributed constrained combinatorial optimization leveraging hypergraph neural networks},
+  author={Heydaribeni, Nasimeh and Zhan, Xinrui and Zhang, Ruisi and Eliassi-Rad, Tina and Koushanfar, Farinaz},
+  journal={Nature Machine Intelligence},
+  pages={1--9},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+
+
+
