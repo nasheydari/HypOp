@@ -93,7 +93,7 @@ plotm[5,:]=y_axis_error
 
 plotms=plotm[:, plotm[0].argsort()]
 
-plotms[1,:]=[0.434,0.425,0.423,0.4185,0.423,0.418,0.42,0.42,0.418]
+
 
 y_lower=plotms[1,:]-plotms[5,:]
 y_upper=plotms[1,:]+plotms[5,:]
@@ -119,8 +119,6 @@ def model_l(x,a,b):
   return b*(x)+a
 
 
-
-plotms[3,:]=[14.13751345, 33.83719374, 91.02384361, 136.00345144, 215.93719374, 251.83719342, 490.92883451, 571.11223945, 883.92836451]
 
 
 popt, pcov = curve_fit(model_ex, plotms[0,:], plotms[4,:], p0=[0,0])
