@@ -1,0 +1,41 @@
+{
+    "data": "stanford",
+    "mode": "maxcut",
+    "K": 1,
+    "random_init": "none",
+    "transfer": false,
+    "initial_transfer": false,
+    "GD": false,
+    "lr": 1e-2,
+    "epoch": 1e2,
+    "tol": 1e-4,
+    "mapping": "distribution",
+    "boosting_mapping": 1,
+    "logging_path": "./log/maxcut_R_for.log",
+    "res_path": "./res/maxcut_R_for.hdf5",
+    "folder_path": "./data/maxcut_data/stanford_data_single/",
+    "plot_path": "./res/plots/Hist_maxcut/",
+    "model_save_path": "./models/maxcut/",
+    "model_load_path": "./models/maxcut/",
+    "N_realize": 1,
+    "Niter_h": 0,
+    "t": 0.5,
+    "hyper": false,
+    "penalty": 0,
+    "patience": 50,
+    
+
+    "multi_gpu": 1,
+    "num_gpus": 4,
+    "test_multi_gpu": 0,
+
+    
+    "load_best_out" : false,
+    "coarsen" : false,
+    "f_input" : false,
+    "sparcify": false,
+    "sparcify_p": 0.8,
+    "n_partitions": 4,
+    "Att": false,
+    "dropout": 0
+}
