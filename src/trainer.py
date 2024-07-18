@@ -3,7 +3,7 @@ import timeit
 from itertools import chain
 import torch
 from src.timer import Timer
-from src.loss import loss_cal_and_update, maxcut_loss_func_helper, loss_maxcut_weighted, loss_sat_weighted, loss_maxind_weighted, loss_maxind_QUBO, loss_maxind_weighted2, loss_task_weighted, loss_maxcut_weighted_anealed, loss_task_weighted_vec, loss_mincut_weighted, loss_partitioning_weighted, loss_partitioning_nonbinary, loss_maxcut_weighted_coarse, loss_maxind_QUBO_coarse
+from src.loss import loss_cal_and_update, maxcut_loss_func_helper, loss_maxcut_weighted, loss_sat_weighted, loss_maxind_weighted, loss_maxind_QUBO, loss_maxind_weighted2, loss_task_weighted, loss_maxcut_weighted_anealed, loss_task_weighted_vec, loss_mincut_weighted, loss_partitioning_weighted, loss_partitioning_nonbinary, loss_maxcut_weighted_coarse, loss_maxind_QUBO_coarse, loss_maxcut_weighted_multi
 from src.utils import mapping_algo, mapping_distribution, gen_q_mis,gen_q_maxcut, mapping_distribution_QUBO, get_normalized_G_from_con, mapping_distribution_vec_task, mapping_distribution_vec, all_to_weights, all_to_weights_task
 import numpy as np
 import multiprocessing as mp
@@ -12,6 +12,7 @@ import torch.nn as nn
 import random
 from torch.autograd import grad
 import pickle
+import time
 
 def centralized_train(G, params, f, C, n, info, file_name):
     temp_time = timeit.default_timer()
@@ -212,12 +213,14 @@ def centralized_train(G, params, f, C, n, info, file_name):
                 break
         prev_loss=loss
 
-    with open("/Users/nasimeh/Documents/distributed_GCN-main-6/Oct12_2023/res/oversmoothing/dist_"+file_name[:-4]+".pkl", "wb") as fp:
-        pickle.dump(dist, fp)
+   
 
-
-    best_out = best_out.detach().numpy()
-    best_out = {i+1: best_out[i][0] for i in range(len(best_out))}
+    if params['load_best_out']:
+        with open('best_out.txt', 'r') as f:
+            best_out=eval(f.read())
+    else:
+        best_out = best_out.detach().numpy()
+        best_out = {i+1: best_out[i][0] for i in range(len(best_out))}
     all_weights = [1.0 for c in (C)]
     if params['data'] != 'task':
         weights = all_to_weights(all_weights, n, C)
@@ -253,7 +256,7 @@ def centralized_train(G, params, f, C, n, info, file_name):
 
 
 ##### for multi-gpu (distributed) training #####
-def centralized_train_for(X, params, f, total_C, n, info_input_total, weights, file_name, device=0,
+def centralized_train_for(params, f, total_C, n, info_input_total, weights, file_name, device=0,
                           inner_constraint=None, outer_constraint=None, cur_nodes=None, inner_info=None,
                           outer_info=None):
     temp_time = timeit.default_timer()
@@ -280,7 +283,7 @@ def centralized_train_for(X, params, f, total_C, n, info_input_total, weights, f
     patience = params['patience']
     best_loss = float('inf')
     dct = {x + 1: x for x in range(len(weights))}
-    X = torch.cat([X[i] for i in X])
+    
 
     print("[n]", n, "[C]", len(C), "weight", len(weights))
     if params['transfer']:
@@ -343,7 +346,7 @@ def centralized_train_for(X, params, f, total_C, n, info_input_total, weights, f
         info = info_input
         con_list_range_keys = list(info.keys())
         con_list_range = [i for i in con_list_range_keys if len(info[i]) > 0]
-        print("con_list_range", con_list_range)
+        # print("con_list_range", con_list_range)
     else:
         con_list_length = n
         info = info_input
@@ -883,8 +886,7 @@ def centralized_train_att( H, params, f, C, n, info, file_name):
                 break
         prev_loss=loss
 
-    with open("/Users/nasimeh/Documents/distributed_GCN-main-6/Oct12_2023/res/oversmoothing/dist_"+file_name[:-4]+".pkl", "wb") as fp:
-        pickle.dump(dist, fp)
+    
 
 
     best_out = best_out.detach().numpy()
@@ -1092,8 +1094,8 @@ def centralized_train_bipartite( G, params, f, C, n, n_hyper, info,  file_name):
                 torch.save(conv2, name)
                 break
         prev_loss=loss
-    with open("/Users/nasimeh/Documents/distributed_GCN-main-6/Oct12_2023/res/oversmoothing/dist_"+file_name[:-4]+".pkl", "wb") as fp:
-        pickle.dump(dist, fp)
+   
+
     best_out = best_out.detach().numpy()
     best_out = {i+1: best_out[i][0] for i in range(n_hyper)}
     train_time = timeit.default_timer()-temp_time
@@ -1280,8 +1282,8 @@ def centralized_train_cliquegraph(G, params, f, C, n, info, weights, file_name):
                 torch.save(conv2, name)
                 break
         prev_loss=loss
-    with open("/Users/nasimeh/Documents/distributed_GCN-main-6/Oct12_2023/res/oversmoothing/dist_"+file_name[:-4]+".pkl", "wb") as fp:
-        pickle.dump(dist, fp)
+    
+
     best_out = best_out.detach().numpy()
     best_out = {i+1: best_out[i][0] for i in range(n)}
     train_time = timeit.default_timer()-temp_time
@@ -1435,8 +1437,7 @@ def centralized_train_coarsen(G, params, f, C, org_constraints, graph_dict, n_or
                 break
         prev_loss = loss
 
-    # with open("/home/neusha/Course/ECE226/Final_PRJ/HypOp_GithubV4/distributed_GCN-main-6/res/oversmoothing/dist_" + file_name[:-4] + ".pkl", "wb") as fp:
-    #     pickle.dump(dist, fp)
+    
 
     if params["load best out"]:
         with open("best_out.txt", "r") as f:

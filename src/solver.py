@@ -6,7 +6,7 @@ import timeit
 from src.trainer import  centralized_train, GD_train, centralized_train_for, centralized_train_vec, centralized_train_att, centralized_train_bipartite, centralized_train_cliquegraph, centralized_train_coarsen
 from src.loss import loss_maxcut_numpy_boost, loss_sat_numpy_boost, loss_maxind_numpy_boost, loss_maxind_QUBO, loss_task_numpy, loss_task_numpy_vec, loss_mincut_numpy_boost, loss_watermark, loss_partition_numpy, loss_partition_numpy_boost
 import matplotlib.pyplot as plt
-import dgl
+# import dgl
 import random
 import os
 import networkx as nx
@@ -313,8 +313,7 @@ def centralized_solver(constraints, header, params, file_name):
     return reses, reses_th, res,res_th, probs, timeit.default_timer() - temp_time, train_times, map_times
 
 #### solver for multi-gpu (distributed) training ####
-def centralized_solver_for(constraints, header, params, file_name, device=0,
-                           cur_nodes=None, inner_constraint=None, outer_constraint=None):
+def centralized_solver_for(constraints, header, params, file_name, cur_nodes, inner_constraint, outer_constraint, device):
     temp_time = timeit.default_timer()
     edges = [[abs(x) - 1 for x in edge] for edge in constraints]
     if cur_nodes is None:
@@ -348,8 +347,7 @@ def centralized_solver_for(constraints, header, params, file_name, device=0,
     all_weights = [[1.0 for c in (inner_constraint)] for i in range(params['num_samples'])]
 
     weights = [all_to_weights(all_weights[i], header['num_nodes'], inner_constraint) for i in range(len(all_weights))]
-    # sampler initialization
-    sampler = Sampler(params, n, f)
+  
     # timer initialization
     reses = []
     reses2 = []
@@ -360,10 +358,10 @@ def centralized_solver_for(constraints, header, params, file_name, device=0,
         scores2 = []
         scores_th = []
         scores1 = []
-        Xs = sampler.get_Xs(i)
+        
         temp_weights = []
         for j in range(params['num_samples']):
-            res, prob, train_time, map_time = centralized_train_for(Xs[j], params, f, constraints, n, info,
+            res, prob, train_time, map_time = centralized_train_for(params, f, constraints, n, info,
                                                                         weights[i], file_name, device
                                                                         , inner_constraint, outer_constraint, cur_nodes,
                                                                         inner_info, outer_info)
@@ -398,7 +396,6 @@ def centralized_solver_for(constraints, header, params, file_name, device=0,
             if torch.distributed.get_rank() == 0:
                 probs.append(prob)
         if torch.distributed.get_rank() == 0:
-            sampler.update(scores)
             reses.append(scores)
             reses_th.append(scores_th)
     if torch.distributed.get_rank() == 0:

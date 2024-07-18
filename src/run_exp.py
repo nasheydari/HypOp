@@ -146,12 +146,23 @@ import torch
 def exp_centralized_for_multi(proc_id, devices, params):
     print("start to prepare for device")
     dev_id = devices[proc_id]
-    dist_init_method = "tcp://{master_ip}:{master_port}".format(master_ip="127.0.0.1", master_port="12345")
+    # dist_init_method = "tcp://{master_ip}:{master_port}".format(master_ip="127.0.0.1", master_port="12345")
     torch.cuda.set_device(dev_id)
     TORCH_DEVICE = torch.device("cuda:" + str(dev_id))
+    # print("start to initialize process")
+
+    master_ip = "127.0.0.1"
+    master_port = "12345"
+    world_size = len(devices)  # Total number of processes
+    rank = proc_id  # Rank of this process, set to 0 for master, 1 for worker
+
     print("start to initialize process")
-    torch.distributed.init_process_group(backend="nccl", init_method='env://', world_size=len(devices), rank=proc_id)
+    torch.distributed.init_process_group(backend="nccl", init_method=f'tcp://{master_ip}:{master_port}', world_size=world_size, rank=rank)
+    
+
+    # torch.distributed.init_process_group(backend="nccl", init_method='env://', world_size=len(devices), rank=proc_id)
     print("start to train")
+
 
     logging.basicConfig(filename=params['logging_path'], filemode='w', level=logging.INFO)
     log = logging.getLogger('main')
@@ -188,9 +199,7 @@ def exp_centralized_for_multi(proc_id, devices, params):
                     outer_constraint.append(c)
 
             print("device", dev_id, "start to train")
-            res, res2, res_th, probs, total_time, train_time, map_time = centralized_solver_for(constraints, header,
-                                                                                                params, file_name,
-                                                                                             outer_constraint=outer_constraint)
+            res, res2, res_th, probs, total_time, train_time, map_time = centralized_solver_for(constraints, header, params, file_name,cur_nodes, inner_constraint, outer_constraint, proc_id)
 
             if res is not None:
                 time = timeit.default_timer() - temp_time
