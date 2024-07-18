@@ -29,5 +29,10 @@
     "t": 0.3,
     "hyper": true,
     "penalty": 0,
-    "patience": 50
+    "patience": 50,
+    "load_best_out" : false,
+
+    "multi_gpu": 0,
+    "num_gpus": 1,
+    "test_multi_gpu": 0
 }

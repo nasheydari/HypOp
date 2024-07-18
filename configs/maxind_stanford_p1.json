@@ -31,7 +31,7 @@
     "sparsify": false,
     "sparsify_p": 0.8,
     "load_G": false,
-    "load best out": false,
+    "load_best_out": false,
 
     "penalty_inc": false,
     "penalty_c": 1e-5,

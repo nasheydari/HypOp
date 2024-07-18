@@ -13,8 +13,6 @@
     "penalty_inc": false,
     "penalty_c": 1e-5,
     "n_partitions": 4,
-    "sparcify": false,
-    "sparcify_p": 0.8,
     "coarsen": false,
     "sparcify": false,
     "sparcify_p": 0.8,
@@ -36,6 +34,9 @@
     "hyper": false,
     "penalty": 0,
     "patience": 50,
+    "load_best_out" : false,
+    
+
     "multi_gpu": 0,
     "num_gpus": 1,
     "test_multi_gpu": 0
