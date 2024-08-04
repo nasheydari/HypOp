@@ -3,7 +3,7 @@ import timeit
 from itertools import chain
 import torch
 from src.timer import Timer
-from src.loss import loss_cal_and_update, maxcut_loss_func_helper, loss_maxcut_weighted, loss_sat_weighted, loss_maxind_weighted, loss_maxind_QUBO, loss_maxind_weighted2, loss_task_weighted, loss_maxcut_weighted_anealed, loss_task_weighted_vec, loss_mincut_weighted, loss_partitioning_weighted, loss_partitioning_nonbinary, loss_maxcut_weighted_coarse, loss_maxind_QUBO_coarse, loss_maxcut_weighted_multi
+from src.loss import loss_cal_and_update, maxcut_loss_func_helper, loss_maxcut_weighted, loss_sat_weighted, loss_maxind_weighted, loss_maxind_QUBO, loss_maxind_weighted2, loss_task_weighted, loss_maxcut_weighted_anealed, loss_task_weighted_vec, loss_mincut_weighted, loss_partitioning_weighted, loss_partitioning_nonbinary, loss_maxcut_weighted_coarse, loss_maxind_QUBO_coarse, loss_maxcut_weighted_multi, loss_maxcut_weighted_multi_gpu
 from src.utils import mapping_algo, mapping_distribution, gen_q_mis,gen_q_maxcut, mapping_distribution_QUBO, get_normalized_G_from_con, mapping_distribution_vec_task, mapping_distribution_vec, all_to_weights, all_to_weights_task
 import numpy as np
 import multiprocessing as mp
@@ -478,6 +478,185 @@ def centralized_train_for(params, f, total_C, n, info_input_total, weights, file
                                    params['hyper'])
         print("res", res)
         map_time = timeit.default_timer() - temp_time2
+    return res, best_out, train_time, map_time
+
+
+def centralized_train_multi_gpu(params, f, C, n, info_input, weights, file_name, device=0):
+    temp_time = timeit.default_timer()
+    # fix seed to ensure consistent results
+    seed_value = 100
+    random.seed(seed_value)  # seed python RNG
+    np.random.seed(seed_value)  # seed global NumPy RNG
+    torch.manual_seed(seed_value)  # seed torch RNG
+    TORCH_DEVICE = torch.device('cuda:'+str(device))
+    TORCH_DTYPE = torch.float32
+    verbose = False
+
+    if params['mode'] == 'QUBO':
+        q_torch = gen_q_mis(C, n, 2, torch_dtype=None, torch_device=None)
+    p=0
+    count=0
+    prev_loss = 100
+    patience=params['patience']
+    best_loss = float('inf')
+    dct = {x+1: x for x in range(n)}
+
+    if params['transfer']:
+        name = params["model_load_path"] + 'embed_' + file_name[:-4] + '.pt'
+        embed = torch.load(name)
+        name=params["model_load_path"]+'conv1_'+file_name[:-4]+'.pt'
+        conv1 = torch.load(name)
+        for param in conv1.parameters():
+            param.requires_grad = False
+        name = params["model_load_path"]+'conv2_' + file_name[:-4] + '.pt'
+        conv2 = torch.load(name)
+        for param in conv2.parameters():
+            param.requires_grad = False
+        parameters = embed.parameters()
+        # parameters=conv2.parameters()
+    else:
+        embed = nn.Embedding(n, f)
+        embed = embed.type(TORCH_DTYPE).to(TORCH_DEVICE)
+        # conv1 = single_node(f, f//2)
+        conv1 = single_node_xavier(f, f // 2).to(TORCH_DEVICE)
+        conv2 = single_node_xavier(f // 2, 1).to(TORCH_DEVICE)
+        # conv2 = single_node(f//2, 1)
+        parameters = chain(conv1.parameters(), conv2.parameters(), embed.parameters())
+    if params["initial_transfer"]:
+        name = params["model_load_path"] + 'conv1_' + file_name[:-4] + '.pt'
+        conv1 = torch.load(name)
+        name = params["model_load_path"] + 'conv2_' + file_name[:-4] + '.pt'
+        conv2 = torch.load(name)
+        name = params["model_load_path"] + 'embed_' + file_name[:-4] + '.pt'
+        embed = torch.load(name)
+        conv1 = conv1.to(TORCH_DEVICE)
+        conv2 = conv2.to(TORCH_DEVICE)
+        embed = embed.to(TORCH_DEVICE)
+        parameters = chain(conv1.parameters(), conv2.parameters(), embed.parameters())
+
+    if TORCH_DEVICE == torch.device("cpu"):
+        conv1 = torch.nn.parallel.DistributedDataParallel(conv1, device_ids=None, output_device=None)
+        conv2 = torch.nn.parallel.DistributedDataParallel(conv2, device_ids=None, output_device=None)
+        embed = torch.nn.parallel.DistributedDataParallel(embed, device_ids=None, output_device=None)
+    else:
+        conv1 = torch.nn.parallel.DistributedDataParallel(conv1, device_ids=[TORCH_DEVICE], output_device=TORCH_DEVICE)
+        conv2 = torch.nn.parallel.DistributedDataParallel(conv2, device_ids=[TORCH_DEVICE], output_device=TORCH_DEVICE)
+        embed = torch.nn.parallel.DistributedDataParallel(embed, device_ids=[TORCH_DEVICE], output_device=TORCH_DEVICE)
+        
+
+    optimizer = torch.optim.Adam(parameters, lr = params['lr'])
+    inputs = embed.module.weight.to(TORCH_DEVICE)
+    dataset_sampler = torch.utils.data.distributed.DistributedSampler(C)
+            
+    for ep in range(int(params['epoch'])):
+        dataset_sampler.set_epoch(ep)
+        selected_indx = list(iter(dataset_sampler))
+        cur_contraints = [C[i] for i in selected_indx]
+
+        info = {x+1:[] for x in range(n)}
+        for constraint in cur_contraints:
+            for node in constraint:
+                info[abs(node)].append(constraint)
+
+        con_list_length = n
+        temp = conv1(inputs)
+        temp2=torch.zeros(temp.shape).to(TORCH_DEVICE)
+        st_start = time.time()
+        st = time.time()
+        for i in range(1, con_list_length+1):
+            cons_list = info[i]
+            if len(cons_list) > 0:
+                indices = [cons[1]-1 if cons[0] == i else cons[0]-1 for cons in cons_list]
+                indices_tensor = torch.tensor(indices, dtype=torch.long)  # Convert list to long tensor for indexing
+                temp2[i-1, :] += torch.sum(temp[indices_tensor, :], dim=0).to(TORCH_DEVICE)
+                temp2[i-1, :] /= len(info[i])
+
+        temp=temp2
+        temp = torch.relu(temp)
+        temp = conv2(temp)
+        temp2 = torch.zeros(temp.shape).to(TORCH_DEVICE)
+       
+        for i in range(1, con_list_length+1):
+            cons_list = info[i]
+            if len(cons_list) > 0:
+                indices = [cons[1]-1 if cons[0] == i else cons[0]-1 for cons in cons_list]
+                indices_tensor = torch.tensor(indices, dtype=torch.long)  # Convert list to long tensor for indexing
+                temp2[i-1, :] += torch.sum(temp[indices_tensor, :], dim=0).to(TORCH_DEVICE)
+                temp2[i-1, :] /= len(info[i])
+
+        temp = temp2
+        temp = torch.sigmoid(temp)
+        et = time.time()
+        if verbose:
+            print("Prepare data to compute loss: ", et-st)
+
+        st = time.time()
+        if params['mode'] == 'sat':
+            loss = loss_sat_weighted(temp, C, dct, [1 for i in range(len(C))])
+        elif params['mode'] == 'maxcut':
+            # [1 for i in range(len(C))] in tensor
+            loss = loss_maxcut_weighted_multi_gpu(temp, cur_contraints, dct, torch.ones(len(cur_contraints)).to(TORCH_DEVICE), params['hyper'], TORCH_DEVICE)
+        elif params['mode'] == 'maxind':
+            loss = loss_maxind_weighted2(temp, C, dct, [1 for i in range(len(C))])
+        elif params['mode'] == 'QUBO':
+            loss = loss_maxind_QUBO(temp, q_torch)
+        et = time.time()
+        if verbose:
+            print("Compute forward loss for maxcut: ", et-st)
+        
+        st = time.time()
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        et = time.time()
+        if verbose:
+            print("Backward loss: ", et-st)
+
+        st = time.time()
+        loss_sum = loss.clone()
+        aggregated_weights = temp.clone()
+        
+        torch.distributed.reduce(loss_sum, dst=0, op=torch.distributed.ReduceOp.SUM)
+        torch.distributed.reduce(aggregated_weights, dst=0, op=torch.distributed.ReduceOp.SUM)
+        if torch.distributed.get_rank() == 0:
+            average_loss = loss_sum / torch.distributed.get_world_size()
+            average_weights = aggregated_weights / torch.distributed.get_world_size()
+            if average_loss < best_loss:
+                best_loss = average_loss
+                best_out = average_weights.cpu()
+                if i==int(params['epoch'])-1:
+                    name=params["model_save_path"]+'embed_'+file_name[:-4]+'.pt'
+                    torch.save(embed, name)
+                    name = params["model_save_path"]+'conv1_' + file_name[:-4] + '.pt'
+                    torch.save(conv1, name)
+                    name = params["model_save_path"]+'conv2_' + file_name[:-4] + '.pt'
+                    torch.save(conv2, name)
+ 
+        prev_loss=loss
+        et = time.time()
+        if verbose:
+            print("Update best loss: ", et-st)
+        print("Epoch", ep, "Epoch time: ", et-st_start, "current loss", loss)
+
+    if torch.distributed.get_rank() == 0:
+        best_out = best_out.detach().numpy()
+        best_out = {i+1: best_out[i][0] for i in range(len(best_out))}
+        train_time = timeit.default_timer()-temp_time
+        temp_time2=timeit.default_timer()
+        all_weights = [1.0 for c in (C)]
+        name = './res/plots/Hist_HypOp_QUBO_Maxind/Hist_' + file_name[:-4] + '.png'
+        plt.hist(best_out.values(), bins=np.linspace(0, 1, 50))
+        plt.savefig(name)
+        plt.show()
+        res = mapping_distribution(best_out, params, n, info_input, weights, C, all_weights, 1, params['penalty'],params['hyper'])
+        print("res", res)
+        map_time=timeit.default_timer()-temp_time2
+    else:
+        res = None
+        train_time = None
+        map_time = None
+        best_out = None
+    
     return res, best_out, train_time, map_time
 
 

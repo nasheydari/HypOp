@@ -56,6 +56,25 @@ def loss_maxcut_weighted_coarse(probs, C, dct, weights, hyper=False):
     return loss
 
 
+def loss_maxcut_weighted_multi_gpu(probs, C, dct, weights_tensor, hyper=False, TORCH_DEVICE='cpu'):
+    x = probs.squeeze()
+    loss = 0
+    #weights_tensor = torch.tensor(weights, dtype=torch.float32)
+    #pdb.set_trace()
+    temp_values = torch.zeros(len(C)).to(TORCH_DEVICE)
+    for idx, c in enumerate(C):
+        if hyper:
+            indices = [dct[index] for index in c]
+        else:
+            indices = [dct[index] for index in c[0:2]]
+        
+        # Using advanced indexing for acceleration
+        selected_x = x[indices]
+        temp_1s = torch.prod(1 - selected_x)
+        temp_0s = torch.prod(selected_x)
+        temp_values[idx] = temp_1s + temp_0s - 1
+    loss = torch.sum(temp_values * weights_tensor)
+    return loss
 
 def loss_maxcut_weighted_multi(
     probs,

@@ -78,12 +78,18 @@ Set the config file in configs directory and run "run.py" with the specified con
 
 In `run_dist.py`, set dataset` variable to `stanford` for stanford dataset results, to `arxiv` for ogbn-arxiv dataset.
 
+We use NCCL backend for distributed training. Install NCCL via
+
+```bash
+conda install nccl
+```
+
 ##### Step 1: Distributed Training
 
 In `run_dist.py`, set `test_mode` variable to `dist`
 
 ```python
-python -m torch.distributed.launch run.py
+python -m torch.distributed.launch run_dist.py
 ```
 
 ##### Step2: Postprocessing
@@ -93,16 +99,39 @@ in configs, set "load best out" to true, set "epoch" to 0
 In `run_dist.py`, set `test_mode` variable to `infer`
 
 ```python
-python -m torch.distributed.launch run.py
+python -m torch.distributed.launch run_dist.py
 ```
 
 Note that the results generated in Step1 **is not** the final results, you have to run Step 2 for postprocessing. 
 
 
+#### Run Multi GPU Training
+
+##### Step 1: Multi GPU Training
+
+In `run_dist.py`, set `test_mode` variable to `multi_gpu`
+
+```python
+python -m torch.distributed.launch run_dist.py
+```
+
+##### Step2: Postprocessing
+
+in configs, set "load best out" to true, set "epoch" to 0
+
+In `run_dist.py`, set `test_mode` variable to `infer`
+
+```python
+python -m torch.distributed.launch run_dist.py
+```
+
+Note that the results generated in Step1 **is not** the final results, you have to run Step 2 for postprocessing. 
+
 # Citation:
 
 If you use this code, please cite the following:
 
+```latex
 @article{heydaribeni2024distributed,
   title={Distributed constrained combinatorial optimization leveraging hypergraph neural networks},
   author={Heydaribeni, Nasimeh and Zhan, Xinrui and Zhang, Ruisi and Eliassi-Rad, Tina and Koushanfar, Farinaz},
@@ -111,6 +140,4 @@ If you use this code, please cite the following:
   year={2024},
   publisher={Nature Publishing Group UK London}
 }
-
-
-
+```
