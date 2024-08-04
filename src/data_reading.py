@@ -116,3 +116,19 @@ def read_NDC(path):
     header['num_constraints'] = m
 
     return constraints2_n, header
+
+def read_arxiv():
+    # load ogbn-arxiv in ogb & dgl format
+    from ogb.nodeproppred import DglNodePropPredDataset
+    dataset = DglNodePropPredDataset(name='ogbn-arxiv')
+    
+    header = {}
+    header['num_nodes'] = dataset.graph[0].number_of_nodes()
+    header['num_constraints'] = dataset.graph[0].number_of_edges()
+
+    edge_connections = dataset.graph[0].edges()
+    edge_connections = [edge_connections[0]+1, edge_connections[1]+1]
+    edge_connections = [edge_connections[0].tolist(), edge_connections[1].tolist()]
+    # convert edge_connections to list of lists
+    constraints = [[edge_connections[0][x], edge_connections[1][x]] for x in range(len(edge_connections[0]))]
+    return constraints, header

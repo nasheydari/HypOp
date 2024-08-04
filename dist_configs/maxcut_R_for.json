@@ -7,7 +7,7 @@
     "initial_transfer": false,
     "GD": false,
     "lr": 1e-2,
-    "epoch": 1e2,
+    "epoch": 100,
     "tol": 1e-4,
     "mapping": "distribution",
     "boosting_mapping": 1,
@@ -23,7 +23,9 @@
     "hyper": false,
     "penalty": 0,
     "patience": 50,
-    
+    "num_samples": 1,
+    "penalty_inc": false,
+    "penalty_c": 1e-5,
 
     "multi_gpu": 1,
     "num_gpus": 4,

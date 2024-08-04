@@ -23,6 +23,9 @@
     "hyper": false,
     "penalty": 0,
     "patience": 50,
+    "num_samples": 1,
+    "penalty_inc": false,
+    "penalty_c": 1e-5,
     
     "multi_gpu": 1,
     "num_gpus": 4,

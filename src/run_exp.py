@@ -1,7 +1,7 @@
 import numpy
 
-from src.data_reading import read_uf, read_stanford, read_hypergraph, read_hypergraph_task, read_NDC
-from src.solver import  centralized_solver, centralized_solver_for
+from src.data_reading import read_uf, read_stanford, read_hypergraph, read_hypergraph_task, read_NDC, read_arxiv
+from src.solver import  centralized_solver, centralized_solver_for, centralized_solver_multi_gpu
 import logging
 import os
 import h5py
@@ -146,13 +146,12 @@ import torch
 def exp_centralized_for_multi(proc_id, devices, params):
     print("start to prepare for device")
     dev_id = devices[proc_id]
-    # dist_init_method = "tcp://{master_ip}:{master_port}".format(master_ip="127.0.0.1", master_port="12345")
     torch.cuda.set_device(dev_id)
     TORCH_DEVICE = torch.device("cuda:" + str(dev_id))
     # print("start to initialize process")
 
-    master_ip = "127.0.0.1"
-    master_port = "12345"
+    master_ip = "localhost"
+    master_port = "29500"
     world_size = len(devices)  # Total number of processes
     rank = proc_id  # Rank of this process, set to 0 for master, 1 for worker
 
@@ -209,5 +208,59 @@ def exp_centralized_for_multi(proc_id, devices, params):
                 print(np.average(res_th))
 
 
+                with h5py.File(params['res_path'], 'w') as f:
+                    f.create_dataset(f"{file_name}", data=res)
+
+
+
+def exp_centralized_for_multi_gpu(proc_id, devices, params):
+    print("start to prepare for device")
+    dev_id = devices[proc_id]
+    torch.cuda.set_device(dev_id)
+    TORCH_DEVICE = torch.device("cuda:" + str(dev_id))
+
+    master_ip = "localhost"
+    master_port = "29500"
+    world_size = len(devices)  
+    rank = proc_id 
+
+    print("start to initialize process")
+    torch.distributed.init_process_group(backend="nccl", init_method=f'tcp://{master_ip}:{master_port}', world_size=world_size, rank=rank)
+    
+    print("start to train")
+
+
+    logging.basicConfig(filename=params['logging_path'], filemode='w', level=logging.INFO)
+    log = logging.getLogger('main')
+    folder_path = params['folder_path']
+    folder_length = len(os.listdir(folder_path))
+    print(f'Found {folder_length} files. Start experiments')
+
+    for file_name in os.listdir(folder_path):
+        if not file_name.startswith('.'):
+            print(f'dealing {file_name}')
+            path = folder_path + file_name
+            temp_time = timeit.default_timer()
+            if params['data'] == "uf":
+                constraints, header = read_uf(path)
+            elif params['data'] == "stanford" or params['data'] == "random_reg":
+                constraints, header = read_stanford(path)
+            elif params['data'] == "hypergraph":
+                constraints, header = read_hypergraph(path)
+            elif params['data'] == "arxiv":
+                constraints, header = read_arxiv()
+            else:
+                log.warning('Data mode does not exist. Add the data mode. Current version only support uf, stanford, random_reg, hypergraph, arxiv, and NDC.')
+
+            print("device", dev_id, "start to train")
+            res, res2, res_th, probs, total_time, train_time, map_time = centralized_solver_multi_gpu(constraints, header, params, file_name, proc_id)
+
+            if res is not None:
+                time = timeit.default_timer() - temp_time
+                log.info(
+                    f'{file_name}:, running time: {time}, res: {res}, res_th: {res_th}, res2: {res2}, training_time: {train_time}, mapping_time: {map_time}')
+                print(np.average(res))
+                print(np.average(res_th))
+                print("save res to", params['res_path'])
                 with h5py.File(params['res_path'], 'w') as f:
                     f.create_dataset(f"{file_name}", data=res)

@@ -1,6 +1,6 @@
-numpy = 1.22.3
-pytorch = 1.13.1
-h5py = 3.6.0
+numpy  
+pytorch  
+h5py  
 networkx
 pandas
 dgl

@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from src.timer import Timer
 import timeit
-from src.trainer import  centralized_train, GD_train, centralized_train_for, centralized_train_vec, centralized_train_att, centralized_train_bipartite, centralized_train_cliquegraph, centralized_train_coarsen
+from src.trainer import  centralized_train, GD_train, centralized_train_for, centralized_train_vec, centralized_train_att, centralized_train_bipartite, centralized_train_cliquegraph, centralized_train_coarsen, centralized_train_multi_gpu
 from src.loss import loss_maxcut_numpy_boost, loss_sat_numpy_boost, loss_maxind_numpy_boost, loss_maxind_QUBO, loss_task_numpy, loss_task_numpy_vec, loss_mincut_numpy_boost, loss_watermark, loss_partition_numpy, loss_partition_numpy_boost
 import matplotlib.pyplot as plt
 # import dgl
@@ -397,6 +397,77 @@ def centralized_solver_for(constraints, header, params, file_name, cur_nodes, in
                 probs.append(prob)
         if torch.distributed.get_rank() == 0:
             reses.append(scores)
+            reses_th.append(scores_th)
+    if torch.distributed.get_rank() == 0:
+        return reses, reses2, reses_th, probs, timeit.default_timer() - temp_time, train_time, map_time
+    else:
+        return None, None, None, None, None, None, None
+
+
+#### multi_gpu solver ####
+def centralized_solver_multi_gpu(constraints, header, params, file_name, device):
+    temp_time = timeit.default_timer()
+    edges = [[abs(x) - 1 for x in edge] for edge in constraints]
+    n = header['num_nodes']
+
+    f = int(np.sqrt(n))
+    #f=n // 2
+
+    info = {x+1:[] for x in range(n)}
+    for constraint in constraints:
+        for node in constraint:
+            info[abs(node)].append(constraint)
+
+    all_weights = [[1.0 for c in (constraints)] for i in range(params['num_samples'])]
+    weights = [all_to_weights(all_weights[i], n, constraints) for i in range(len(all_weights))]
+    # timer initialization
+    reses = []
+    reses2 = []
+    reses_th = []
+    probs = []
+    for i in range(params['K']):
+        #print(weights)
+        scores = []
+        scores2 = []
+        scores_th = []
+        scores1 = []
+        temp_weights = []
+        for j in range(params['num_samples']):
+            #import pdb; pdb.set_trace()
+            #res, res2, prob = centralized_train(Xs[j], Gn, params, f, constraints, n, info, weights[i])
+            res,  prob , train_time, map_time= centralized_train_multi_gpu(params, f, constraints, n, info, weights[i], file_name, device)
+          
+            if torch.distributed.get_rank() == 0:
+                res_th = {x: 0 if prob[x] < 0.5 else 1 for x in prob.keys()}
+                if params['mode'] == 'sat':
+                    score, new_w = loss_sat_numpy_boost(res, constraints, [1 for i in range(len(constraints))], inc=params['boosting_mapping'])
+                    scores.append(score)
+                elif params['mode'] == 'maxcut':
+                    score, new_w = loss_maxcut_numpy_boost(res, constraints, [1 for i in range(len(constraints))], inc=params['boosting_mapping'])
+                    score_th, _ =  loss_maxcut_numpy_boost(res_th, constraints, [1 for i in range(len(constraints))], inc=params['boosting_mapping'])
+                    scores.append(score)
+                    scores_th.append(score_th)
+                elif params['mode'] == 'maxind':
+                    res_feas=Maxind_postprocessing(res,constraints, n)
+                    score, score1, new_w = loss_maxind_numpy_boost(res, constraints, [1 for i in range(len(constraints))], inc=params['boosting_mapping'])
+                    score_th, score1, new_w = loss_maxind_numpy_boost(res_th, constraints, [1 for i in range(len(constraints))],inc=params['boosting_mapping'])
+                    print(score, score1)
+                    scores.append(score)
+                    scores1.append(score1)
+                    scores_th.append(score_th)
+                elif params['mode'] == 'QUBO':
+                    res_feas = Maxind_postprocessing(res, constraints, n)
+                    res_th_feas = Maxind_postprocessing(res_th, constraints, n)
+                    score = loss_maxind_QUBO(torch.Tensor(list(res_feas.values())), q_torch)
+                    score_th = loss_maxind_QUBO(torch.Tensor(list(res_th_feas.values())), q_torch)
+                    scores.append(score)
+                    scores_th.append(score_th)
+                   
+            if torch.distributed.get_rank() == 0:
+                probs.append(prob)
+        if torch.distributed.get_rank() == 0:
+            reses.append(scores)
+            #reses2.append(scores2)
             reses_th.append(scores_th)
     if torch.distributed.get_rank() == 0:
         return reses, reses2, reses_th, probs, timeit.default_timer() - temp_time, train_time, map_time
