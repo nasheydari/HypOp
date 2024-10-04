@@ -76,7 +76,7 @@ Set the config file in configs directory and run "run.py" with the specified con
 
 #### Run Distributed GPU Training
 
-In `run_dist.py`, set dataset` variable to `stanford` for stanford dataset results, to `arxiv` for ogbn-arxiv dataset.
+In `run_dist.py`, set `dataset` variable to `stanford` for stanford dataset results, to `arxiv` for ogbn-arxiv dataset.
 
 We use NCCL backend for distributed training. Install NCCL via
 
